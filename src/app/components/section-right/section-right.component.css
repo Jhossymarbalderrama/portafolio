@@ -8,7 +8,8 @@
 }
 
 .home, .about, .education, 
-.experience, .project, .contact{
+.experience, .project, .contact,
+.skills{
     min-width: 100vh;   
 }
 
@@ -33,7 +34,7 @@
 
 
 /* 004e92 ,  000428*/
-.home, .education, .project{
+.home, .education, .project, .skills{
     background: #000428;  
     background: -webkit-linear-gradient(to left, #000428, #004e92); 
     background: linear-gradient(to left, #000428, #004e92); 
