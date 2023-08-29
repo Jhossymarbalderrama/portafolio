@@ -1,15 +1,41 @@
 *{
-    color: white;    
-    text-shadow: black 5px 5px 18px;
+    color: white;       
 }
 
-.container{
-    left: 0;
-    top: 0;
-    margin: 0;    
-}
-/* 
-.container .home{
+.home{
     min-height: 100vh;
-    min-width: 100vh;
-} */
+    min-width: 100vh; 
+}
+
+.home, .about, .education, 
+.experience, .project, .contact{
+    min-width: 100vh;   
+}
+
+.home{
+    position: relative;
+    overflow-x: hidden;    
+}
+
+/* 33001b ,  ff0084*/
+.about, .experience, .contact{        
+    /* background: linear-gradient(156deg, #9e1163  0%, #c51b7e  40%, #f3279e  100%); */
+    background: #ff0084;  
+    
+    background: -webkit-linear-gradient(to right, #ff0084, #33001b);  
+    background: linear-gradient(to right, #ff0084, #33001b); 
+
+    /*     
+    background: -webkit-linear-gradient(to right, #ff0084, #33001b);  
+    background: linear-gradient(to right, #ff0084, #33001b);  
+    */
+}
+
+
+/* 004e92 ,  000428*/
+.home, .education, .project{
+    background: #000428;  
+    background: -webkit-linear-gradient(to left, #000428, #004e92); 
+    background: linear-gradient(to left, #000428, #004e92); 
+}
+

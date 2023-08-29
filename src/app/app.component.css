@@ -2,38 +2,31 @@
     font-family: "IBM Plex Sans"
 }
 
-.sections{        
+.sections{  
+    position: absolute;      
     top: 0%;
     left: 0%;
     margin: 0;
 }
 
 .sidebar-container{
-    
-    /* background: #161233; */
-    /* background: #201b46; */
-    /* background: #201b46; */
-    /* background: #0d0b2b; */
-    background: rgb(13, 3, 43);
-    /* background: transparent;     */
-    min-height: 100vh;
-    /* left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0;
+    /* background: rgb(13, 3, 43); */
+    /* background: #0D0B1C;   */
+    background: #0a0916;  
 
-    width: 30%;
-    position: sticky;
-    background: #ccc; */
+    min-height: 100vh;
+    min-width: 36vh;
     position: sticky;
     top: 0px;
     left: 0px;
 }
 
 .content{
-    /* background-image: linear-gradient(-225deg, #201b4d 10%, #322a69 48%, #584cb4 100%); */
-    /* background-image: linear-gradient(-225deg, #100d2e 10%, #231a5f 48%, #382b9e 100%); */
-    background: rgb(26,8,81);
-background: linear-gradient(156deg, rgba(26,8,81,1) 0%, rgba(39,12,125,1) 40%, rgba(122,84,239,1) 100%);
+    /* background: rgb(26,8,81);
+    background: linear-gradient(156deg, rgba(26,8,81,1) 0%, rgba(39,12,125,1) 40%, rgba(122,84,239,1) 100%); */
+    /* background: #000428;  
+background: -webkit-linear-gradient(to left, #004e92, #000428); 
+background: linear-gradient(to left, #004e92, #000428);  */
+
 }
 
