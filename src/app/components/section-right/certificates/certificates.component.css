@@ -1,0 +1,32 @@
+* {
+    font-family: "IBM Plex Sans Bold", sans-serif;
+    text-shadow: black 5px 5px 8px;
+}
+
+.card{
+    height: 280px;
+    width: 380px;    
+    /* border: 1px solid; */
+    background: linear-gradient(to left, #000428,#004e92);     
+    box-shadow: 2px 2px 2px 2px black;
+    border: none;
+}
+
+.img{
+    height: inherit;
+    width: inherit;  
+    /* min-height: 100%;     */
+    /* background-color: aqua; */
+    padding: 7px !important;    
+}
+
+.card:hover{
+    z-index: 99;
+    transition: 0.5s;
+    transform: scale(1.55);
+}
+
+.card:not(:hover){
+    transition: 0.5s;
+    transform: scale(1);
+}

@@ -1,6 +1,7 @@
 * {
     font-family: "IBM Plex Sans Bold", sans-serif;
     text-shadow: black 5px 5px 8px;
+    
 }
 
 
@@ -20,7 +21,25 @@
 
 .img {
     height: 260px;
+    overflow: hidden;	
 }
+
+img{
+    filter:sepia(0%)
+}
+
+.img img:hover{    
+    filter: sepia(100%);
+    transition: 1s;    
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.img img:not(:hover){
+    transition: 1s;
+    transform: scale(1);
+}
+
 
 .card-title {
     font-weight: bold;

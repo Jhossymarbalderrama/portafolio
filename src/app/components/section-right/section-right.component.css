@@ -19,12 +19,13 @@
 }
 
 /* 33001b ,  ff0084*/
-.about, .experience, .contact{        
+.about, .experience, .certificate{        
     /* background: linear-gradient(156deg, #9e1163  0%, #c51b7e  40%, #f3279e  100%); */
-    background: #ff0084;  
+    z-index: 1;
+    background-color: #ff0084;  
     
-    background: -webkit-linear-gradient(to right, #ff0084, #33001b);  
-    background: linear-gradient(to right, #ff0084, #33001b); 
+    background-color: -webkit-linear-gradient(to right, #ff0084, #33001b);  
+    background-color: linear-gradient(to right, #ff0084, #33001b); 
 
     /*     
     background: -webkit-linear-gradient(to right, #ff0084, #33001b);  
@@ -34,9 +35,18 @@
 
 
 /* 004e92 ,  000428*/
-.home, .education, .project, .skills{
+.home, .education, .project, 
+.skills, .contact{
     background: #000428;  
     background: -webkit-linear-gradient(to left, #000428, #004e92); 
     background: linear-gradient(to left, #000428, #004e92); 
 }
 
+/* .experience{    
+    background-image: url("../../../assets/img/layered-waves-haikei.png");
+    width: 100%;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+} */
