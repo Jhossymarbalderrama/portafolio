@@ -8,3 +8,15 @@ Right Section:
 #efefef gris claro
 
 #AF2676, #f81298 color texto rosa claro 
+
+
+COLORES DE PORTAFOLIO
+
+texto: 
+    white
+    Grey
+    #ff0084
+
+background:
+    #212529 -> Gris oscuro
+    #33393F -> Gris claro

@@ -3,18 +3,20 @@
     text-shadow: black 5px 5px 7px;
 }
 
-.box-section {
-    padding: 2em 8em 2em 8em;
+.content{
+    padding: 40px 40px 40px 40px;
 }
 
 .cuadro{   
     height: auto;
-    width: 200px;
+    width: 100%;
     /* background-color: #ffc9e5; */
     text-align: center;    
     border-radius: 5px;
     box-shadow: 3px 3px 3px 3px black;
-    color: white;
+    background: #ddd9d9;    
+    color: black;
+    cursor: pointer;
 }
 
 .cuadro .img{    
@@ -54,6 +56,25 @@
     transform: scale(1);
 }
 
-.container{
-    padding: 0rem 7rem 0rem 7rem;
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .cuadro{ 
+        width: 70%;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cuadro{ 
+        width: 80%;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    .cuadro{ 
+        width: 100%;
+        font-size: small;
+    }
 }

@@ -16,6 +16,7 @@ import { ProjectComponent } from './components/section-right/project/project.com
 import { ContactComponent } from './components/section-right/contact/contact.component';
 import { SkillsComponent } from './components/section-right/skills/skills.component';
 import { CertificatesComponent } from './components/section-right/certificates/certificates.component';
+import { FooterSectionRightComponent } from './components/section-right/footer-section-right/footer-section-right.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CertificatesComponent } from './components/section-right/certificates/c
     ProjectComponent,
     ContactComponent,
     SkillsComponent,
-    CertificatesComponent
+    CertificatesComponent,
+    FooterSectionRightComponent
   ],
   imports: [
     BrowserModule,

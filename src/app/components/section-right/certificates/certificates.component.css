@@ -3,30 +3,32 @@
     text-shadow: black 5px 5px 8px;
 }
 
-.card{
+.card {
+    z-index: -1 !important;
+    position: relative;
     height: 280px;
-    width: 380px;    
-    /* border: 1px solid; */
-    background: linear-gradient(to left, #000428,#004e92);     
+    /* width: 380px; */
+    /* background: linear-gradient(to left, #000428, #004e92); */
     box-shadow: 2px 2px 2px 2px black;
-    border: none;
+    border: 5px solid #004e92;
+    cursor: pointer;
 }
-
-.img{
+ 
+.img {
+    position: relative;
     height: inherit;
-    width: inherit;  
-    /* min-height: 100%;     */
-    /* background-color: aqua; */
-    padding: 7px !important;    
+    width: inherit;
+    padding: 7px !important;
+    overflow: hidden;
 }
 
-.card:hover{
-    z-index: 99;
-    transition: 0.5s;
-    transform: scale(1.55);
+
+.card:hover {
+    transition: 0.7s;
+    transform: translate(0%, -20%);
 }
 
-.card:not(:hover){
-    transition: 0.5s;
-    transform: scale(1);
-}
+.card:not(:hover) {
+    transition: 0.7s;
+    transform: none;
+} 

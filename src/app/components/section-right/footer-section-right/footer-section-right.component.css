@@ -1,0 +1,35 @@
+*{
+    font-family: "IBM Plex Sans Bold", sans-serif;
+    /* text-shadow: black 3px 3px 6px; */
+    color: white;
+}
+
+.img{
+    border-radius: 40% !important;
+}
+
+a{
+    font-size: medium;
+    text-decoration: none;     
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .copyright{
+        text-align: right;
+    }
+
+    .logo{
+        text-align: left;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+
+}

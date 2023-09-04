@@ -1,3 +1,6 @@
-.logo{
-    padding: .875rem 1.25rem;
+.logo {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    padding: 7px 0px 7px 0px;
 }

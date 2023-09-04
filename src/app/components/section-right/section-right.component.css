@@ -1,52 +1,79 @@
-*{
-    color: white;       
+* {
+    color: white;
 }
 
-.home{
+.home {
     min-height: 100vh;
-    min-width: 100vh; 
 }
 
-.home, .about, .education, 
-.experience, .project, .contact,
-.skills{
-    min-width: 100vh;   
-}
+/* .home,
+.about,
+.education,
+.experience,
+.project,
+.contact,
+.skills,
+.footer {
+    min-width: 100vh;
+} */
 
-.home{
+.home, .experience {
     position: relative;
-    overflow-x: hidden;    
+    overflow-x: hidden;
 }
 
-/* 33001b ,  ff0084*/
-.about, .experience, .certificate{        
-    /* background: linear-gradient(156deg, #9e1163  0%, #c51b7e  40%, #f3279e  100%); */
-    z-index: 1;
-    background-color: #ff0084;  
+.about,
+.experience,
+.certificate,
+.footer {
+    /* background-color: #ff0084;  
     
     background-color: -webkit-linear-gradient(to right, #ff0084, #33001b);  
-    background-color: linear-gradient(to right, #ff0084, #33001b); 
+    background-color: linear-gradient(to right, #ff0084, #33001b);  */
 
-    /*     
-    background: -webkit-linear-gradient(to right, #ff0084, #33001b);  
-    background: linear-gradient(to right, #ff0084, #33001b);  
-    */
+
+    /* background-image: url("../../../assets/img/galazy.gif");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background: #212529;
 }
 
 
 /* 004e92 ,  000428*/
-.home, .education, .project, 
-.skills, .contact{
-    background: #000428;  
+.home,
+.education,
+.project,
+.skills,
+.contact {
+    /* background: #000428;  
     background: -webkit-linear-gradient(to left, #000428, #004e92); 
-    background: linear-gradient(to left, #000428, #004e92); 
+    background: linear-gradient(to left, #000428, #004e92);  */
+
+    /* background-image: url("../../../assets/img/night-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background: #33393F;
 }
 
-/* .experience{    
-    background-image: url("../../../assets/img/layered-waves-haikei.png");
-    width: 100%;    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-} */
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .home{
+        min-width: auto;        
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home{
+        min-width: auto;        
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    .home{
+        min-width: auto;
+        min-height: auto;
+    }
+}

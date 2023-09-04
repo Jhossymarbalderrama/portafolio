@@ -1,5 +1,5 @@
 *{
-    color: white;    
+    color: white;        
 }
 
 .nav__menu{    
@@ -7,7 +7,7 @@
 }
 
 
-.nav__item{
+.nav__item{    
     text-decoration: none;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);    
 }
@@ -17,7 +17,7 @@
     display: block;    
     background-color: #ff0084;   
     width: 50%;
-    margin-top: 3px;
+    padding-top: 3px;
     height: 3px;
     clip-path: var(--clippy);
     transition: clip-path .5s;

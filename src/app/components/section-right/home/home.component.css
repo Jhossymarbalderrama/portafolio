@@ -3,23 +3,56 @@
     text-shadow: black 5px 5px 8px;
 }
 
-.col {
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    margin: 0;
-}
-
-
-.custom-style {
-    top: 0;
-    left: 0;
-
+.font-style {
     font-family: "IBM Plex Sans Bold", sans-serif;
-    margin: 0px 0px 15px;
 }
 
-.title {}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .container{                
+        /* transform: translate(5%,15%);     */
+        /* background-color: wheat; */
+        /* Arriba | Izquierda | Abajo | Derecha */
+        max-width: fit-content;
+        margin: 9rem 0rem 0rem 2rem;
+    }
+
+    .font-style {
+        font-size: 5vmin;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container{             
+        background-color: wheat;
+        /* Arriba | Izquierda | Abajo | Derecha */
+        max-width: fit-content;
+        margin: 6rem 0rem 0rem 3rem;
+    } 
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(0.90);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
 
 button {
     position: relative;
@@ -69,18 +102,4 @@ button span {
 button:hover span {
     color: white;
     animation: scaleUp 0.3s ease-in-out;
-}
-
-@keyframes scaleUp {
-    0% {
-        transform: scale(0.95);
-    }
-
-    50% {
-        transform: scale(0.90);
-    }
-
-    100% {
-        transform: scale(1);
-    }
 }
