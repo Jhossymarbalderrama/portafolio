@@ -1,14 +1,15 @@
 .grup-social{
+    position: relative;
     min-width: 100%;
-    height: auto;
+    max-width: 100%;
+    bottom: -1vh;
 }
 
 svg{
-    background-color: rgb(233, 233, 233);
-    padding: 0px 3px 0px 3px;
-    height: 3em;
-    border-radius: 7px;
-
+    background-color: #d3d3d3;
+    padding: 0px 2px 0px 2px;
+    height: 3vh;
+    border-radius: 3px;
     transition: all 0.200s;
 }
 
@@ -21,4 +22,9 @@ svg:hover{
 
 svg:not(:hover){    
     transform: scale(1);
+}
+
+
+.social a{
+    padding-left: 0.8vh;
 }

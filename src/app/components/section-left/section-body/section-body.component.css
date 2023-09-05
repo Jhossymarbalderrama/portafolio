@@ -1,23 +1,28 @@
 *{
-    color: white;        
+    color: white;  
+    font-size: 2.5vh;      
 }
 
 .nav__menu{    
-    width: 18rem;
+    min-width: 100%;
+    max-width: 100%; 
 }
 
 
 .nav__item{    
     text-decoration: none;
     --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);    
+
+    position: relative;
+    top: 6vh;
+    left: 3vh;
 }
 
 .nav__item::after{
     content: "";
     display: block;    
     background-color: #ff0084;   
-    width: 50%;
-    padding-top: 3px;
+    width: 25vh;
     height: 3px;
     clip-path: var(--clippy);
     transition: clip-path .5s;

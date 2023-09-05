@@ -2,77 +2,70 @@
     color: white;
 }
 
-.home {
-    min-height: 100vh;
-}
-
-/* .home,
-.about,
-.education,
-.experience,
-.project,
-.contact,
-.skills,
-.footer {
-    min-width: 100vh;
-} */
-
-.home, .experience {
+.home,
+.experience {
     position: relative;
     overflow-x: hidden;
 }
 
-.about,
-.experience,
-.certificate,
-.footer {
-    /* background-color: #ff0084;  
-    
-    background-color: -webkit-linear-gradient(to right, #ff0084, #33001b);  
-    background-color: linear-gradient(to right, #ff0084, #33001b);  */
-
-
-    /* background-image: url("../../../assets/img/galazy.gif");
+.home {
+    min-height: 100vh;    
+    background-image: url("../../../assets/img/backgrounds/bg1.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat; */
-    background: #212529;
+    background-position: center;
+}
+
+.education{
+    background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+    background-blend-mode: overlay, hard-light, normal;
+}
+
+.contact {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url("../../../assets/img/backgrounds/Test/bg15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+.skills {
+    min-height: 100vh;
+    background-image: url("../../../assets/img/backgrounds/Test/bg9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.footer{
+    background: #0a0a0a;
 }
 
 
-/* 004e92 ,  000428*/
-.home,
-.education,
-.project,
-.skills,
-.contact {
-    /* background: #000428;  
-    background: -webkit-linear-gradient(to left, #000428, #004e92); 
-    background: linear-gradient(to left, #000428, #004e92);  */
-
-    /* background-image: url("../../../assets/img/night-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat; */
-    background: #33393F;
+.about,
+.experience,
+.certificate
+{
+    background: #12121f;
 }
 
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
-    .home{
-        min-width: auto;        
+    .home {
+        min-width: auto;
     }
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .home{
-        min-width: auto;        
+    .home {
+        min-width: auto;
     }
 }
 
 /* Smartphone */
 @media screen and (max-width: 767px) {
-    .home{
+    .home {
         min-width: auto;
         min-height: auto;
     }

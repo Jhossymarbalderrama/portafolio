@@ -1,20 +1,21 @@
 * {
     font-family: "IBM Plex Sans Bold", sans-serif;
-    text-shadow: black 5px 5px 8px;
+    text-shadow: black 5px 5px 8px;    
 }
 
 .font-style {
     font-family: "IBM Plex Sans Bold", sans-serif;
+    text-shadow: #000000 5px 3px 1px;
 }
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
-    .container{                
+    .container {
         /* transform: translate(5%,15%);     */
         /* background-color: wheat; */
         /* Arriba | Izquierda | Abajo | Derecha */
         max-width: fit-content;
-        margin: 9rem 0rem 0rem 2rem;
+        margin: 10rem 0rem 0rem 18rem;
     }
 
     .font-style {
@@ -24,18 +25,16 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .container{             
-        background-color: wheat;
+    .container {
+        /* background-color: wheat; */
         /* Arriba | Izquierda | Abajo | Derecha */
         max-width: fit-content;
         margin: 6rem 0rem 0rem 3rem;
-    } 
+    }
 }
 
 /* Smartphone */
-@media screen and (max-width: 767px) {
-
-}
+@media screen and (max-width: 767px) {}
 
 @keyframes scaleUp {
     0% {
@@ -86,7 +85,7 @@ button:hover::after {
 }
 
 button span {
-    text-transform: uppercase;    
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -103,3 +102,4 @@ button:hover span {
     color: white;
     animation: scaleUp 0.3s ease-in-out;
 }
+

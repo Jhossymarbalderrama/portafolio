@@ -6,16 +6,35 @@
     font-family: "IBM Plex Sans Bold";
 }
 
-.container .logo{
-    min-height: 10vh;
+.header{
+    /* background-color: wheat; */
+    min-height: 35vh;
+    max-height: 35vh;
 }
 
-.container .body{
-    min-height: 85vh;
+.body{
+    /* background-color: goldenrod;    */
+    min-height: 60vh;
+    max-height: 60vh; 
 }
 
-.container .footer{
+.footer{
+    /* background-color: aquamarine;  */
     min-height: 5vh;
+    max-height: 5vh; 
+} 
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    
 }
 
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+
+}
