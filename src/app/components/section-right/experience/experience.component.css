@@ -34,7 +34,7 @@ button:hover::after {
     width: 100%;
 }
 
-button span {
+button a {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
@@ -48,7 +48,7 @@ button span {
     transition: all 0.3s ease-in-out;
 }
 
-button:hover span {
+button:hover a {
     color: white;
     animation: scaleUp 0.3s ease-in-out;
 }

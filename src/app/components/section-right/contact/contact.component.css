@@ -5,8 +5,8 @@
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
-    .container {
-        max-width: 50%;
+    .container {        
+        max-width: 40%;
     }
 }
 
@@ -29,8 +29,9 @@
 form {
     background-color: #12121fb9;    
     padding: 2rem 1.5rem 3rem 1.5rem;
+    /* padding: 5vh 3vh 5vh 3vh; */
     min-width: 100%;
-border-radius: 15px;
+    border-radius: 15px;
     /* filter: blur(80%); */
     /* background-color: rgba(0, 78, 146, 0.253); */
     

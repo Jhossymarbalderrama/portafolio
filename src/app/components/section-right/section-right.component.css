@@ -2,6 +2,42 @@
     color: white;
 }
 
+.menu-phone{
+    display: none;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .home {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .home {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .menu-phone{
+        display: block;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+    .home {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .menu-phone{
+        display: block;
+    }
+}
+
 .home,
 .experience {
     position: relative;
@@ -16,24 +52,49 @@
     background-position: center;
 }
 
-.education{
-    background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
-    background-blend-mode: overlay, hard-light, normal;
+.about{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: auto;
 }
 
-.contact {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-image: url("../../../assets/img/backgrounds/Test/bg15.jpg");
+.education{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: auto;
+    
+    /* background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+    background-blend-mode: overlay, hard-light, normal; */
+
+    /* background: rgb(81,71,195);
+    background: radial-gradient(circle, rgba(81,71,195,1) 0%, rgba(37,33,88,1) 60%, rgba(24,22,55,1) 100%); */
+    background-image: url("../../../assets/img/backgrounds/bg18.png");
     background-repeat: no-repeat;
     background-size: cover;     
+    background-position: center;
 }
 
 .skills {
-    min-height: 100vh;
-    background-image: url("../../../assets/img/backgrounds/Test/bg9.jpg");
+    min-width: 100%;
+    max-width: 100%;
+    background-image: url("../../../assets/img/backgrounds/bg9.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
+}
+
+.certificate{
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.contact {
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url("../../../assets/img/backgrounds/bg15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;     
 }
 
 .footer{
@@ -48,25 +109,3 @@
     background: #12121f;
 }
 
-
-/* Desktop */
-@media screen and (min-width: 1024px) {
-    .home {
-        min-width: auto;
-    }
-}
-
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .home {
-        min-width: auto;
-    }
-}
-
-/* Smartphone */
-@media screen and (max-width: 767px) {
-    .home {
-        min-width: auto;
-        min-height: auto;
-    }
-}

@@ -1,6 +1,9 @@
 * {
-    font-family: "IBM Plex Sans";
+    font-family: "IBM Plex Sans";    
+    scroll-behavior: smooth;    
 }
+
+
 
 .sections {
     position: absolute;
@@ -8,6 +11,7 @@
     left: 0%;
     margin: 0;
 }
+
 
 .sidebar-container {
     background: #0a0916;
@@ -20,7 +24,7 @@
 }
 
 .content{
-    width: 100%;
+    width: 100%;    
 }
 
 /* Desktop */

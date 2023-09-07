@@ -1,15 +1,19 @@
 *{
-    font-family: "IBM Plex Sans Bold", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     /* text-shadow: black 3px 3px 6px; */
     color: white;
 }
 
-.img{
+.row{    
+    padding: 0vh 2vh 0vh 2vh;
+}
+
+.img{        
     border-radius: 40% !important;
 }
 
-a{
-    font-size: medium;
+a, p{    
+    font-size: 1.5vh;
     text-decoration: none;     
 }
 

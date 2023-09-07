@@ -15,8 +15,8 @@ svg{
 
 svg:hover{
     background-color: #ff0084;
-    fill: white; 
-    transform: scale(1.3);
+    fill: #000000; 
+    transform: scale(1.4);
 }
 
 

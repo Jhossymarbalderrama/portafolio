@@ -5,13 +5,13 @@
 }
 
 .content{
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 2.5vh;
 }
 
 .row{
-    padding-bottom: 20px;
+    position: relative;    
+    justify-content: center;
+    padding-bottom: 2vh;
 }
 
 .col-md-4 {
@@ -19,21 +19,20 @@
     height: fit-content;
     position: relative;
     place-content: center;
-    place-items: cemter;
+    place-items: center;
     overflow: hidden;
-    padding: 4px 4px 4px 4px;
-    margin: 8px;
-    width: 372px;
+    width: 340px;
+    margin: 10px 0px 0px 10px;
 }
 
 .col-md-4 ::before {
     z-index: -1 !important;
-    background-image: linear-gradient(90deg, #0099ff, #ff00c8);
+    background-image: linear-gradient(90deg, #0084ff, #ff00c8);
     content: '';
     position: absolute;
-    top: -30%;
-    left: 30%;
-    width: 35%;
+    top: -40%;
+    left: 15%;
+    width: 18vh;    
     min-height: 100vh;
     animation: rotBGimg 5s linear infinite;
     transition: all 5s linear;
@@ -69,7 +68,7 @@ img{
     filter: sepia(100%);
     transition: 1s;    
     transform: scale(1.4);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .img img:not(:hover){
