@@ -1,15 +1,33 @@
 * {
-    font-family: "IBM Plex Sans Bold", sans-serif;
+    font-family: "IBM Plex Sans Semi Bold", sans-serif;
     text-shadow: black 5px 5px 8px;
 }
 
+
+.about-me-description > p{
+   margin: 0px;
+   padding: 0px;
+   padding-bottom: 7px;
+}
+
+.contact{
+    padding: 0px;
+    margin: 0px;
+    margin-top: -30px;
+    font-size: 1.5vh;
+}
+
+p > a {
+    text-decoration: none;
+    color: white;
+}
 button {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background: #000428;
+    background: #ff0084;
     font-family: "IBM Plex Sans Bold", sans-serif !important;
     box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -20,8 +38,8 @@ button:after {
     content: " ";
     width: 0%;
     height: 100%;
-    background: #ff0084;
-    border: 0.5px solid #000428;
+    background: #000428;
+    border: 0.5px solid #ff0084;
     border-radius: 5px;
     position: absolute;
     transition: all 0.4s ease-in-out;
@@ -39,10 +57,10 @@ button a {
     text-align: center;
     text-decoration: none;
     width: 100%;
-    padding: 18px 25px;
+    padding: 14px 20px;
     color: #fff;
-    font-size: 0.756em;
-    font-weight: 700;
+    font-size: 0.656em;
+    font-weight: bold;
     letter-spacing: 0.2em;
     z-index: 20;
     transition: all 0.3s ease-in-out;
@@ -59,8 +77,16 @@ button:hover a {
 
 
 .box-description {
-    background: rgb(54, 54, 54);
-    border-radius: 15px;
+    /* background: #363636; */
+    background: #ff008477;
+    border-radius: 10px;    
+}
+
+.description{
+    margin: 0px;
+    padding: 0px;
+    font-size: 2vh;
+    font-family: "IBM Plex Sans Italic", sans-serif;
 }
 
 .cuadro .img {
@@ -75,7 +101,7 @@ button:hover a {
     top: -22%;
     left: 30%;
     width: 140px;
-    background-image: linear-gradient(180deg, #590aeb, #f70aff);
+    background-image: linear-gradient(180deg, #002fff, #ff0084);
     height: 180%;
     animation: rotBGimg 3s linear infinite;
     transition: all 0.2s linear;
@@ -87,7 +113,11 @@ button:hover a {
     content: '';
     position: absolute;
     /* background: linear-gradient(to right, #004e92, #003D7A); */
-    background: rgb(255, 239, 210);
+    /* background: #ffffff; */
+    /* background: #12121f; */
+    background-image: url("../../../../assets/img/backgrounds/bg18.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     inset: 5px;
     border-radius: 100%;
     border: 4px solid;
@@ -96,8 +126,8 @@ button:hover a {
 
 .cuadro {
     border-radius: 100%;
-    width: 300px;
-    height: 350px;
+    width: 240px;
+    height: 280px;
     padding-top: 30px;
     overflow: hidden;
 
@@ -120,14 +150,17 @@ button:hover a {
 }
 
 .img img {
-    width: 300px;
-    height: 370px;
+    width: 240px;
+    height: 300px;
 }
 
 .font-style {
     color: #ff0084;
 }
 
+svg{
+    fill: #ff0084;
+}
 
 @keyframes scaleUp {
     0% {
@@ -164,6 +197,11 @@ button:hover a {
         text-align: center;
     }
 
+    .contact{
+        text-align: left;
+        font-size: 1.5vh;
+    }
+    
     button{
         margin: 20px 0px 20px 0px;
     }

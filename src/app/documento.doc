@@ -15,7 +15,8 @@ COLORES DE PORTAFOLIO
 texto: 
     white
     Grey
-    #ff0084
+    #ff0084 --> Rosa Fuerte
+    
 
 background:
     #212529 -> Gris oscuro

@@ -21,8 +21,17 @@
     text-align: center;    
     border-radius: 5px;
     box-shadow: 3px 3px 3px 3px black;
-    background: #ddd9d9;    
-    color: black;
+    /* background: white;     */
+    /* background: rgb(96,96,216);
+background: radial-gradient(circle, rgba(96,96,216,1) 0%, rgba(46,46,112,1) 92%, rgba(18,18,31,1) 100%); */
+
+background: #5f5fee9f;
+background: radial-gradient(circle, #5f5fee9f 0%, #3b3b889c 92%, #2727499a 100%);
+
+/* background: #fd97cca4;
+background: radial-gradient(circle, #fd97cca4 0%, #ff5fb2a4 62%, #fe158da4 100%); */
+    color: white;
+    fill: white;
     cursor: pointer;
     min-width: 100%;
     min-height: 100%;    

@@ -3,11 +3,65 @@
     text-shadow: black 5px 5px 8px;    
 }
 
-.font-style {
+/* .font-style {
     font-family: "IBM Plex Sans Bold", sans-serif;
     text-shadow: #000000 5px 3px 1px;
+} */
+
+.col{
+    text-align: left;
 }
 
+.content{    
+    text-align: left;    
+}
+
+.box-button{
+    width: 100%;
+    text-align: left;
+}
+
+.welcome-title{
+    font-size: 5.5vh;
+    letter-spacing: 2px;
+}
+
+.hello{
+    font-size: 3vh;
+    letter-spacing: 2px;
+}
+
+.name{
+    /* text-transform: uppercase; */
+    font-size: 4.5vh;
+}
+
+.iam{
+    font-size: 3vh;
+    letter-spacing: 2px;
+}
+
+.developer{
+    /* text-transform: uppercase; */
+    /* font-size: 5vh; */
+    display: none;
+}
+
+.fullstack{
+    /* text-transform: uppercase; */
+    /* margin-top: -20px; 
+    font-size: 5.2vh; */
+    display: none;
+}
+
+.developer-fullstack{
+    letter-spacing: 2px;
+    font-size: 4.5vh;
+}
+
+.font-color-custom{
+    color: #ff0084;
+}
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
@@ -34,8 +88,87 @@
 @media screen and (max-width: 767px) {
     .container{
         max-width: fit-content;
-        margin: 8vh 0vh 0vh 5vh;
+        /* margin: 1vh 0vh 0vh 1vh; */  
+        background-color: #00000080; 
     }
+
+    .box-content{
+        padding-bottom: 6vh;
+    }
+
+    .content{      
+        border-radius: 10px;
+        padding: 60px;  
+        text-align: center;
+        text-shadow: #f8f8f8 5px 3px 1px;  
+        text-transform: uppercase;  
+        letter-spacing: 2px;           
+    }
+
+    .box-welcome{        
+        margin-top: 10px;
+        padding: 10px;        
+        border-radius: 5px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;        
+    }
+    .welcome-title{
+        font-size: 2vh;
+    }
+
+    .hello{
+        font-size: 2.2vh;
+        letter-spacing: 10px;   
+        font-family: "IBM Plex Sans Semi", sans-serif;
+    }
+
+    .name{        
+        font-size: 4vh;       
+    }
+
+    .iam{
+        font-size: 1.5vh;
+        letter-spacing: 10px; 
+        font-family: "IBM Plex Sans Semi", sans-serif;
+    }
+
+    .developer{    
+        display: block;
+        font-size: 2vh;        
+    }
+
+    .fullstack{
+        display: block;
+        margin-top: -20px;        
+        font-size: 3.7vh;   
+        letter-spacing: 3px;     
+    }
+
+    .button{
+        margin-top: 35px;
+    }
+
+    .developer-fullstack{
+        display: none;
+    }
+
+    /* .name-effect{  
+        color: #ff008446;      
+        -webkit-text-stroke: 1px #ff0084;
+        -webkit-background-clip: text;
+        background-image:  url("../../../../assets/img/backgrounds/effect_background.png");
+        background-position: 0 0;
+        animation: back 30s linear infinite;   
+        position: relative;
+        top: 22%;
+    }
+    @keyframes back{
+        100%{
+            background-position: 2000px 0;
+        }
+    } */
+
 }
 
 @keyframes scaleUp {

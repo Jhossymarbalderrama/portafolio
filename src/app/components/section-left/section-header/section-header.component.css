@@ -3,6 +3,21 @@
     color: white;
 }
 
+/* .font-styles{
+    font-size: 1vh;
+}
+
+.about-me-description{
+    margin: 0px;
+    padding: 0x;
+}
+
+.contact{
+    padding: 0px;
+    margin: 0px;
+    margin-top: -30px;
+} */
+
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
@@ -58,7 +73,7 @@ p{
     position: absolute;
     top: -22%;
     left: 30%;
-    width: 140px;
+    width: 100px;
     background-image: linear-gradient(180deg, #590aeb, #f70aff);
     height: 180%;
     animation: rotBGimg 3s linear infinite;
@@ -70,7 +85,9 @@ p{
 .cuadro::after {
     content: '';
     position: absolute;    
-    background: rgb(255, 239, 210);
+    background-image: url("../../../../assets/img/backgrounds/bg18.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     inset: 5px;
     border-radius: 100%;
     border: 4px solid;
