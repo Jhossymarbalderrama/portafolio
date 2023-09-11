@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-skills',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent {
- tamaño: string = "4.5rem";
+ 
+  dataSkills: any = {
+    es:{
+      title:"Tecnologías con las que estoy familiarizado"
+    },
+    en:{
+      title:"Technologies with which I am familiar"
+    }
+  }
+
+ constructor(public auth: AuthService) {
+
+ }
 }

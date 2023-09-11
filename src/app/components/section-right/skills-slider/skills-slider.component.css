@@ -1,0 +1,35 @@
+.slider{
+    min-width: 100vh;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slider-track{
+    display: flex;
+    animation: scroll 10s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+    width: calc(10rem * 7);
+}
+
+.slider .slide{
+    width: 10rem;
+    height: 9rem;
+    padding: 0rem 7rem 0rem 7rem;
+}
+
+.slider .slide .svg{
+    width: 100%;
+}
+
+
+@keyframes scroll{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-10rem * 7));
+        transform: translateX(calc(-10rem * 7));
+    }
+}

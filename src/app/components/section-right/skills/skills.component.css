@@ -25,9 +25,11 @@
     /* background: rgb(96,96,216);
 background: radial-gradient(circle, rgba(96,96,216,1) 0%, rgba(46,46,112,1) 92%, rgba(18,18,31,1) 100%); */
 
-background: #5f5fee9f;
-background: radial-gradient(circle, #5f5fee9f 0%, #3b3b889c 92%, #2727499a 100%);
+/* background: #5f5fee9f;
+background: radial-gradient(circle, #5f5fee9f 0%, #3b3b889c 92%, #2727499a 100%); */
 
+background: #5f5fee7c;
+background: radial-gradient(circle, #5f5fee7c 0%, #3b3b887a 92%, #2727497e 100%);
 /* background: #fd97cca4;
 background: radial-gradient(circle, #fd97cca4 0%, #ff5fb2a4 62%, #fe158da4 100%); */
     color: white;
@@ -48,8 +50,8 @@ background: radial-gradient(circle, #fd97cca4 0%, #ff5fb2a4 62%, #fe158da4 100%)
     transform: translate(0%, -10%);
     box-shadow: 3px 3px 3px 3px #ff0084;
     fill: #ff0084;
-    color: #ff0084;    
-
+    color: #ff0084;
+    
     .img-style{
         background-color: #ff0084;
         top: 0;

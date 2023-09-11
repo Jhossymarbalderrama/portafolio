@@ -17,6 +17,7 @@ import { ContactComponent } from './components/section-right/contact/contact.com
 import { SkillsComponent } from './components/section-right/skills/skills.component';
 import { CertificatesComponent } from './components/section-right/certificates/certificates.component';
 import { FooterSectionRightComponent } from './components/section-right/footer-section-right/footer-section-right.component';
+import { SkillsSliderComponent } from './components/section-right/skills-slider/skills-slider.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FooterSectionRightComponent } from './components/section-right/footer-s
     ContactComponent,
     SkillsComponent,
     CertificatesComponent,
-    FooterSectionRightComponent
+    FooterSectionRightComponent,
+    SkillsSliderComponent
   ],
   imports: [
     BrowserModule,

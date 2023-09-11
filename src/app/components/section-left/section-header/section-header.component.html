@@ -1,6 +1,15 @@
+<div class="languajes" align="right">
+  <p class="text-languajes">
+    <a id="en" title="English" (click)="selectlanguaje('en')">EN</a> 
+    / 
+    <a id="es" title="Español" (click)="selectlanguaje('es')">ES</a>
+    
+  </p>
+</div>
 <div class="title" align="center">
-  <p class="font-style texto-escritura" style="font-size: 1.8vh">
-    Mi Portafolio
+  <p class="font-style texto-escritura content" style="font-size: 1.8vh">
+    <a *ngIf="this.auth.languajeSelect == 'es'">{{data.es.title}}</a>
+    <a *ngIf="this.auth.languajeSelect == 'en'">{{data.en.title}}</a>
   </p>
 </div>
 
@@ -12,10 +21,17 @@
       </div>
     </div>
   </a>
-  <p style="font-size: 1.7vh">BALDERRAMA ROCHA</p>
-  <p style="font-size: 1.7vh">JHOSSYMAR</p>
+  <p class="content" style="font-size: 1.7vh">
+    <a *ngIf="this.auth.languajeSelect == 'es'">{{data.es.lastName}}</a>
+    <a *ngIf="this.auth.languajeSelect == 'en'">{{data.en.lastName}}</a>
+  </p>
+  <p class="content" style="font-size: 1.7vh">
+    <a *ngIf="this.auth.languajeSelect == 'es'">{{data.es.firstName}}</a>
+    <a *ngIf="this.auth.languajeSelect == 'en'">{{data.en.firstName}}</a>
+  </p>
   <p class="font-style texto-escritura" style="font-size: 1.6vh">
-    Full Stack Developer
+    <a *ngIf="this.auth.languajeSelect == 'es'">{{data.es.description}}</a>
+    <a *ngIf="this.auth.languajeSelect == 'en'">{{data.en.description}}</a>
   </p>
 </div>
 

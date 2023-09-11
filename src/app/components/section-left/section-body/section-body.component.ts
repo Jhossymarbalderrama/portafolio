@@ -1,5 +1,6 @@
 
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-section-body',
@@ -8,4 +9,12 @@ import { Component} from '@angular/core';
 })
 export class SectionBodyComponent {
 
+  dataMenu: any = {
+    es: ["Inicio", "Sobre mí", "Educacion", "Experiencia", "Conocimientos", "Certificados", "Conctacto"],
+    en: ["Home","About me", "Education","Experience","Skills", "Certificates", "Contact"]
+  }
+
+  constructor(public auth: AuthService) {
+
+  }
 }

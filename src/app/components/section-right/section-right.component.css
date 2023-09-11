@@ -6,6 +6,20 @@
     display: none;
 }
 
+
+.languajes a{
+    /* padding-top: 0.5vh; */        
+    text-decoration: none;
+}
+
+.select-languaje {
+    color: #f70aff;
+}
+
+.text-languajes{
+    font-size: 2.5vh;
+}
+
 /* Desktop */
 @media screen and (min-width: 1024px) {
     .home {
@@ -35,7 +49,7 @@
 
     .menu-phone{
         display: block;
-    }
+    }    
 }
 
 .home,

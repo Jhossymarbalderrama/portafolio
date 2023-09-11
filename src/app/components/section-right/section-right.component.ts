@@ -1,14 +1,18 @@
-import { Component, HostListener, ElementRef } from '@angular/core';
+import { Component, HostListener, ElementRef, OnInit } from '@angular/core';
 import { concat } from 'rxjs';
+import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
   selector: 'app-section-right',
   templateUrl: './section-right.component.html',
   styleUrls: ['./section-right.component.css']
 })
-export class SectionRightComponent {
-  constructor(private elementRef: ElementRef) {
-
+export class SectionRightComponent implements OnInit{
+  constructor(private elementRef: ElementRef, public auth : AuthService) {
+    this.auth.languajeSelect = "en";
+  }
+  ngOnInit(){
+    (<HTMLElement> document.getElementById("enPhone")).classList.add("select-languaje");
   }
 
   @HostListener('window:scroll', ['$event'])
@@ -98,5 +102,16 @@ export class SectionRightComponent {
       mCertificate.classList.remove('focus-section');
       mContact.classList.remove('focus-section'); 
     }
+  }
+
+  selectlanguaje(langSelect:string):void{
+    this.auth.languajeSelect = langSelect;
+    (<HTMLElement> document.getElementById(langSelect+'Phone')).classList.add("select-languaje");    
+
+    this.auth.languajes.forEach((lang: any) => {
+      if(lang != langSelect){
+        (<HTMLElement> document.getElementById(lang+'Phone')).classList.remove("select-languaje");
+      }
+    });
   }
 }

@@ -1,37 +1,48 @@
 <div class="container">
-    <ul class="nav flex-column menu nav__menu first-item">
-      <li class="nav-item">
-        <a id="mHome" href="#home" class="d-block lead nav__item focus-section"
-          >Inicio</a
-        >
-      </li>
-      <li class="nav-item">
-        <a id="mAbout" href="#about" class="d-block lead nav__item">Sobre mí</a>
-      </li>
-      <li class="nav-item">
-        <a id="mEducation" href="#education" class="d-block lead nav__item"
-          >Educación</a
-        >
-      </li>
-      <li class="nav-item">
-        <a id="mExperience" href="#experience" class="d-block lead nav__item"
-          >Experiencia</a
-        >
-      </li>
-      <li class="nav-item">
-        <a id="mSkills" href="#skills" class="d-block lead nav__item">Conocimientos</a>
-      </li>
-      <li class="nav-item">
-        <a id="mCertificate" href="#certificate" class="d-block lead nav__item"
-          >Certificados</a
-        >
-      </li>
-      <li class="nav-item">
-        <a id="mContact" href="#contact" class="d-block lead nav__item"
-          >Contacto</a
-        >
-      </li>
-    </ul>
+  <ul class="nav flex-column menu nav__menu first-item">
+    <li class="nav-item">
+      <a id="mHome" href="#home" class="d-block lead nav__item focus-section">
+        <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataMenu.es[0] }}</a>
+        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataMenu.en[0] }}</a>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a id="mAbout" href="#about" class="d-block lead nav__item">
+        <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataMenu.es[1] }}</a>
+        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataMenu.en[1] }}</a>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a id="mEducation" href="#education" class="d-block lead nav__item">
+        <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataMenu.es[2] }}</a>
+        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataMenu.en[2] }}</a>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a id="mExperience" href="#experience" class="d-block lead nav__item"
+        ><a *ngIf="this.auth.languajeSelect == 'es'">{{ dataMenu.es[3] }}</a>
+        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataMenu.en[3] }}</a></a
+      >
+    </li>
+    <li class="nav-item">
+      <a id="mSkills" href="#skills" class="d-block lead nav__item"
+        ><a *ngIf="this.auth.languajeSelect == 'es'">{{ dataMenu.es[4] }}</a>
+        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataMenu.en[4] }}</a></a
+      >
+    </li>
+    <li class="nav-item">
+      <a id="mCertificate" href="#certificate" class="d-block lead nav__item"
+        ><a *ngIf="this.auth.languajeSelect == 'es'">{{ dataMenu.es[5] }}</a>
+        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataMenu.en[5] }}</a></a
+      >
+    </li>
+    <li class="nav-item">
+      <a id="mContact" href="#contact" class="d-block lead nav__item"
+        ><a *ngIf="this.auth.languajeSelect == 'es'">{{ dataMenu.es[6] }}</a>
+        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataMenu.en[6] }}</a></a
+      >
+    </li>
+  </ul>
 </div>
 
 <!-- <div class="container">

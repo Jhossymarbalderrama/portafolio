@@ -2,54 +2,69 @@
   <div class="container">
     <form class="needs-validation" novalidate data-aos="zoom-in-up">
       <p class="display-5 title-style mb-4" align="center">
-        Contáctame
+        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.title }}</a>
+        <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.title }}</a>
       </p>
         
       <div class="row g-3">
         <div class="col-sm-12">
-          <label for="nombre" class="form-label">Nombre</label>
+          <label for="nombre" class="form-label">
+            <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.form.name }}</a>
+            <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.form.name }}</a>
+          </label>
           <input
             type="text"
             class="form-control"
-            id="nombre"
-            placeholder="ingrese su nombre"
+            id="nombre"                    
+            placeholder={{dataContact.en.form.placeName}}
             value=""
             required
           />          
         </div>
 
         <div class="col-sm-12">
-          <label for="mail" class="form-label">Mail</label>
+          <label for="mail" class="form-label">
+            <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.form.mail }}</a>
+            <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.form.mail }}</a>
+          </label>
           <input
             type="email"
             class="form-control"
             id="mail"
-            placeholder="ingrese un mail"
+            placeholder={{dataContact.en.form.placeMail}}
             value=""
             required
           />          
         </div>
 
         <div class="col-sm-12">
-          <label for="asunto" class="form-label">Asunto</label>
+          <label for="asunto" class="form-label">
+            <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.form.subject }}</a>
+            <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.form.subject }}</a>
+          </label>
           <input
             type="text"
             class="form-control"
             id="asunto"
-            placeholder="ingrese asunto"
+            placeholder={{dataContact.en.form.placeSubject}}
             value=""
             required
           />          
         </div>
 
         <div class="col-sm-12">            
-            <textarea placeholder="mensaje"></textarea>
+            <textarea placeholder={{dataContact.en.form.placeMessage}}></textarea>
         </div>
       </div>
 
-
-     <div align="center">
-        <button class="btn btn-primary btn-lg" type="submit">enviar</button>
-     </div>
+      
+      <div align="center">
+        <button class="btn btn-primary btn-lg" type="submit">
+          <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.button }}</a>
+          <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.button }}</a>
+        </button>
+      </div>
+      
+      <app-section-footer></app-section-footer>
     </form>
   </div>

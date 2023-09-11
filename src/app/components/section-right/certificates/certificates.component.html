@@ -1,8 +1,9 @@
 <div class="album py-5" style="overflow: hidden">
   <div class="container">
     <div class="content">
-      <p class="h3" style="font-family: IBM Plex Sans Italic, sans-serif">
-        Certificados
+      <p class="h3">
+        <a style="font-family: IBM Plex Sans Italic, sans-serif" *ngIf="this.auth.languajeSelect == 'es'">{{ dataCertificates.es.title }}</a>
+        <a style="font-family: IBM Plex Sans Italic, sans-serif" *ngIf="this.auth.languajeSelect == 'en'">{{ dataCertificates.en.title }}</a>
       </p>
       <hr class="featurette-divider" />
     </div>

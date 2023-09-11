@@ -18,6 +18,25 @@
     margin-top: -30px;
 } */
 
+.languajes {
+    padding-top: 1.5vh;
+}
+
+.select-languaje {
+    color: #f70aff;
+}
+
+.text-languajes{
+    font-size: 1.7vh;
+}
+
+.text-languajes > a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.content{
+    text-transform: uppercase;
+}
 
 /* Desktop */
 @media screen and (min-width: 1024px) {
@@ -50,15 +69,15 @@
 /* Smartphone */
 @media screen and (max-width: 767px) {}
 
-.title{
-    padding-top: 3vh;
+.title {
+    padding-top: 1.5vh;
 }
 
 .font-style {
     color: #ff0084;
 }
 
-p{
+p {
     margin: 0;
 }
 
@@ -84,7 +103,7 @@ p{
 
 .cuadro::after {
     content: '';
-    position: absolute;    
+    position: absolute;
     background-image: url("../../../../assets/img/backgrounds/bg18.png");
     background-repeat: no-repeat;
     background-size: cover;

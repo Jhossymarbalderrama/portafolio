@@ -1,4 +1,7 @@
 <div class="container py-5">
+
+
+  
   <div
     class="col col-md-12 box-content"
     data-aos="fade-right"
@@ -8,21 +11,44 @@
     align="center"     
   >
   <div class="box-welcome">
-    <p class="welcome-title">Bienvenidos a mi portafolio</p>
+    <p class="welcome-title">
+      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[0] }}</a>
+      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[0] }}</a>
+    </p>
   </div>
 
   <div class="content" align="center">
-    <p class="hello">Hola, soy</p>
-    <p class="name font-color-custom name-effect">Jhossymar Balderrama Rocha</p>
-    <p class="iam">y yo soy un</p>
-    <p class="developer-fullstack font-color-custom">Desarrollador Full Stack...</p>
-    <p class="developer">desarrollador</p>
-    <p class="fullstack font-color-custom">full stack</p>
+    <p class="hello">
+      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[1] }}</a>
+      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[1] }}</a>
+    </p>
+    <p class="name font-color-custom name-effect">
+      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[2] }}</a>
+      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[2] }}</a>
+    </p>
+    <p class="iam">
+      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[3] }}</a>
+      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[3] }}</a>
+    </p>
+    <p class="developer-fullstack font-color-custom">
+      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[4] }}</a>
+      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[4] }}</a>...</p>
+    <p class="developer">
+      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[5] }}</a>
+      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[5] }}</a>
+    </p>
+    <p class="fullstack font-color-custom">
+      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[6] }}</a>
+      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[6] }}</a>
+    </p>
 
     <div class="box-button" align="center">
       <a href="#contact" class="button" title="contáctame">
         <span>
-          <a class="text-light" style="text-decoration: none"> Contáctame </a>
+          <a class="text-light" style="text-decoration: none">
+            <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[7] }}</a>
+            <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[7] }}</a>
+          </a>
         </span>
       </a>
     </div>

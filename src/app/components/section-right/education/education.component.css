@@ -12,6 +12,8 @@
     position: relative;    
     justify-content: center;
     padding-bottom: 2vh;
+    padding-left: 7vh;
+    padding-right: 7vh;
 }
 
 .col-md-4 {
@@ -22,7 +24,7 @@
     place-items: center;
     overflow: hidden;
     width: 340px;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 10px;    
 }
 
 .col-md-4 ::before {
@@ -115,4 +117,13 @@ img{
         margin: 0px !important;
         padding: 0px !important;
     }
+
+    .row{
+        position: relative;    
+        justify-content: center;
+        padding-bottom: 2vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+    
 }

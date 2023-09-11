@@ -52,7 +52,7 @@ button:hover::after {
     width: 100%;
 }
 
-button a {
+button > a {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
