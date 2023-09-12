@@ -8,9 +8,20 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./section-right.component.css']
 })
 export class SectionRightComponent implements OnInit{
+
+  dataSection: any = {
+    es:{
+      title:"Mí Portafolio"
+    },
+    en:{
+      title:"My Portfolio"
+    }
+  }
+
   constructor(private elementRef: ElementRef, public auth : AuthService) {
     this.auth.languajeSelect = "en";
   }
+
   ngOnInit(){
     (<HTMLElement> document.getElementById("enPhone")).classList.add("select-languaje");
   }
@@ -44,7 +55,7 @@ export class SectionRightComponent implements OnInit{
       mExperience.classList.remove('focus-section');
       mSkills.classList.remove('focus-section');
       mCertificate.classList.remove('focus-section');
-      mContact.classList.remove('focus-section');
+      mContact.classList.remove('focus-section');      
     } else if (yOffset >= home.offsetTop && yOffset < education.offsetTop-500) {
       mHome.classList.remove('focus-section');
       mAbout.classList.add('focus-section');
@@ -52,7 +63,7 @@ export class SectionRightComponent implements OnInit{
       mExperience.classList.remove('focus-section');
       mSkills.classList.remove('focus-section');
       mCertificate.classList.remove('focus-section');
-      mContact.classList.remove('focus-section');
+      mContact.classList.remove('focus-section');      
     } else if (yOffset >= about.offsetTop && yOffset < 2915-500) {
       mHome.classList.remove('focus-section');
       mAbout.classList.remove('focus-section');
@@ -101,6 +112,13 @@ export class SectionRightComponent implements OnInit{
       mSkills.classList.remove('focus-section');
       mCertificate.classList.remove('focus-section');
       mContact.classList.remove('focus-section'); 
+    }
+
+
+    if (yOffset <= 100){
+      (<HTMLElement>document.querySelector('#icon-up')).classList.add('icon-up')
+    }else{
+      (<HTMLElement>document.querySelector('#icon-up')).classList.remove('icon-up')
     }
   }
 

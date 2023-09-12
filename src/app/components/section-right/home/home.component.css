@@ -3,12 +3,6 @@
     text-shadow: black 5px 5px 8px;    
 }
 
-/* .font-style {
-    font-family: "IBM Plex Sans Bold", sans-serif;
-    text-shadow: #000000 5px 3px 1px;
-} */
-
-
 .col{
     text-align: left;
 }
@@ -33,7 +27,6 @@
 }
 
 .name{
-    /* text-transform: uppercase; */
     font-size: 4.5vh;
 }
 
@@ -43,15 +36,10 @@
 }
 
 .developer{
-    /* text-transform: uppercase; */
-    /* font-size: 5vh; */
     display: none;
 }
 
 .fullstack{
-    /* text-transform: uppercase; */
-    /* margin-top: -20px; 
-    font-size: 5.2vh; */
     display: none;
 }
 
@@ -75,6 +63,10 @@
     .font-style {
         font-size: 5vmin;
     }
+
+    .btn-position{
+        text-align: left;
+    }
 }
 
 /* Tablet */
@@ -82,6 +74,10 @@
     .container {
         max-width: fit-content;
         margin: 10vh 0vh 0vh 15vh;
+    }
+
+    .btn-position{
+        text-align: left;
     }
 }
 
@@ -103,9 +99,10 @@
         text-align: center;
         text-shadow: #f8f8f8 5px 3px 1px;  
         text-transform: uppercase;  
-        letter-spacing: 2px;           
+        letter-spacing: 2px;               
     }
 
+    
     .box-welcome{        
         margin-top: 10px;
         padding: 10px;        
@@ -153,23 +150,6 @@
     .developer-fullstack{
         display: none;
     }
-
-    /* .name-effect{  
-        color: #ff008446;      
-        -webkit-text-stroke: 1px #ff0084;
-        -webkit-background-clip: text;
-        background-image:  url("../../../../assets/img/backgrounds/effect_background.png");
-        background-position: 0 0;
-        animation: back 30s linear infinite;   
-        position: relative;
-        top: 22%;
-    }
-    @keyframes back{
-        100%{
-            background-position: 2000px 0;
-        }
-    } */
-
 }
 
 @keyframes scaleUp {

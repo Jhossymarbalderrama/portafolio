@@ -2,29 +2,34 @@
     position: relative;
     min-width: 100%;
     max-width: 100%;
-    bottom: -1vh;
+    bottom: 0vh;
 }
 
 svg{
-    background-color: #d3d3d3;
-    padding: 0px 2px 0px 2px;
-    height: 3vh;
+    /* background-color: red; */
+    /* background-color: #d3d3d3; */
+    /* padding: 0px 2px 0px 2px; */ 
+    fill: #fff;   
+    height: 4.3vh;
     border-radius: 3px;
-    transition: all 0.200s;
+    transition: all 0.200s;   
+    cursor: pointer;
 }
 
 svg:hover{
-    background-color: #ff0084;
-    fill: #000000; 
-    transform: scale(1.4);
+    /* background-color: #ff0084; */
+    fill: #ff0084;   
+    transition: 0.3s;
+    transform: scale(1.5);   
 }
 
 
 svg:not(:hover){    
+    transition: 0.5s;
     transform: scale(1);
 }
 
 
 .social a{
-    padding-left: 0.8vh;
+    padding-left: 1vh;        
 }

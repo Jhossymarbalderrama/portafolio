@@ -23,7 +23,7 @@
 }
 
 .select-languaje {
-    color: #f70aff;
+    color: #ff0084;
 }
 
 .text-languajes{
@@ -32,8 +32,9 @@
 
 .text-languajes > a{
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none;   
 }
+
 .content{
     text-transform: uppercase;
 }
