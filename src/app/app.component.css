@@ -1,5 +1,5 @@
 * {
-    font-family: "IBM Plex Sans";    
+    font-family: var(--font-txt-df);    
     scroll-behavior: smooth;    
 }
 
@@ -14,7 +14,7 @@
 
 
 .sidebar-container {
-    background: #0a0916;
+    background: var(--bg-color-950);
 
     min-height: 100vh;
     min-width: 36vh;

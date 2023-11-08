@@ -1,9 +1,8 @@
-<div id="menu-phone" class="menu-phone">
+<div id="menu-phone" class="menu-phone" *ngIf="auth.languajeSelect == 'es' ? changeLanguaje() : changeLanguaje()">
   <nav class="navbar" aria-label="First navbar example">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataSection.es.title }}</a>
-        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataSection.en.title }}</a>
+        <a>{{ data.title }}</a>        
       </a>
       <button
         class="navbar-toggler"
@@ -19,54 +18,60 @@
 
       <div class="collapse navbar-collapse" id="navbarsExample01">
         <app-section-body></app-section-body>
-        <div class="languajes" align="right">
-          <p class="text-languajes">
-            <a id="enPhone" (click)="selectlanguaje('en')">EN</a> 
-            / 
-            <a id="esPhone" (click)="selectlanguaje('es')">ES</a>            
-          </p>
-        </div>
+        <app-languajes></app-languajes>
       </div>
     </div>
   </nav>
 </div>
 
+
+<!-- HOME -->
 <div class="home">
   <div id="home"></div>
   <app-home id="homeHref"></app-home>
 </div>
 
+
+<!-- ABOUT ME -->
 <div class="about">
   <app-about id="about"></app-about>
 </div>
 
-<div class="education">
-  <app-education id="education"></app-education>
+
+<!-- PROJECTS -->
+<div class="project">
+  <app-project id="project"></app-project>
 </div>
 
+
+<!-- EXPERIENCE -->
 <div class="experience">
   <app-experience id="experience"></app-experience>
 </div>
 
+<!-- EDUCATION -->
+<div class="education">
+  <!-- <app-education id="education"></app-education> -->
+</div>
+
+<!-- SKILLS -->
 <div class="skills">
   <app-skills id="skills"></app-skills>
 </div>
 
-<!-- <div class="experience">
-  <app-skills-slider id="skills-slider"></app-skills-slider>
-</div> -->
-
+<!-- CERTIFICATES -->
 <div class="certificate">
   <app-certificates id="certificate"></app-certificates>
 </div>
 
+<!-- CONTACT -->
 <div class="contact">
   <app-contact id="contact"></app-contact>
 </div>
 
-<div class="footer">
+<!-- <div class="footer">
   <app-footer-section-right id="footer"></app-footer-section-right>
-</div>
+</div> -->
 
 
 <div id="icon-up" class="icon-up">

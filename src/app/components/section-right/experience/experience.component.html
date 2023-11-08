@@ -1,115 +1,63 @@
-<div class="container">
-  <div class="row featurette mx-4" data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
-    <div class="col-12">
-      <p class="h2 font-style">
-        {{company}}
-      </p>
-      <hr class="featurette-divider" />
-    </div>
-    <div class="col-md-8 order-1 experience">
-      <p class="h5">
-        {{year}}
-      </p>
-      <p>
-        <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataExperience.es.functionIn }}</a>
-        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataExperience.en.functionIn }}</a>
-      </p>
-      <ul>
-        <li>
-          <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataExperience.es.description[0] }}</a>
-          <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataExperience.en.description[0] }}</a>
-        </li>
-        <li>
-          <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataExperience.es.description[1] }}</a>
-          <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataExperience.en.description[1] }}</a>
-        </li>
-        <li>
-          <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataExperience.es.description[2] }}</a>
-          <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataExperience.en.description[2] }}</a>
-        </li>
-        <li><a *ngIf="this.auth.languajeSelect == 'es'">{{ dataExperience.es.description[3] }}</a>
-          <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataExperience.en.description[3] }}</a>
-        </li>
-      </ul>
+<div class="row" *ngIf="auth.languajeSelect ? changeLanguaje() : changeLanguaje()">
+  <p class="h3">{{data.title}}</p>
+  <div class="row">
+    <h2 data-aos="fade-up" data-aos-duration="1500">
+      {{data.company}}
+    </h2>
+    <hr class="featurette-divider" />
+
+    <div class="col-md-8 order-1 box-left" data-aos="fade-up" data-aos-duration="1500">
+        <h4>
+          {{data.year}}
+        </h4>
+        <p>
+          <a>{{ data.functionIn }}</a>
+        </p>
+        <ul>
+          <li>
+            <a>{{ data.description[0] }}</a>
+          </li>
+          <li>
+            <a>{{ data.description[1] }}</a>
+          </li>
+          <li>
+            <a>{{ data.description[2] }}</a>
+          </li>
+          <li>
+            <a>{{ data.description[3] }}</a>
+          </li>
+          <li>
+            <a>{{ data.description[4] }}</a>
+          </li>
+        </ul>
     </div>
 
-    <div class="col-md-4 order-2 technologies">
-      <p class="h5 sub-title font-style">
-        <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataExperience.es.titleTechnologies }}</a>
-        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataExperience.en.titleTechnologies }}</a>
-      </p>
+    <div class="col-md-4 order-2 box-right" data-aos="fade-up" data-aos-duration="2000">
+      <h4>
+        <a>{{ data.titleTechnologies }}</a>
+      </h4>
       <ul>
         <li>
-          <a *ngIf="this.auth.languajeSelect == 'es'">{{ technologies[0] }}</a>
-          <a *ngIf="this.auth.languajeSelect == 'en'">{{ technologies[0] }}</a>
+          <a>{{ data.technologies[0] }}</a>
         </li>
-        <li><a *ngIf="this.auth.languajeSelect == 'es'">{{ technologies[1] }}</a>
-          <a *ngIf="this.auth.languajeSelect == 'en'">{{ technologies[1] }}</a>
+        <li>
+          <a>{{ data.technologies[1] }}</a>
+        </li>
+        <li>
+          <a>{{ data.technologies[2] }}</a>
         </li>
       </ul>
 
       <div class="btn-download" align="center">
         <button>
           <a href="http://www.vlb.com.ar/" target="_blank">
-            <svg style="padding-bottom: 2px" xmlns="http://www.w3.org/2000/svg" height="1.2rem" fill="currentColor"
-              class="bi bi-arrow-up-left-circle-fill" viewBox="0 0 16 16">
-              <path
-                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-5.904 2.803a.5.5 0 1 0 .707-.707L6.707 6h2.768a.5.5 0 1 0 0-1H5.5a.5.5 0 0 0-.5.5v3.975a.5.5 0 0 0 1 0V6.707l4.096 4.096z" />
+            <svg style="margin-bottom: 2.5px" xmlns="http://www.w3.org/2000/svg"  height="1.2rem" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
             </svg>
-            {{company}}
+            {{data.company}}
           </a>
         </button>
       </div>
     </div>
   </div>
 </div>
-
-<!-- <div class="container">
-  <div
-    class="row featurette mx-4"
-    data-aos="fade-left"
-    data-aos-offset="100"
-    data-aos-easing="ease-in-sine"
-  >
-    <div class="col-md-7 order-2 my-4">
-      <p class="h2 font-style">CA VLB s.a</p>
-      <hr class="featurette-divider" />
-      <p class="h5">2017 - 2019</p>
-      <p>Desarrollador de software en Genexus, creacion y optimizacion de aplicaciones 
-       multi plataforma.</p>
-        <ul>
-          <li>Colaboracion en equipo para conocer los requisitos y las especificaciones del cliente.</li>
-          <li>Resolucion de problemas complejos utilizando las ultimas tencnologias moviles, web.</li>
-          <li>Codificacion eficaz de cambios y alteraciones de software en base a especificaciones.</li>
-          <li>Desarrollo y presentacion de conclusiones y soluciones.</li>          
-        </ul>
-      <p class="h5 sub-title mt-3 font-style">Tecnologias utilizadas:</p>
-      <ul class="mt-2">
-        <li>Genexus Evo 2, Evo 3 y 9</li>
-        <li>Joomla 2.5v - 3.0v</li>
-      </ul>
-
-      <div class="btn-download" align="center">
-        <button>
-          <a href="http://www.vlb.com.ar/" target="_blank">
-            <svg style="padding-bottom: 2px;" xmlns="http://www.w3.org/2000/svg" height="1.2rem" fill="currentColor" class="bi bi-arrow-up-left-circle-fill" viewBox="0 0 16 16">
-              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-5.904 2.803a.5.5 0 1 0 .707-.707L6.707 6h2.768a.5.5 0 1 0 0-1H5.5a.5.5 0 0 0-.5.5v3.975a.5.5 0 0 0 1 0V6.707l4.096 4.096z"/>
-            </svg>
-            CA-VLB s.a. 
-          </a>
-        </button>
-      </div>
-    </div>
-
-    <div class="col-md-5 order-1  my-4">
-      <p class="h4">Mi Experiencia</p>
-      <p>
-        Desarrollador de software con experiencia en diseño, 
-        instalacion, pruebas y mantenimiento de sistemas de software. 
-        Dominio de varias plataformas, lenguajes y sistemas.
-        Capaz de autogestion eficaz en proyectos independientes. 
-        Buenas habilidades de colaboracion dentro de un equipo productivo.
-      </p>
-    </div>
-  </div>
-</div> -->

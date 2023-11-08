@@ -10,11 +10,53 @@ import { AuthService } from 'src/app/services/auth.service';
 export class SectionBodyComponent {
 
   dataMenu: any = {
-    es: ["Inicio", "Sobre mí", "Educacion", "Experiencia", "Conocimientos", "Certificados", "Conctacto"],
-    en: ["Home","About me", "Education","Experience","Skills", "Certificates", "Contact"]
+    es: {
+      home: "inicio",
+      about: "sobre mí",
+      education: "educación",
+      experience: "experiencia",
+      project: "proyectos",
+      skill: "conocimientos",
+      certificate: "certificados",
+      contact: "contacto"
+    },
+    en: {
+      home: "home",
+      about: "about me",
+      education: "education",
+      experience: "experience",
+      project: "project",
+      skill: "skill",
+      certificate: "certificates",
+      contact: "contact"
+    },
+    br: {
+      home: "lar",
+      about: "sobre mim",
+      education: "Educação",
+      experience: "experiência",
+      project: "projeto",
+      skill: "skill",
+      certificate: "certificados",
+      contact: "contato"
+    }    
   }
+
+  data: any = {};
 
   constructor(public auth: AuthService) {
 
+  }
+
+
+  changeLanguaje() : boolean{
+    if(this.auth.languajeSelect == 'es'){
+      this.data = this.dataMenu.es;
+    }else if(this.auth.languajeSelect == 'en'){
+      this.data = this.dataMenu.en;
+    }else{
+      this.data = this.dataMenu.br;
+    }
+    return true;
   }
 }

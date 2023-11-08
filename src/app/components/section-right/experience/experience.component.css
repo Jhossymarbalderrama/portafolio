@@ -1,25 +1,62 @@
 * {
-    font-family: "IBM Plex Sans Bold", sans-serif;
-    text-shadow: black 3px 3px 2px;
-    color: white;
+    font-family: var(--font-txt-df);
+    text-shadow: var(--color-txt-dark) 3px 3px 2px;
+    color: var(--color-txt-light);
 }
 
-.container{
-    margin: 0px;
-    padding: 0px;
-    padding: 3vh 5vh 3vh 5vh;
+.row{
+    overflow: hidden;
+    margin: var(--margin-article);
+    padding: var(--padding-article);
 }
 
-.font-style{
-    color: #ff0084;
+/* .box-content > .row{
+    padding: 5px 35px;
+} */
+
+h2{
+    font-size: var(--font-size-sm);    
+    font-weight: bold;
 }
 
-.experience{    
+/* Box Section Left */
+
+.box-left{
+    display: flex;    
+    justify-content: center;    
+    flex-direction: column;    
 }
 
-.technologies{       
+.box-left > h4{
+    font-size: var(--font-size-ss);
 }
 
+.box-left > p {
+    font-size: var(--font-size-ssl);
+}
+
+.box-left > ul > li {
+    font-size: var(--font-size-ssl);
+}
+
+/* Box Section Right */
+.box-right{
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+}
+
+
+.box-right > ul > li{
+    font-size: var(--font-size-ssl);
+}
+
+.btn-download{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
 
 button {
     position: relative;
@@ -27,7 +64,7 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 2px;
-    background: #ff0084;
+    background: var(--color-txt-hover);
     box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     border: none;
@@ -37,8 +74,8 @@ button:after {
     content: " ";
     width: 0%;
     height: 100%;
-    background: #000428;
-    border: 0.5px solid #ff0084;
+    background: var(--bg-color-950);
+    border: 0.5px solid var(--color-txt-hover);
     border-radius: 5px;
     position: absolute;
     transition: all 0.4s ease-in-out;
@@ -57,7 +94,7 @@ button a {
     text-decoration: none;
     width: 100%;
     padding: 13px 18px;
-    color: #fff;
+    color:  var(--color-txt-light);
     font-size: 0.756em;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -66,70 +103,19 @@ button a {
 }
 
 button:hover a {
-    color: white;
-    animation: scaleUp 0.3s ease-in-out;
-}
-
-@keyframes scaleUp {
-    0% {
-        transform: scale(0.95);
-    }
-
-    50% {
-        transform: scale(0.90);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-.title-content{
-    padding-top: 20px;
-    padding-left: 20px;
-    
+    color: var(--color-txt-light);    
 }
 
 
 
-.box-section {
-    padding: 2em 8em 2em 8em;
-}
+@media screen and (min-width: 1024px) {}
 
-.section-body {
-    font-family: "IBM Plex Sans Italic", sans-serif;
-}
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
 
-
-.sub-title {
-    font-family: "IBM Plex Sans Bold Italic", sans-serif;
-    /* text-decoration: underline; */
-} 
-
-li {
-    font-family: "IBM Plex Sans Medium Italic", sans-serif;
-}
-
-/* Desktop */
-@media screen and (min-width: 1024px) {
-    .btn-download{
-        text-align: left;
-    }
-}
-
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .btn-download{
-        text-align: left;
-    }
-}
-
-/* Smartphone */
 @media screen and (max-width: 767px) {
-    .container{
-        margin: 0px;
-        padding: 0px;
-        padding: 4vh 1vh 4vh 1vh;
+    .row{
+        overflow: hidden;
+        margin: var(--margin-article-s);
+        padding: var(--padding-article-l);
     }
-    
 }

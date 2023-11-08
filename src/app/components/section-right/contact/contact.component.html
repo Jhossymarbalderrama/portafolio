@@ -1,70 +1,90 @@
+<div class="row" *ngIf="auth.languajeSelect == 'es' ? changeLanguaje() : changeLanguaje()">
+  <div class="col-md-4">
+    <h5>{{data.tag}}</h5>
+    <h1 style="font-weight: bold;">{{data.title}}</h1>
 
-  <div class="container">
-    <form class="needs-validation" novalidate data-aos="zoom-in-up">
-      <p class="display-5 title-style mb-4" align="center">
-        <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.title }}</a>
-        <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.title }}</a>
+    <p>{{data.description}}</p>
+
+    <div class="box-contact">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" fill="currentColor"
+          class="bi bi-envelope-fill" viewBox="0 0 16 16">
+          <path
+            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+        </svg>
+        <span>jhossymarbalderrama@gmail.com</span>
       </p>
-        
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" fill="currentColor"
+          class="bi bi-telephone-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+        </svg>
+        <span>+54 9 11 6307-9082</span>
+      </p>
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.2rem" height="1.2rem" fill="currentColor"
+          class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+        </svg>
+        <span>Avellaneda, Buenos Aires - Argentina</span>
+      </p>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13126.764993208239!2d-58.37302059718926!3d-34.66249956010772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3335230bd052b%3A0x9d632a18eea90a31!2sAvellaneda%2C%20Buenos%20Aires%20Province!5e0!3m2!1sen!2sar!4v1695663517981!5m2!1sen!2sar"
+      style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="col-md-8">
+    <form id="form-contact" class="needs-validation" novalidate>
       <div class="row g-3">
+        <h3>{{data.titleForm}}</h3>
+
         <div class="col-sm-12">
-          <label for="nombre" class="form-label">
-            <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.form.name }}</a>
-            <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.form.name }}</a>
+          <label for="name" class="form-label">
+            <a>{{ data.form.name }}</a>
           </label>
-          <input
-            type="text"
-            class="form-control"
-            id="nombre"                    
-            placeholder={{dataContact.en.form.placeName}}
-            value=""
-            required
-          />          
+          <input type="text" class="form-control" id="name" name="name" placeholder={{data.form.placeName}} value=""
+            required />
         </div>
 
         <div class="col-sm-12">
           <label for="mail" class="form-label">
-            <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.form.mail }}</a>
-            <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.form.mail }}</a>
+            <a>{{ data.form.mail }}</a>
           </label>
-          <input
-            type="email"
-            class="form-control"
-            id="mail"
-            placeholder={{dataContact.en.form.placeMail}}
-            value=""
-            required
-          />          
+          <input type="email" class="form-control" id="mail" name="mail" placeholder={{data.form.placeMail}} value=""
+            required />
         </div>
 
         <div class="col-sm-12">
-          <label for="asunto" class="form-label">
-            <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.form.subject }}</a>
-            <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.form.subject }}</a>
+          <label for="subject" class="form-label">
+            <a>{{ data.form.subject }}</a>
           </label>
-          <input
-            type="text"
-            class="form-control"
-            id="asunto"
-            placeholder={{dataContact.en.form.placeSubject}}
-            value=""
-            required
-          />          
+          <input type="text" class="form-control" id="subject" name="subject" placeholder={{data.form.placeSubject}}
+            value="" required />
         </div>
 
-        <div class="col-sm-12">            
-            <textarea placeholder={{dataContact.en.form.placeMessage}}></textarea>
+        <div class="col-sm-12">
+          <p style="margin: 0px 0px -10px 0px;padding: 0px;">
+            <label for="message" class="form-label">
+              <a>{{data.form.message}}</a>
+            </label>
+          </p>
+          <textarea placeholder={{data.form.placeMessage}} name="message" id="message"></textarea>
         </div>
-      </div>
 
-      
-      <div align="center" class="mb-3">
-        <button class="btn btn-primary btn-lg" type="submit">
-          <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataContact.en.button }}</a>
-          <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataContact.es.button }}</a>
-        </button>
+        <!-- <div class="box-btn" id="button">
+          <a href="#contact" class="button mt-4" title="contáctame">
+            <span>
+              <a class="text-light" style="text-decoration: none">
+                <a>{{ data.button }}</a>
+              </a>
+            </span>
+          </a>
+        </div> -->
+        <input type="submit" class="btn w-25 btn-primary" id="btn-send-form-contact" value="Enviar Formulario" >
       </div>
-      
-      <app-section-footer></app-section-footer>
-    </form>
+    </form>    
   </div>
+</div>

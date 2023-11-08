@@ -1,5 +1,4 @@
 import { Component, HostListener, ElementRef, OnInit } from '@angular/core';
-import { concat } from 'rxjs';
 import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
@@ -15,121 +14,132 @@ export class SectionRightComponent implements OnInit{
     },
     en:{
       title:"My Portfolio"
+    },
+    br:{
+      title:"Meu portfolio"
     }
   }
 
+  data : any = {};
   constructor(private elementRef: ElementRef, public auth : AuthService) {
-    this.auth.languajeSelect = "en";
   }
 
   ngOnInit(){
-    (<HTMLElement> document.getElementById("enPhone")).classList.add("select-languaje");
+
   }
 
   @HostListener('window:scroll', ['$event'])
   onScroll(event: Event): void {
-    const home = this.elementRef.nativeElement.querySelector('#homeHref');
-    const about = this.elementRef.nativeElement.querySelector('#about');
-    const education = this.elementRef.nativeElement.querySelector('#education');
-    const experience = this.elementRef.nativeElement.querySelector('#experience');
-    // const project = this.elementRef.nativeElement.querySelector('#project');
-    const skills = this.elementRef.nativeElement.querySelector('#skills');
-    const certificate = this.elementRef.nativeElement.querySelector('#certificate');
-    const contact = this.elementRef.nativeElement.querySelector('#contact');
 
+    // Elementos para obtener la posicion en el Scroll
+    const yHome = this.elementRef.nativeElement.querySelector('#homeHref');
+    const yAbout = this.elementRef.nativeElement.querySelector('#about');
+    const yProject = this.elementRef.nativeElement.querySelector('#project');
+    const yEducation = this.elementRef.nativeElement.querySelector('#education');
+    const yExperience = this.elementRef.nativeElement.querySelector('#experience');    
+    const ySkills = this.elementRef.nativeElement.querySelector('#skills');
+    const yCertificate = this.elementRef.nativeElement.querySelector('#certificate');
+    const yContact = this.elementRef.nativeElement.querySelector('#contact');
+
+
+    // Elementos Menu al que poner Clase Focus
     const mHome = <HTMLElement>document.querySelector('#mHome');
     const mAbout = <HTMLElement>document.querySelector('#mAbout');
+    const mProject = <HTMLElement> document.querySelector('#mProject');
     const mEducation = <HTMLElement>document.querySelector('#mEducation');
     const mExperience = <HTMLElement>document.querySelector('#mExperience');
-    // const mProject = <HTMLElement> document.querySelector('#mProject');
     const mSkills = <HTMLElement>document.querySelector('#mSkills');
     const mCertificate = <HTMLElement>document.querySelector('#mCertificate');
     const mContact = <HTMLElement>document.querySelector('#mContact');
 
-    const yOffset = window.pageYOffset;
+    const yOffset = window.scrollY;
+    const nameClass: string = "focus-section";
+    
+    const btnToTop = (<HTMLElement>document.querySelector('#icon-up'));
+    // console.log(Math.floor(yOffset));    
+    
+    // La CLASE focus-section se encuentra dentro de la seccion Left de la pagina en section-left/section-body/css
 
-    if (yOffset >= 0 && yOffset < home.offsetTop) {
-      mHome.classList.add('focus-section');
-      mAbout.classList.remove('focus-section');
-      mEducation.classList.remove('focus-section');
-      mExperience.classList.remove('focus-section');
-      mSkills.classList.remove('focus-section');
-      mCertificate.classList.remove('focus-section');
-      mContact.classList.remove('focus-section');      
-    } else if (yOffset >= home.offsetTop && yOffset < education.offsetTop-500) {
-      mHome.classList.remove('focus-section');
-      mAbout.classList.add('focus-section');
-      mEducation.classList.remove('focus-section');
-      mExperience.classList.remove('focus-section');
-      mSkills.classList.remove('focus-section');
-      mCertificate.classList.remove('focus-section');
-      mContact.classList.remove('focus-section');      
-    } else if (yOffset >= about.offsetTop && yOffset < 2915-500) {
-      mHome.classList.remove('focus-section');
-      mAbout.classList.remove('focus-section');
-      mEducation.classList.add('focus-section');
-      mExperience.classList.remove('focus-section');
-      mSkills.classList.remove('focus-section');
-      mCertificate.classList.remove('focus-section');
-      mContact.classList.remove('focus-section');
-    } else if (yOffset >= education.offsetTop && yOffset < skills.offsetTop-20) {
-      mHome.classList.remove('focus-section');
-      mAbout.classList.remove('focus-section');
-      mEducation.classList.remove('focus-section');
-      mExperience.classList.add('focus-section');
-      mSkills.classList.remove('focus-section');
-      mCertificate.classList.remove('focus-section');
-      mContact.classList.remove('focus-section');
-    } else if (yOffset >= experience.offsetTop && yOffset < certificate.offsetTop-500) {
-      mHome.classList.remove('focus-section');
-      mAbout.classList.remove('focus-section');
-      mEducation.classList.remove('focus-section');
-      mExperience.classList.remove('focus-section');
-      mSkills.classList.add('focus-section');
-      mCertificate.classList.remove('focus-section');
-      mContact.classList.remove('focus-section');
-    } else if (yOffset >= skills.offsetTop && yOffset < contact.offsetTop-500) {
-      mHome.classList.remove('focus-section');
-      mAbout.classList.remove('focus-section');
-      mEducation.classList.remove('focus-section');
-      mExperience.classList.remove('focus-section');
-      mSkills.classList.remove('focus-section');
-      mCertificate.classList.add('focus-section');
-      mContact.classList.remove('focus-section');     
-    }else if(yOffset >= certificate.offsetTop && yOffset < 99999){
-      mHome.classList.remove('focus-section');
-      mAbout.classList.remove('focus-section');
-      mEducation.classList.remove('focus-section');
-      mExperience.classList.remove('focus-section');
-      mSkills.classList.remove('focus-section');
-      mCertificate.classList.remove('focus-section');
-      mContact.classList.add('focus-section');   
-    }else{
-      mHome.classList.remove('focus-section');
-      mAbout.classList.remove('focus-section');
-      mEducation.classList.remove('focus-section');
-      mExperience.classList.remove('focus-section');
-      mSkills.classList.remove('focus-section');
-      mCertificate.classList.remove('focus-section');
-      mContact.classList.remove('focus-section'); 
+    // Home
+    if (yOffset <= yHome?.offsetTop) {
+      this.removeClassFocusInMenu();
+      mHome?.classList.add(nameClass);              
     }
 
+    // About
+    if(yOffset > yHome?.offsetTop && yOffset <= yAbout?.offsetTop){
+      this.removeClassFocusInMenu();
+      mAbout?.classList.add(nameClass);       
+    }
 
+    // Proyect
+    if(yOffset > yAbout?.offsetTop){
+        this.removeClassFocusInMenu();
+        mProject?.classList.add(nameClass);
+    }
+  
+    // Experience    
+    if(yOffset > yProject?.offsetTop+50){            
+        this.removeClassFocusInMenu();
+        mExperience?.classList.add(nameClass);  
+    }
+    
+    // Skills
+    if(yOffset > yExperience?.offsetTop+50){      
+      this.removeClassFocusInMenu();
+      mSkills?.classList.add(nameClass);  
+    }
+    
+    // Certificates
+    if(yOffset > ySkills?.offsetTop+50){      
+      this.removeClassFocusInMenu();
+      mCertificate?.classList.add(nameClass); 
+    }
+    
+    // Contacts
+    if(yOffset > yCertificate?.offsetTop+50){      
+      this.removeClassFocusInMenu();
+      mContact?.classList.add(nameClass); 
+    }
+
+    
     if (yOffset <= 100){
-      (<HTMLElement>document.querySelector('#icon-up')).classList.add('icon-up')
+      btnToTop?.classList.add('icon-up')
     }else{
-      (<HTMLElement>document.querySelector('#icon-up')).classList.remove('icon-up')
+      btnToTop?.classList.remove('icon-up')
     }
   }
 
-  selectlanguaje(langSelect:string):void{
-    this.auth.languajeSelect = langSelect;
-    (<HTMLElement> document.getElementById(langSelect+'Phone')).classList.add("select-languaje");    
+  removeClassFocusInMenu():void{
+    const mHome = <HTMLElement>document.querySelector('#mHome');
+    const mAbout = <HTMLElement>document.querySelector('#mAbout');
+    const mEducation = <HTMLElement>document.querySelector('#mEducation');
+    const mExperience = <HTMLElement>document.querySelector('#mExperience');
+    const mProject = <HTMLElement> document.querySelector('#mProject');
+    const mSkills = <HTMLElement>document.querySelector('#mSkills');
+    const mCertificate = <HTMLElement>document.querySelector('#mCertificate');
+    const mContact = <HTMLElement>document.querySelector('#mContact');
+    const nameClass: string = "focus-section";
 
-    this.auth.languajes.forEach((lang: any) => {
-      if(lang != langSelect){
-        (<HTMLElement> document.getElementById(lang+'Phone')).classList.remove("select-languaje");
-      }
-    });
+    mHome?.classList.remove(nameClass);
+    mAbout?.classList.remove(nameClass);
+    mEducation?.classList.remove(nameClass);
+    mExperience?.classList.remove(nameClass);
+    mProject?.classList.remove(nameClass);
+    mSkills?.classList.remove(nameClass);
+    mCertificate?.classList.remove(nameClass);
+    mContact?.classList.remove(nameClass);    
+  }  
+
+
+  changeLanguaje() : boolean{
+    if(this.auth.languajeSelect == 'es'){
+      this.data = this.dataSection.es;
+    }else if(this.auth.languajeSelect == 'en'){
+      this.data = this.dataSection.en;
+    }else{
+      this.data = this.dataSection.br;
+    }
+    return true;
   }
 }

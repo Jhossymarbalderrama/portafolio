@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-section-left',
@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class SectionLeftComponent {
 
+  constructor(private elementRef: ElementRef){
+
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  onScroll(event: Event): void {
+
+  }
 }

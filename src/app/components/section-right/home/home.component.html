@@ -1,77 +1,27 @@
 <div class="container py-5">
+  <section>
+    <article *ngIf="auth.languajeSelect ? changeLanguaje() : changeLanguaje()">
+      <p class="subtitle" data-aos="fade-up" data-aos-duration="1500"> 
+        {{data.presentationH}} 
+        <span class="text">
+          {{data.firstName}} {{data.lastName}}
+        </span>
+      </p>
+      <hr style="margin:5px 10%;">
+      <p class="title">{{data.title}}</p>
+      <hr style="margin:5px 15%;">
+      <p class="subtitle" data-aos="fade-up" data-aos-duration="1500">{{data.presentationF}} <span class="text">{{data.profesion}}</span></p>     
 
-
-  
-  <div
-    class="col col-md-12 box-content"
-    data-aos="fade-right"
-    data-aos-offset="100"
-    data-aos-easing="ease-in-sine"
-    data-aos-duration="650"   
-    align="center"     
-  >
-  <div class="box-welcome">
-    <p class="welcome-title">
-      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[0] }}</a>
-      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[0] }}</a>
-    </p>
-  </div>
-
-  <div class="content" align="center">
-    <p class="hello">
-      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[1] }}</a>
-      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[1] }}</a>
-    </p>
-    <p class="name font-color-custom name-effect">
-      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[2] }}</a>
-      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[2] }}</a>
-    </p>
-    <p class="iam">
-      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[3] }}</a>
-      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[3] }}</a>
-    </p>
-    <p class="developer-fullstack font-color-custom">
-      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[4] }}</a>
-      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[4] }}</a>...</p>
-    <p class="developer">
-      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[5] }}</a>
-      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[5] }}</a>
-    </p>
-    <p class="fullstack font-color-custom">
-      <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[6] }}</a>
-      <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[6] }}</a>
-    </p>
-
-    <div class="box-button" align="center">
-      <div class="btn-position" align="center">
-        <a href="#contact" class="button" title="contáctame">
+      <div class="box-btn">
+        <a href="#contact" class="button mt-4" title="contáctame">
           <span>
             <a class="text-light" style="text-decoration: none">
-              <a *ngIf="this.auth.languajeSelect == 'es'">{{ dataHome.es[7] }}</a>
-              <a *ngIf="this.auth.languajeSelect == 'en'">{{ dataHome.en[7] }}</a>
+              <a>{{data.btn}}</a>            
             </a>
           </span>
         </a>
       </div>
-    </div>
-  </div>
-
-    <!-- <p class="welcome-title">Bienvenidos a mi portafolio</p>
-
-    <p class="font-style display-6">Hola, soy</p>
-    <p class="font-style display-5" style="color: #ff0084">Jhossymar</p>
-    <p class="font-style display-5" style="color: #ff0084">
-      Balderrama Rocha
-    </p>
-    <p class="font-style display-6">
-      y yo soy un
-      <a
-        class="font-style display-5"
-        style="color: #ff0084; text-decoration: none"
-      >
-        Desarrollador Full Stack...
-      </a>
-    </p> -->
-
-  </div>
+      
+    </article>
+  </section>
 </div>

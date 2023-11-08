@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { AuthService } from 'src/app/services/auth.service';
 
 @Component({
@@ -7,45 +7,50 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  firstName: string = "Jhossymar";
-  lastName: string = "Balderrama Rocha";
-  profesion: any = ["Desarrollador", "Developer"];
-  typeProfesion: string = "Full Stack";
-
   dataHome: any = {
-    es: [
-      "Bienvenidos a mi portafolio",
-      "Hola, soy",
-      this.firstName + ' ' + this.lastName,
-      "y yo soy un",
-      this.profesion[0] + ' ' + this.typeProfesion,
-      this.profesion[0],
-      this.typeProfesion,
-      "Contáctame"],
-    en: [
-      "Welcome to my portfolio",
-      "Hi, i'm",
-      this.firstName + ' ' + this.lastName,
-      "and i'm a",
-      this.profesion[1] + ' ' + this.typeProfesion,
-      this.profesion[1],
-      this.typeProfesion,
-      "Contact me"
-    ]
+    es:{
+      title: "Bienvenidos a mi portafolio",
+      presentationH: "Hola, mi nombre es ",
+      firstName: "Jhossymar",
+      lastName: "Balderrama Rocha",
+      presentationF: "Soy un ",
+      profesion: "Desarrollador Full Stack",
+      btn: "Contáctame"
+    },
+    en:{
+      title: "Welcome to my portfolio",
+      presentationH: "Hi, i'm ", 
+      firstName: "Jhossymar",
+      lastName: "Balderrama Rocha",
+      presentationF: "and i'm a ", 
+      profesion: "Full Stack Developer",
+      btn: "Contact me"
+    },
+    br:{
+      title: "Bem-vindo ao meu portfólio",
+      presentationH: "Olá, eu sou ", 
+      firstName: "Jhossymar",
+      lastName: "Balderrama Rocha",
+      presentationF: "e eu sou um ", 
+      profesion: "Full Stack Developer",
+      btn: "Contate-me"
+    }
+  };
+
+  data: any = {};
+
+  constructor(public auth: AuthService) {       
   }
 
-  constructor(public auth: AuthService) {
-    (<HTMLElement> document.getElementById("en")).classList.add("select-languaje");
-  }
 
-  selectlanguaje(langSelect:string):void{
-    this.auth.languajeSelect = langSelect;
-    (<HTMLElement> document.getElementById(langSelect)).classList.add("select-languaje");    
-
-    this.auth.languajes.forEach((lang: any) => {
-      if(lang != langSelect){
-        (<HTMLElement> document.getElementById(lang)).classList.remove("select-languaje");
-      }
-    });
+  changeLanguaje() : boolean{
+    if(this.auth.languajeSelect == 'es'){
+      this.data = this.dataHome.es;
+    }else if(this.auth.languajeSelect == 'en'){
+      this.data = this.dataHome.en;
+    }else{
+      this.data = this.dataHome.br;
+    }
+    return true;
   }
 }

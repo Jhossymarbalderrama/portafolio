@@ -6,19 +6,15 @@
 }
 
 svg{
-    /* background-color: red; */
-    /* background-color: #d3d3d3; */
-    /* padding: 0px 2px 0px 2px; */ 
-    fill: #fff;   
-    height: 4.3vh;
+    fill: var(--color-txt-light);   
+    height: 3vh;
     border-radius: 3px;
     transition: all 0.200s;   
     cursor: pointer;
 }
 
 svg:hover{
-    /* background-color: #ff0084; */
-    fill: #ff0084;   
+    fill: var(--color-txt-hover);   
     transition: 0.3s;
     transform: scale(1.5);   
 }

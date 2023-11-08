@@ -14,10 +14,25 @@ export class CertificatesComponent {
     },
     en:{
       title: "Certificates",
+    },
+    br:{
+      title: "Certificados",
     }
   }
 
+  data: any = {};
   constructor(public auth: AuthService) {
 
+  }
+
+  changeLanguaje() : boolean{
+    if(this.auth.languajeSelect == 'es'){
+      this.data = this.dataCertificates.es;
+    }else if(this.auth.languajeSelect == 'en'){
+      this.data = this.dataCertificates.en;
+    }else{
+      this.data = this.dataCertificates.br;
+    }
+    return true;
   }
 }

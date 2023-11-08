@@ -1,86 +1,147 @@
 * {
-    font-family: "IBM Plex Sans", sans-serif;
-    text-shadow: black 5px 5px 8px;
+    font-family: var(--font-txt-df);    
+    text-shadow: 3px 3px 6px black;
 }
 
-/* Desktop */
-@media screen and (min-width: 1024px) {
-    .container {        
-        max-width: 40%;
-    }
+.row{
+    margin: var(--margin-article-s);
+    padding: var(--padding-article-s);
 }
 
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .container {
-        max-width: 50%;
-    }
+.button {    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background: var(--color-txt-hover);
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: none;
+    text-decoration: none;
+    width: fit-content;
+    /* margin: 1vh 22vw; */
 }
 
-/* Smartphone */
-@media screen and (max-width: 767px) {
-    .container {
-        max-width: 100%;
-    }
+.button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: var(--bg-color-950);
+    border: 0.5px solid var(--color-txt-hover);
+    /* border-radius: 5px; */
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
 }
 
-form {
-    background-color: #12121fb9;    
-    padding: 2rem 1.5rem 3rem 1.5rem;
-    /* padding: 5vh 3vh 5vh 3vh; */
-    min-width: 100%;
-    border-radius: 15px;
-    /* filter: blur(80%); */
-    /* background-color: rgba(0, 78, 146, 0.253); */
-    
-    box-shadow:
-        0px 2.9px 7.8px 6px rgba(0, 0, 0, 0.18),
-        0px 6.3px 17.2px 6px rgba(0, 0, 0, 0.142),
-        0px 10.5px 28.8px 6px rgba(0, 0, 0, 0.124),
-        0px 15.9px 43.4px 6px rgba(0, 0, 0, 0.111),
-        0px 22.9px 62.6px 6px rgba(0, 0, 0, 0.1),
-        0px 32.4px 88.6px 6px rgba(0, 0, 0, 0.09),
-        0px 46px 125.7px 6px rgba(0, 0, 0, 0.08),
-        0px 66.8px 182.5px 6px rgba(0, 0, 0, 0.069),
-        0px 102.9px 281.3px 6px rgba(0, 0, 0, 0.056),
-        0px 183px 500px 6px rgba(0, 0, 0, 0.038);
+.button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
 }
 
-form .title-style {
-    font-family: "IBM Plex Sans", sans-serif;
+.button span {
     text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 14px 25px;
+    color: var(--color-txt-white);
+    /* font-size: 0.786em; */
+    font-size: var(--font-size-sss);
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
 }
 
-form button {
-    text-transform: uppercase;
-    font-family: "IBM Plex Sans Bold", sans-serif;
-    text-shadow: none;
-    letter-spacing: 2px;
+.button:hover span {
+    color: var(--color-txt-white);
+    animation: scaleUp 0.3s ease-in-out;
 }
 
-form input,
+input,
 textarea {
     text-shadow: none;
-    border-radius: 5px;
-    box-shadow: 1rem 0.5rem 1.5rem 0rem rgba(0, 0, 0, 0.637);
+    border-radius: 2px;
 }
 
 textarea {
     margin-top: 1rem;
     min-width: 100%;
-    min-height: 200px;
+    min-height: 150px;
 }
 
-button {
-    margin-top: 4rem;
-    width: 60%;
-    border-radius: 4px;
-    box-shadow: 1rem 0.5rem 1.5rem 0rem rgba(0, 0, 0, 0.637);
-    background: #ff0084;
-    color: white;
+.col-md-5{
+    text-shadow: 3px 3px 4px var(--bg-color-transp-dark);
 }
 
-button:hover {
-    background: #b1015c;
-    box-shadow: 1rem 0rem 1rem 0rem rgba(0, 0, 0, 0.637);
+.col-md-5 > h1{
+    color: var(--color-txt-hover);
+}
+
+.col-md-4 > p{
+    font-size: var(--font-size-ss);    
+}
+
+.col-md-4 > h1{
+    font-size: var(--font-size-sl);    
+}
+
+.col-md-4 > h5{
+    font-size: var(--font-size-ss);    
+}
+
+.g-3 > h3{    
+    font-weight: bold;
+}
+
+p > svg{
+    color: var(--color-txt-hover);
+    margin-right: 10px;
+    filter: drop-shadow(3px 3px 4px var(--color-txt-dark));
+}
+
+.box-contact > p{
+    font-size: var(--font-size-ssm);
+}
+
+iframe{
+    padding-top: 20px;
+    height: 40%;
+    width: 100%;    
+}
+
+/* windows */
+@media screen and (min-width: 1024px) {
+    
+}
+
+/* tables */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .row{
+        margin: var(--margin-article-s);
+        padding: var(--padding-article-s);
+    }
+}
+
+/* phone */
+@media screen and (max-width: 767px) {
+   
+    .col-md-4 > p{
+        font-size: var(--font-size-sm);    
+    }
+    
+    .col-md-4 > h1{
+        font-size: var(--font-size-ll);    
+    }
+    
+    .col-md-4 > h5{
+        font-size: var(--font-size-sl);    
+    }
+
+    .button span{
+        font-size: var(--font-size-ssl);
+    }
 }

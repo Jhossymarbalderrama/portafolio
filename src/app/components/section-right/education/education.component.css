@@ -1,5 +1,5 @@
 * {
-    font-family: "IBM Plex Sans Bold", sans-serif;
+    font-family: var(--font-txt-df);
     text-shadow: black 5px 5px 8px;
     
 }
@@ -29,7 +29,7 @@
 
 .col-md-4 ::before {
     z-index: -1 !important;
-    background-image: linear-gradient(90deg, #0084ff, #ff00c8);
+    background-image: linear-gradient(90deg, var(--bg-color-600), var(--color-txt-hover));
     content: '';
     position: absolute;
     top: -40%;
@@ -81,8 +81,8 @@ img{
 
 .card-body {    
     min-height: 15rem;
-    background: -webkit-linear-gradient(to right, #ff0084, #ff0084);
-    background: linear-gradient(to right, #ff0084, #ff0084);
+    background: -webkit-linear-gradient(to right, var(--color-txt-hover), var(--color-txt-hover));
+    background: linear-gradient(to right, var(--color-txt-hover), var(--color-txt-hover));
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }

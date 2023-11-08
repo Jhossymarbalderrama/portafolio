@@ -1,192 +1,103 @@
 * {
-    font-family: "IBM Plex Sans Bold", sans-serif;
-    text-shadow: black 5px 5px 8px;    
+    text-shadow: black 5px 5px 8px;
+    font-family: var(--font-txt-df);
 }
 
-.col{
-    text-align: left;
-}
-
-.content{    
-    text-align: left;    
-}
-
-.box-button{
+.container {
     width: 100%;
-    text-align: left;
+    height: 100vh;
 }
 
-.welcome-title{
-    font-size: 5.5vh;
-    letter-spacing: 2px;
+.container>section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.hello{
-    font-size: 3vh;
-    letter-spacing: 2px;
+section>article {
+    text-align: center;
+    font-family: var(--font-txt-df-arial);
 }
 
-.name{
-    font-size: 4.5vh;
+article>p {
+    margin: 0px;
+    padding: 0px;
 }
 
-.iam{
-    font-size: 3vh;
-    letter-spacing: 2px;
+.title {
+    display: block;
+    font-size: var(--font-size-ll);
+    color: var(--color-txt-light);
+    font-weight: bolder;
+    white-space: nowrap;
+    border-right: 8px solid;
+    width: 21ch;
+
+    animation: typing 2s steps(21),
+        blink .5s infinite step-end alternate;
+    overflow: hidden;
 }
 
-.developer{
-    display: none;
-}
-
-.fullstack{
-    display: none;
-}
-
-.developer-fullstack{
-    letter-spacing: 2px;
-    font-size: 4.5vh;
-}
-
-.font-color-custom{
-    color: #ff0084;
-}
-
-/* Desktop */
-@media screen and (min-width: 1024px) {
-    .container {
-        /* Arriba | Izquierda | Abajo | Derecha */
-        max-width: fit-content;        
-        margin: 10vh 0vh 0vh 25vh;
-    }
-
-    .font-style {
-        font-size: 5vmin;
-    }
-
-    .btn-position{
-        text-align: left;
+@keyframes typing {
+    from {
+        width: 0;
     }
 }
 
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .container {
-        max-width: fit-content;
-        margin: 10vh 0vh 0vh 15vh;
-    }
-
-    .btn-position{
-        text-align: left;
-    }
-}
-
-/* Smartphone */
-@media screen and (max-width: 767px) {
-    .container{
-        max-width: fit-content;
-        /* margin: 1vh 0vh 0vh 1vh; */  
-        background-color: #00000080; 
-    }
-
-    .box-content{
-        padding-bottom: 6vh;
-    }
-
-    .content{      
-        border-radius: 10px;
-        padding: 60px;  
-        text-align: center;
-        text-shadow: #f8f8f8 5px 3px 1px;  
-        text-transform: uppercase;  
-        letter-spacing: 2px;               
-    }
-
-    
-    .box-welcome{        
-        margin-top: 10px;
-        padding: 10px;        
-        border-radius: 5px;
-        text-align: center;
-        letter-spacing: 3px;
-        text-transform: uppercase;        
-    }
-    .welcome-title{
-        font-size: 2vh;
-    }
-
-    .hello{
-        font-size: 2.2vh;
-        letter-spacing: 10px;   
-        font-family: "IBM Plex Sans Semi", sans-serif;
-    }
-
-    .name{        
-        font-size: 4vh;       
-    }
-
-    .iam{
-        font-size: 1.5vh;
-        letter-spacing: 10px; 
-        font-family: "IBM Plex Sans Semi", sans-serif;
-    }
-
-    .developer{    
-        display: block;
-        font-size: 2vh;        
-    }
-
-    .fullstack{
-        display: block;
-        margin-top: -20px;        
-        font-size: 3.7vh;   
-        letter-spacing: 3px;     
-    }
-
-    .button{
-        margin-top: 35px;
-    }
-
-    .developer-fullstack{
-        display: none;
-    }
-}
-
-@keyframes scaleUp {
-    0% {
-        transform: scale(0.95);
-    }
-
+@keyframes blink {
     50% {
-        transform: scale(0.90);
-    }
-
-    100% {
-        transform: scale(1);
+        border-color: transparent;
     }
 }
 
-.button {    
+.subtitle {
+    font-weight: bold;
+    font-size: var(--font-size-sm);
+}
+
+.text {
+    font-weight: bolder;
+    font-size: var(--font-size-sl);
+}
+
+.subtitle>span {
+    color: var(--color-txt-hover);
+}
+
+hr {
+    background-color: white;
+    height: 2px;
+}
+
+.box-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    background: #ff0084;
-    font-family: "IBM Plex Sans Bold", sans-serif !important;
+    border-radius: 2px;
+    background: var(--color-txt-hover);
     box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     border: none;
     text-decoration: none;
-    width: 200px;
+    width: fit-content;
+    /* margin: 1vh 22vw; */
 }
 
 .button:after {
     content: " ";
     width: 0%;
     height: 100%;
-    background: #000428;
-    border: 0.5px solid #ff0084;
+    background: var(--bg-color-950);
+    border: 0.5px solid var(--color-txt-hover);
     border-radius: 5px;
     position: absolute;
     transition: all 0.4s ease-in-out;
@@ -204,9 +115,10 @@
     text-align: center;
     text-decoration: none;
     width: 100%;
-    padding: 18px 25px;
-    color: #fff;
-    font-size: 0.786em;
+    padding: 14px 25px;
+    color: var(--color-txt-white);
+    /* font-size: 0.786em; */
+    font-size: var(--font-size-sss);
     font-weight: 700;
     letter-spacing: 0.2em;
     z-index: 20;
@@ -214,7 +126,18 @@
 }
 
 .button:hover span {
-    color: white;
+    color: var(--color-txt-white);
     animation: scaleUp 0.3s ease-in-out;
 }
 
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+@media screen and (max-width: 767px) {
+    .title {
+        width: 22ch;
+        animation: typing 2s steps(22),
+    }
+}

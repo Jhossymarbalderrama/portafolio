@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--font-txt-df-arial);
+
+}
+
+article {
+    margin: var(--margin-article-m);
+    padding: var(--padding-article);
+}
+
+.col-md-4 {
+    padding: 4px 2px;
+}
+
+/* .col-md-4>span>img {    
+    width: 4.1vw;
+    height: 2.5vh;
+} */
+.col-md-4>span>img {
+    width: 4.1vw;
+    height: 2.5vh;
+    transition: 0.5s all ease;
+}
+
+.col-md-4 > span > img:hover{
+    transform: scale(1.2);
+}
+
+h1 {
+    font-size: var(--font-size-sl);
+}
+
+h3 {
+    font-size: var(--font-size-sm);
+}
+
+h5 {
+    font-size: var(--font-size-ssm) !important;
+}
+
+p {
+    font-size: var(--font-size-ssl);
+}
+
+.col-md-6>p {
+    font-size: var(--font-size-ssm);
+}
+
+.col-md-6>h5 {
+    font-size: var(--font-size-ss);
+}
+
+.col-md-6>h3 {
+    font-size: var(--font-size-ss);
+    font-weight: bold;
+}
+
+
+.box-header {
+    margin-bottom: 20px;
+}
+
+.box-header>.row>p {
+    margin-top: 10px;
+}
+
+.imgConfig {
+    width: 15vw;
+    height: 20vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: 100% 100%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.imgPetFoodPremium {
+    background-image: url("https://github.com/Jhossymarbalderrama/petfood/assets/52534649/2f2ddd18-b042-4433-9edb-91efed8f5843");
+}
+
+.imgTaskList {
+    background-image: url("https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/88880175-20a4-4a75-b91a-839ff340554b");
+}
+
+.imgWeather {
+    background-image: url("https://github.com/Jhossymarbalderrama/weather/assets/52534649/89125e9f-32c1-4548-b2fc-0375f56ee339");
+}
+
+.imgCalculator {
+    background-image: url("https://github.com/Jhossymarbalderrama/calculator_online/assets/52534649/64e0e110-4652-40c7-973e-28b691037fb6");
+}
+
+.imgClock {
+    background-image: url("https://github.com/Jhossymarbalderrama/clock_online/assets/52534649/4add1876-a1c3-4f15-b042-a243812c4285");
+}
+
+.imgPPT {
+    background-image: url("https://github.com/Jhossymarbalderrama/piedra_papel_tijera/assets/52534649/c35c65b9-6eaa-407a-a37d-c5abbcf0e6bd");
+}
+
+.imgPoloRun {
+    background-image: url("https://github.com/Jhossymarbalderrama/poloRun/assets/52534649/0d7b1258-3383-4b0d-8f94-8b026847a845");
+}
+
+.imgPetFoodPremium:hover,
+.imgTaskList:hover,
+.imgWeather:hover,
+.imgCalculator:hover,
+.imgClock:hover,
+.imgPPT:hover,
+.imgPoloRun:hover {
+    background-size: 100%;
+    background-position: 50% 20%;
+}
+
+
+.box-span {
+
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: .5s all ease;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-ssl);
+    font-weight: bolder;
+}
+
+.box-span>span {
+    display: none;
+}
+
+.box-span:hover {
+    background-color: var(--bg-color-transp-dark);
+}
+
+.box-span:hover>span {
+    display: block;
+    color: var(--color-txt-light);
+    text-shadow: 4px 4px 4px black;
+}
+
+.box-span>span>a {
+    font-weight: bolder;
+}
+
+.box-span>svg {
+    display: none;
+    position: absolute;
+    top: 28%;
+}
+
+.box-span:hover>svg {
+    display: block;
+}
+
+
+.hr-phone{
+    display: none;        
+} 
+
+@media screen and (min-width: 1024px) {
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .box>.row>.col-md-6 {
+        margin: 0.5rem 0rem;
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: var(--font-size-ml);
+    }
+    
+    h3 {
+        font-size: var(--font-size-mm);
+    }
+    
+    h5 {
+        font-size: var(--font-size-sm);
+    }
+
+    .col-md-6>p {
+        font-size: var(--font-size-ssl);
+    }
+
+    .col-md-6>h5 {
+        font-size: var(--font-size-sm);
+    }
+
+    .col-md-6>h3 {
+        font-size: var(--font-size-ss);
+        font-weight: bold;
+    }
+
+    .imgConfig {      
+        background-size: 100% 100% cover;
+        background-position: center;          
+        width: 97.5%;
+    }
+
+
+    .col-md-4>span>img {        
+        width: 100%;
+        transition: 0.5s all ease;
+    }
+
+    .col-md-4 > span > img:hover{
+        transform: scale(1.2);
+    }
+
+    .box-span>span>a {
+        font-size: var(--font-size-ssl);
+    }
+
+    .box-span>svg {        
+        top: 15%;
+        height: 4vw;
+    }
+
+    .row > .col-md-4 > span > img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .imgConfig {        
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .box>.row>.col-md-6 {
+        margin: 0.5rem 0rem;
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: var(--font-size-lm);
+    }
+    
+    h3 {
+        font-size: var(--font-size-ls);
+    }
+    
+    h5 {
+        font-size: var(--font-size-ms);
+    }
+
+    .col-md-6>p {
+        font-size: var(--font-size-sm);
+    }
+
+    .col-md-6>h5 {
+        font-size: var(--font-size-s);
+    }
+
+    .col-md-6>h3 {
+        font-size: var(--font-size-ms);
+        font-weight: bold;
+    }
+
+    .imgConfig {
+        width: 97.5%;
+    }
+
+    .hr-phone{
+        display: block;        
+    }    
+
+    .col-md-4>span>img {
+        width: 100%;
+        transition: 0.5s all ease;
+    }
+
+    .col-md-4 > span > img:hover{
+        transform: scale(1.2);
+    }
+
+    .box-span>span>a {
+        font-size: var(--font-size-ms);
+    }
+
+    .box-span>svg {        
+        top: 15%;
+        height: 8vw;
+    }
+}

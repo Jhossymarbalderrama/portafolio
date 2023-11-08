@@ -1,39 +1,23 @@
 * {
-    font-family: "IBM Plex Sans Bold", sans-serif;
-    text-shadow: black 5px 5px 8px;
+    font-family: var(--font-txt-df);
+    text-shadow: var(--color-txt-dark) 5px 5px 8px;
 }
 
-.row{
-    padding: 0vh 8vh 0vh 8vh;
+article{
+    margin: var(--margin-article-l);
+    padding: var(--padding-article-l);
 }
 
-/* Desktop */
-@media screen and (min-width: 1024px) {
-
+.h1 > a{
+    font-weight: bold;
 }
-
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .row{
-        padding: 0vh 6vh 0vh 6vh;
-    }
-}
-
-/* Smartphone */
-@media screen and (max-width: 767px) {
-    .row{
-        padding: 0vh;
-    }
-}
-
 
 .card {    
     position: relative;
-    height: 280px;
-    /* width: 380px; */
-    /* background: linear-gradient(to left, #000428, #004e92); */
-    box-shadow: 2px 2px 2px 2px black;
-    border: 6px solid #004e92;
+    z-index: 10;
+    height: 30vh;    
+    box-shadow: 2px 2px 2px 2px var(--color-txt-dark);
+    border: 3px solid var(--bg-color-600);
     cursor: pointer;
     border-radius: 0px;
 }
@@ -46,14 +30,56 @@
     overflow: hidden;
 }
 
-.img img:hover{
-    transition: 2.5s;
+.img-config{
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 1.5s all ease;
+}
+
+.certificateUdemy{       
+    background-image: url("../../../../assets/img/certificados/certificateUdemy.png");  
+}
+
+.certificateUdemy:hover{
     transform: scale(1.5);
 }
 
+.certificatePython{      
+    background-image: url("../../../../assets/img/certificados/certificatePython.png");
+}
+
+.certificatePython:hover{
+    transform: scale(1.5);
+}
+
+.certificateYoProgramo{     
+    background-image: url("../../../../assets/img/certificados/certificateYoProgramo.png");
+}
+
+.certificateYoProgramo:hover{
+    transform: scale(1.5);
+}
+
+.certificateSePrograma{      
+    background-image: url("../../../../assets/img/certificados/certificateSePrograma.png");
+}
+
+.certificateSePrograma:hover{
+    transform: scale(1.5);
+}
+
+.img img:hover{
+    transition: 2.5s;
+    transform: scale(1.3);
+}
+
 .card:hover {    
+    position: relative;
+    z-index: 999;
     transition: 0.7s;
-    transform: translate(0%, -20%);
+    transform: scale(1.2);
     overflow: hidden;
 }
 
@@ -61,3 +87,35 @@
     transition: 0.7s;
     transform: none;
 } 
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .row{
+        padding: 0vh;
+    }
+
+    .card {                
+        height: 25vh;    
+    }
+    article{
+        margin: var(--margin-article-s);
+        padding: var(--padding-article-s);
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 767px) {
+
+    .card {                
+        height: 25vh;    
+    }
+
+    .row{
+        padding: 0vh;
+    }
+}

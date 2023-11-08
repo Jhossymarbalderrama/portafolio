@@ -1,7 +1,6 @@
 *{
-    font-family: "IBM Plex Sans", sans-serif;
-    /* text-shadow: black 3px 3px 6px; */
-    color: white;
+    font-family: var(--font-txt-df);    
+    color: var(--color-txt-light);
 }
 
 .row{    

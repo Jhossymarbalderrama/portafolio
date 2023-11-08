@@ -1,34 +1,12 @@
 *{
-    color: white;  
-    font-size: 2.5vh;   
-    /* font-size: 2.2vh; */
-    /* text-transform: uppercase;    */
+    color: var(--color-txt-light);      
+    font-size: 1.8vh;   
+    font-family: var(--font-txt-df-semi-bold);
 }
 
 .first-item{
-    padding-top: 4vh;
+    padding-top: 10vh;
 } 
-
-/* Desktop */
-@media screen and (min-width: 1024px) {
-
-}
-
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .first-item{
-        position: relative;
-        top: -8vh;
-    } 
-}
-
-/* Smartphone */
-@media screen and (max-width: 767px) {   
-    .first-item{
-        position: relative;
-        top: -8vh;
-    } 
-}
 
 .nav__menu{    
     min-width: 100%;
@@ -43,25 +21,51 @@
     position: relative;
     top: 6vh;
     left: 3vh;
+    padding: 0.1rem 0rem;
 }
 
 .nav__item::after{
     content: "";
     display: block;    
-    background-color: #ff0084;   
+    background-color: var(--color-txt-hover);   
     width: 25vh;
     height: 3px;
     clip-path: var(--clippy);
-    transition: clip-path .5s;
+    transition: clip-path .5s;        
 }
 
-.nav__item:hover{    
-    color: #ff0084;
+.nav__item:hover, svg:hover{    
+    color: var(--color-txt-hover);
+    fill: var(--color-txt-hover);
     --clippy: polygon(100% 0, 0 0, 0 100%, 100% 100%);   
 }
 
-.focus-section{
-    color: #ff0084;
+.focus-section, svg{
+    color: var(--color-txt-hover);
+    fill: var(--color-txt-light);
     --clippy: polygon(100% 0, 0 0, 0 100%, 100% 100%);   
 }
+
+svg{
+    margin: 0px 10px 5px 0px;
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .first-item{
+        position: relative;
+        top: -8vh;
+    } 
+}
+
+@media screen and (max-width: 767px) {   
+    .first-item{
+        position: relative;
+        top: -8vh;
+    } 
+}
+
 
