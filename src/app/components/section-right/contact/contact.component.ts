@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/services/auth.service';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent {
+export class ContactComponent implements OnInit{
 
   dataContact: any = {
     es:{
@@ -24,6 +25,11 @@ export class ContactComponent {
         message: "Mensaje",
         placeMessage: "mensaje",
       },
+      contact: {
+        email: "jhossymarbalderrama@gmail.com",
+        phone: "+54 9 11 6307-9082",
+        location: "Avellaneda, Buenos Aires - Argentina"
+      },
       button: "Enviar"
     },
     en:{
@@ -38,8 +44,13 @@ export class ContactComponent {
         placeMail: "enter a mail",
         subject: "Subject",
         placeSubject: "enter a subject",
-        message: "Mensaje",
+        message: "Message",
         placeMessage: "message"
+      },
+      contact: {
+        email: "jhossymarbalderrama@gmail.com",
+        phone: "+54 9 11 6307-9082",
+        location: "Avellaneda, Buenos Aires - Argentina"
       },
       button: "Send"
     },
@@ -55,17 +66,36 @@ export class ContactComponent {
         placeMail: "enter a mail",
         subject: "Subject",
         placeSubject: "enter a subject",
-        message: "Mensaje",
+        message: "Message",
         placeMessage: "message"
+      },
+      contact: {
+        email: "jhossymarbalderrama@gmail.com",
+        phone: "+54 9 11 6307-9082",
+        location: "Avellaneda, Buenos Aires - Argentina"
       },
       button: "Send"
     }
   }
 
   data: any = {};
+  formContact!: FormGroup;
 
-  constructor(public auth: AuthService) {
+  constructor(public auth: AuthService, private FormBuilder: FormBuilder) {
 
+  }
+
+  ngOnInit(): void {
+      try {
+        this.formContact = this.FormBuilder.group({
+          'name': ['', [Validators.required]],
+          'mail': ['', [Validators.required, Validators.email]],
+          'subject': ['',[Validators.required]],
+          'message': ['',[Validators.required]],
+        });
+      } catch (e) {
+        console.log(e);        
+      }
   }
 
   changeLanguaje() : boolean{
@@ -77,5 +107,11 @@ export class ContactComponent {
       this.data = this.dataContact.br;
     }
     return true;
+  }
+
+  sendContact(): void{
+    if(this.formContact){
+      this.formContact.reset();
+    }
   }
 }

@@ -49,10 +49,10 @@ export class AboutComponent {
       email: this.email,
       location: this.location,
       btn: "Download CV",
-      description: ["Hello, my name is Jhossymar or also tell me Jhossy, I am 25 years old and I'm from Avellaneda.",
-                    "My training was always about technology, when I finished my secondary studies I had the opportunity to go as an intern to a software development company, there I could expand my knowledge about the programming and the development of applications for different platforms.",
-                    "In 2019, I began to expand even more when entering the career of university technology in programming in Avellaneda UTN-FRA from Avellaneda."],
-      phrase: "“ My goal is to highlight in the contribution of high quality software development in backend or frontend profiles ”"
+      description: ["Olá, meu nome é Jhossymar ou diga-me também Jhossy, tenho 25 anos e sou de Avellaneda.",
+                    "Minha formação sempre foi voltada para tecnologia, ao terminar o ensino médio tive a oportunidade de estagiar em uma empresa de desenvolvimento de software, onde pude ampliar meus conhecimentos sobre programação e desenvolvimento de aplicações para diversas plataformas.",
+                    "Em 2019 comecei a me expandir ainda mais ingressando na carreira universitária em tecnologia de programação na UTN-FRA Avellaneda de Avellaneda."],
+      phrase: "“ Meu objetivo é destacar a contribuição do desenvolvimento de software de alta qualidade em perfis backend ou frontend ”"
     }
   }
 

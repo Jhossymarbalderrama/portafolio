@@ -46,6 +46,11 @@ export class ProjectComponent {
         title: "Reloj",
         subtitle: "Web",
         description: "Un sitio web simple que muestra la hora local, desarrollada en JS, HTML y CSS."
+      },
+      portfolio:{
+        title: "Portafolio",
+        subtitle: "Web",
+        description: "Mi portafolio web desarrollado en Angular."
       }
     },
     en:{
@@ -86,46 +91,56 @@ export class ProjectComponent {
         title: "Clock",
         subtitle: "Web",
         description: "A simple website showing the local time, developed in JS, HTML and CSS."
+      },
+      portfolio:{
+        title: "Portfolio",
+        subtitle: "Web",
+        description: "my web portfolio developed in Angular."
       }
     },
     br:{
-      title: "Projects",
-      subtitle: "Blog",
-      description: "The following projects are available in my github repository.",
+      title: "Projetos",
+      subtitle: "Blogue",
+      description: "Os seguintes projetos estão disponíveis em meu repositório github.",
       petfoodpremium: {
         title: "Pet Food Premium",
         subtitle: "Web Full Stack",
-        description: "Website dedicated to pet food distributors."
+        description: "Site dedicado aos distribuidores de alimentos para animais de estimação."
       },
       tasklist: {
         title: "Task List",
         subtitle: "Web",
-        description: "A dedicated website to save your daily personal tasks."
+        description: "Um site dedicado para salvar suas tarefas pessoais diárias."
       },
       weather: {
         title: "Weather",
         subtitle: "Web",
-        description: "Website to consult the climate of the Avellaneda area (Buenos Aires)."
+        description: "Site para verificar o clima da região de Avellaneda (Buenos Aires)."
       },
       polorun: {
         title: "Polo Run",
         subtitle: "Game",
-        description: "Survival game, developed in JS, HTML and CSS."
+        description: "Jogo de sobrevivência, desenvolvido em JS, HTML e CSS."
       },
       stonepaperscissors: {
         title: "Stone Paper Scissors",
         subtitle: "Game",
-        description: "Stone, paper and scissors, developed in JS, HTML and CSS."
+        description: "Pedra, papel, tesoura, desenvolvido em JS, HTML e CSS."
       },
       calculator: {
         title: "Calculator",
         subtitle: "Web",
-        description: "Online calculator that solves basic mathematical problems, developed in JS, HTML and CSS."
+        description: "Calculadora online que resolve problemas matemáticos básicos, desenvolvida em JS, HTML e CSS."
       },
       clock: {
         title: "Clock",
         subtitle: "Web",
-        description: "A simple website showing the local time, developed in JS, HTML and CSS."
+        description: "Um site simples que mostra a hora local, desenvolvido em JS, HTML e CSS."
+      },
+      portfolio:{
+        title: "Portfolio",
+        subtitle: "Web",
+        description: "my web portfolio developed in Angular."
       }
     }
   }
