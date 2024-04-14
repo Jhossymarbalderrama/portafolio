@@ -1,5 +1,6 @@
 * {
-    font-family: var(--font-txt-df-arial);
+    /* font-family: var(--font-txt-df-arial); */
+    font-family: var(--font-txt-df);
     /* text-shadow: 2px 2px 2px var(--color-txt-dark);         */
 }
 
@@ -37,7 +38,7 @@
 .box-img::after {
     content: '';
     position: absolute;
-    background-image: var(--bg-img-sky);
+    background-image: var(--bg-img-sky-profile);
     background-repeat: no-repeat;
     background-size: cover;
     inset: 5px;
