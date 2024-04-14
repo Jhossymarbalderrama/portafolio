@@ -154,7 +154,7 @@
     --color-photoshop: #1c66ce;
     --color-npm: #df144d;
     --color-boostrap: #7942d8;
-
+    --color-tailwind: #00b7c4;
 
     --bg-color-transp-pink: #ff00848f;
     --bg-color-transp-blue: #0077ff88;
@@ -173,29 +173,36 @@
     --bg-color-900: #0e0e0e;
     --bg-color-950: #000000;
 
-    /* Images */
-    --bg-img-sky: url('./assets/img/backgrounds/bg18.png');
-    --bg-img-notebook: url('./assets/img/backgrounds/bg1.png');
-    /* --bg-img-earth: url('./assets/img/backgrounds/bg9.png'); */
-    --bg-img-earth: url('./assets/img/backgrounds/bg33.png');
-    --bg-img-moon: url('./assets/img/backgrounds/bg40.png');
-    /* --bg-img-contact: url('./assets/img/backgrounds/bg15.png'); */
-    --bg-img-profile: url('./assets/img/perfil.png');
+    /* ? Fondos*/
+    --bg-img-notebook: url('./assets/img/backgrounds/bg1.webp');
+    --bg-img-moon: url('./assets/img/backgrounds/bg4.webp');
+    --bg-img-earth: url('./assets/img/backgrounds/bg3.webp');
+    --bg-img-sky: url('./assets/img/backgrounds/bg2.webp');
+
+    /* ? Perfil*/
+    --bg-img-profile: url('./assets/img/perfil.webp');
 
     /* --bg-img-profile2: url('./assets/img/perfil_2.png'); */
 
-    --img-flag-es: url('./assets/img/languajes/es-flag.png');
-    --img-flag-c-es: url('./assets/img/languajes/es.png');
+    /* ? Lenguajes */
+    --img-flag-es: url('./assets/img/languajes/es-flag.webp');
+    --img-flag-c-es: url('./assets/img/languajes/es.webp');
 
-    --img-flag-uk: url('./assets/img/languajes/uk-flag.png');
-    --img-flag-c-uk: url('./assets/img/languajes/uk.png');
+    --img-flag-uk: url('./assets/img/languajes/uk-flag.webp');
+    --img-flag-c-uk: url('./assets/img/languajes/uk.webp');
 
-    --img-flag-eu: url('./assets/img/languajes/eeuu-flag.png');
-    --img-flag-c-eu: url('./assets/img/languajes/eeuu.png');
+    --img-flag-eu: url('./assets/img/languajes/eeuu-flag.webp');
+    --img-flag-c-eu: url('./assets/img/languajes/eeuu.webp');
 
-    --img-flag-br: url('./assets/img/languajes/br-flag.png');
-    --img-flag-c-br: url('./assets/img/languajes/br.png');
+    --img-flag-br: url('./assets/img/languajes/br-flag.webp');
+    --img-flag-c-br: url('./assets/img/languajes/br.webp');
 
+    /* ? Certificados */
+
+    --bg-img-certificado-1: url('./assets/img/certificados/certificateUdemy.webp');
+    --bg-img-certificado-2: url('./assets/img/certificados/certificatePython.webp');
+    --bg-img-certificado-3: url('./assets/img/certificados/certificateYoProgramo.webp');
+    --bg-img-certificado-4: url('./assets/img/certificados/certificateSePrograma.webp');
 }
 
 html {

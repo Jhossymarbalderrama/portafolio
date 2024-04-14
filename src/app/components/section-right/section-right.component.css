@@ -21,7 +21,7 @@ html {
     var(--bg-img-notebook);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center;    
 }
 
 .about {
@@ -41,11 +41,12 @@ html {
     max-width: 100%;
     min-height: auto;     
     background: linear-gradient(#00000098, #00000070),
-    var(--bg-img-moon);
+    var(--bg-img-earth);
 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -56,6 +57,7 @@ html {
     var(--bg-img-sky);   
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .certificate {
@@ -71,9 +73,11 @@ html {
     /* background: linear-gradient(#00000098, #00000070),
     var(--bg-img-contact); */
     background: linear-gradient(#00000098, #00000070),
-    var(--bg-img-earth);   
+    var(--bg-img-moon);   
     background-repeat: no-repeat;
     background-size: cover;
+    
+    background-attachment: fixed;
 }
 
 /* .footer {

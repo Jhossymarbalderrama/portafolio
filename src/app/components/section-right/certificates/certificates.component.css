@@ -39,7 +39,7 @@ article{
 }
 
 .certificateUdemy{       
-    background-image: url("../../../../assets/img/certificados/certificateUdemy.png");  
+    background-image: var(--bg-img-certificado-1);  
 }
 
 .certificateUdemy:hover{
@@ -47,7 +47,7 @@ article{
 }
 
 .certificatePython{      
-    background-image: url("../../../../assets/img/certificados/certificatePython.png");
+    background-image: var(--bg-img-certificado-2);
 }
 
 .certificatePython:hover{
@@ -55,7 +55,7 @@ article{
 }
 
 .certificateYoProgramo{     
-    background-image: url("../../../../assets/img/certificados/certificateYoProgramo.png");
+    background-image: var(--bg-img-certificado-3);
 }
 
 .certificateYoProgramo:hover{
@@ -63,7 +63,7 @@ article{
 }
 
 .certificateSePrograma{      
-    background-image: url("../../../../assets/img/certificados/certificateSePrograma.png");
+    background-image: var(--bg-img-certificado-4);
 }
 
 .certificateSePrograma:hover{

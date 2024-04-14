@@ -1,5 +1,6 @@
 * {
-    font-family: var(--font-txt-df-arial);
+    /* font-family: var(--font-txt-df-arial); */
+    font-family: var(--font-txt-df);
     text-shadow: var(--color-txt-dark) 4px 1px 4px;
 }
 
@@ -144,6 +145,10 @@
 
 .boostrap:hover{
     box-shadow: 3px 3px 3px 3px var(--color-boostrap);
+}
+
+.tailwind:hover{
+    box-shadow: 3px 3px 3px 3px var(--color-tailwind);
 }
 
 .cuadro:not(:hover) {
