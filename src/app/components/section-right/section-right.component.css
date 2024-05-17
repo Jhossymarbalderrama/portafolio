@@ -40,7 +40,9 @@ html {
     min-width: 100%;
     max-width: 100%;
     min-height: auto;     
-    background: linear-gradient(#00000098, #00000070),
+    /* background: linear-gradient(#00000098, #00000070),
+    var(--bg-img-earth); */
+    background: linear-gradient(#000000bd, #00000091),
     var(--bg-img-earth);
 
     background-repeat: no-repeat;

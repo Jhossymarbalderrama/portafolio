@@ -36,6 +36,7 @@ article{
     background-repeat: no-repeat;
     background-size: contain;
     transition: 1.5s all ease;
+    /* object-fit: scale-down; */
 }
 
 .certificateUdemy{       

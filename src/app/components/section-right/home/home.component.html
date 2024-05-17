@@ -2,26 +2,19 @@
   <section>
     <article *ngIf="auth.languajeSelect ? changeLanguaje() : changeLanguaje()">
       <p class="subtitle" data-aos="fade-up" data-aos-duration="1500"> 
-        {{data.presentationH}} 
-        <span class="text">
-          {{data.firstName}} {{data.lastName}}
-        </span>
+        {{ data.presentationH }} 
+        <span class="text">{{ data.firstName }} {{ data.lastName }}</span>
       </p>
-      <hr style="margin:5px 10%;">
-      <p class="title">{{data.title}}</p>
-      <hr style="margin:5px 15%;">
-      <p class="subtitle" data-aos="fade-up" data-aos-duration="1500">{{data.presentationF}} <span class="text">{{data.profesion}}</span></p>     
+      <hr style="margin: 5px 10%;">
+      <p class="title">{{ data.title }}</p>
+      <hr style="margin: 5px 15%;">
+      <p class="subtitle" data-aos="fade-up" data-aos-duration="1500">{{ data.presentationF }} <span class="text">{{ data.profesion }}</span></p>     
 
       <div class="box-btn">
         <a href="#contact" class="button mt-4" title="contáctame">
-          <span>
-            <a class="text-light" style="text-decoration: none">
-              <a>{{data.btn}}</a>            
-            </a>
-          </span>
+          <span class="text-light">{{ data.btn }}</span>
         </a>
-      </div>
-      
+      </div>      
     </article>
   </section>
 </div>

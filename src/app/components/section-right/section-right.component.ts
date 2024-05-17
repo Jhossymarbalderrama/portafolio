@@ -108,6 +108,7 @@ export class SectionRightComponent implements OnInit{
     }else{
       btnToTop?.classList.remove('icon-up')
     }
+    
   }
 
   removeClassFocusInMenu():void{
@@ -128,7 +129,7 @@ export class SectionRightComponent implements OnInit{
     mProject?.classList.remove(nameClass);
     mSkills?.classList.remove(nameClass);
     mCertificate?.classList.remove(nameClass);
-    mContact?.classList.remove(nameClass);    
+    mContact?.classList.remove(nameClass);        
   }  
 
 
@@ -141,5 +142,15 @@ export class SectionRightComponent implements OnInit{
       this.data = this.dataSection.br;
     }
     return true;
+  }
+
+  viewNav(){
+    const btn = document.getElementById('navbarsExample01');
+    if(btn?.classList.contains('collapse')){
+      btn?.classList.remove('collapse');
+      btn?.classList.remove('show');
+    }else{
+      btn?.classList.add('collapse');
+    }
   }
 }

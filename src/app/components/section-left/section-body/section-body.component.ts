@@ -39,7 +39,7 @@ export class SectionBodyComponent {
       skill: "skill",
       certificate: "certificados",
       contact: "contato"
-    }    
+    }
   }
 
   data: any = {};
@@ -49,14 +49,23 @@ export class SectionBodyComponent {
   }
 
 
-  changeLanguaje() : boolean{
-    if(this.auth.languajeSelect == 'es'){
+  changeLanguaje(): boolean {
+    if (this.auth.languajeSelect == 'es') {
       this.data = this.dataMenu.es;
-    }else if(this.auth.languajeSelect == 'en'){
+    } else if (this.auth.languajeSelect == 'en') {
       this.data = this.dataMenu.en;
-    }else{
+    } else {
       this.data = this.dataMenu.br;
     }
     return true;
+  }
+
+
+  closeMenu() {
+    const btn = document.getElementById('navbarsExample01');
+
+    btn?.classList.add('collapse');
+    btn?.classList.add('navbar-collapse');
+    
   }
 }
