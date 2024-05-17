@@ -59,7 +59,7 @@ export class ProjectComponent {
           description: "Tienda Online full stack, desarrollada en angular, spring boot, mysql.",
           urlWeb:'https://e-commerce-ac291.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front',
-          img: "https://private-user-images.githubusercontent.com/52534649/330834348-c29e4dbb-fbb6-4d91-8fb1-bc1732769c57.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU5NjE1MDQsIm5iZiI6MTcxNTk2MTIwNCwicGF0aCI6Ii81MjUzNDY0OS8zMzA4MzQzNDgtYzI5ZTRkYmItZmJiNi00ZDkxLThmYjEtYmMxNzMyNzY5YzU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE3VDE1NTMyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE5NmQ2N2EwNWU1YTI1NWVhZTVhMjE4NDFhYWU1NDUyMjIyMmVjZWU4YTM4NjRjNTRlMDA1MzViZTBhNTNjNjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.E0_7rHdK-Dm0AIwmm3s02QI7fNQF4PYxgbqxnIJBofg",
+          img: "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/c29e4dbb-fbb6-4d91-8fb1-bc1732769c57",
           technologies: [
             this.tools.angular,
             this.tools.springBoot,
