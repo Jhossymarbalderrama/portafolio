@@ -1,11 +1,12 @@
 * {
-    font-family: var(--font-txt-df);    
+    font-family: var(--font-txt-df-thin);    
     text-shadow: 3px 3px 6px black;
 }
 
 .row{
     margin: var(--margin-article-s);
     padding: var(--padding-article-s);
+    color: var(--color-txt-light-fv);
 }
 
 .button {    
@@ -102,7 +103,7 @@ textarea {
 p > svg{
     color: var(--color-txt-hover);
     margin-right: 10px;
-    filter: drop-shadow(3px 3px 4px var(--color-txt-dark));
+    filter: drop-shadow(3px 3px 4px var(--color-txt-dark-fv));
 }
 
 .box-contact > p{

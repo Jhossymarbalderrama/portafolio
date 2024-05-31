@@ -1,9 +1,10 @@
 <app-languajes></app-languajes>
 
-<article id="box-profile" *ngIf="auth.languajeSelect == 'es' ? changeLanguaje() : changeLanguaje()">
+<article id="box-profile" *ngIf="auth.languajeSelect == 'es' ? changeLanguaje() : changeLanguaje()" class="pt-1">
   <div class="title" align="center">
-    <p class="font-style texto-escritura content" style="font-size: 1.8vh">
-      <a>{{data.title}}</a>
+    <p class="font-style texto-escritura content" style="font-size: 1.8vh;">
+      <!-- <a>{{data.title}}</a> -->
+      <a>{{data.description}}</a>
     </p>
   </div>
 
@@ -21,8 +22,8 @@
     <p class="content" style="font-size: 1.7vh">
       <a>{{data.lastName}}</a>
     </p>
-    <p class="font-style texto-escritura" style="font-size: 1.6vh">
+    <!-- <p class="font-style texto-escritura" style="font-size: 1.6vh">
       <a>{{data.description}}</a>
-    </p>
+    </p> -->
   </div>
 </article>

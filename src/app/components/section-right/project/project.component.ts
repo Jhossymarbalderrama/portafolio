@@ -23,7 +23,7 @@ export class ProjectComponent {
     es: {
       title: "Proyectos",
       subtitle: "Blog",
-      description: "Los siguientes proyectos están disponibles en mi repositorio de Github.",
+      description: "Los siguientes proyectos están disponibles en mi repositorio de ",
       projects: [        
         {
           title: "Portafolio",
@@ -135,7 +135,7 @@ export class ProjectComponent {
           description: "Full stack online store, developed in angular, spring boot, mysql.",
           urlWeb:'https://e-commerce-ac291.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front',
-          img: "https://private-user-images.githubusercontent.com/52534649/330834348-c29e4dbb-fbb6-4d91-8fb1-bc1732769c57.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU5NjE1MDQsIm5iZiI6MTcxNTk2MTIwNCwicGF0aCI6Ii81MjUzNDY0OS8zMzA4MzQzNDgtYzI5ZTRkYmItZmJiNi00ZDkxLThmYjEtYmMxNzMyNzY5YzU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE3VDE1NTMyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE5NmQ2N2EwNWU1YTI1NWVhZTVhMjE4NDFhYWU1NDUyMjIyMmVjZWU4YTM4NjRjNTRlMDA1MzViZTBhNTNjNjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.E0_7rHdK-Dm0AIwmm3s02QI7fNQF4PYxgbqxnIJBofg",
+          img: "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/c29e4dbb-fbb6-4d91-8fb1-bc1732769c57",
           technologies: [
             this.tools.angular,
             this.tools.springBoot,
@@ -171,83 +171,7 @@ export class ProjectComponent {
           ]
         },        
       ]
-    },
-    br: {
-      title: "Projetos",
-      subtitle: "Blogue",
-      description: "Os seguintes projetos estão disponíveis em meu repositório github.",
-      projects: [        
-        {
-          title: "Portfólio",
-          subtitle: "Web",
-          description: "Mi portafolio web desarrollado en Angular.",
-          urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
-          img:'https://github.com/Jhossymarbalderrama/TP-ClinicaOnline/assets/52534649/47597276-0688-4e0f-82d4-25fc4606c6e3',
-          technologies: [
-            this.tools.angular,
-            this.tools.bootstrap,
-            this.tools.firebase
-          ]
-        },
-        {
-          title: "Pet Food Premium",
-          subtitle: "Web Full Stack",
-          description: "Site dedicado aos distribuidores de alimentos para animais de estimação.",
-          urlWeb: 'https://pet-food-premium-jbr.web.app/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front',
-          img: 'https://github.com/Jhossymarbalderrama/petfood/assets/52534649/2f2ddd18-b042-4433-9edb-91efed8f5843',
-          technologies: [
-            this.tools.angular,
-            this.tools.nodejs,
-            this.tools.bootstrap,
-            this.tools.mysql,
-            this.tools.apiRest
-          ]
-        },
-        {
-          title: "Apex Store",
-          subtitle: "Web Full Stack",
-          description: "Loja online full stack, desenvolvida em angular, spring boot, mysql.",
-          urlWeb:'https://e-commerce-ac291.web.app/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front',
-          img: "https://private-user-images.githubusercontent.com/52534649/330834348-c29e4dbb-fbb6-4d91-8fb1-bc1732769c57.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU5NjE1MDQsIm5iZiI6MTcxNTk2MTIwNCwicGF0aCI6Ii81MjUzNDY0OS8zMzA4MzQzNDgtYzI5ZTRkYmItZmJiNi00ZDkxLThmYjEtYmMxNzMyNzY5YzU3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE3VDE1NTMyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE5NmQ2N2EwNWU1YTI1NWVhZTVhMjE4NDFhYWU1NDUyMjIyMmVjZWU4YTM4NjRjNTRlMDA1MzViZTBhNTNjNjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.E0_7rHdK-Dm0AIwmm3s02QI7fNQF4PYxgbqxnIJBofg",
-          technologies: [
-            this.tools.angular,
-            this.tools.springBoot,
-            this.tools.tailwindCSS,
-            this.tools.firebase,
-            this.tools.mysql
-          ]
-        },
-        {
-          title: "Clima",
-          subtitle: "Web",
-          description: "Site para verificar a previsão do tempo na região de Avellaneda (Buenos Aires)",
-          urlWeb:'https://weather-jbr.web.app/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/weather',
-          img:'https://github.com/Jhossymarbalderrama/weather/assets/52534649/89125e9f-32c1-4548-b2fc-0375f56ee339',
-          technologies: [
-            this.tools.angular,
-            this.tools.firebase,
-            this.tools.bootstrap,
-            this.tools.apiRest
-          ]
-        },        
-        {
-          title: "Lista de afazeres",
-          subtitle: "Web",
-          description: "Um site dedicado para salvar suas tarefas pessoais diárias.",
-          urlWeb:'https://jhossymarbalderrama.github.io/tasksList/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/tasksList',
-          img: 'https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/88880175-20a4-4a75-b91a-839ff340554b',
-          technologies: [
-            this.tools.angular,
-            this.tools.bootstrap
-          ]
-        },        
-      ]
-    }
+    }    
   }
 
   data: any = {};
@@ -259,20 +183,18 @@ export class ProjectComponent {
   changeLanguaje(): boolean {
     if (this.auth.languajeSelect == 'es') {
       this.data = this.dataProject.es;
-    } else if (this.auth.languajeSelect == 'en') {
+    } else{
       this.data = this.dataProject.en;
-    } else {
-      this.data = this.dataProject.br;
-    }
+    } 
+
     return true;
   }
 
   getProjectsLanguaje(): any{
     if (this.auth.languajeSelect == 'es') {
       return this.dataProject.es.projects;
-    } else if (this.auth.languajeSelect == 'en') {
+    } else{
       return this.dataProject.en.projects;
     } 
-    return this.dataProject.br.projects;
   }
 }

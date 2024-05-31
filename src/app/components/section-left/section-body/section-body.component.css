@@ -1,7 +1,7 @@
 *{
+    font-family: var(--font-txt-df-semibold);
     color: var(--color-txt-light);      
     font-size: 1.8vh;   
-    font-family: var(--font-txt-df-semi-bold);
 }
 
 .first-item{
@@ -34,20 +34,25 @@
     transition: clip-path .5s;        
 }
 
-.nav__item:hover, svg:hover{    
+.nav__item i{
+    font-size: 1.1rem;
+}
+
+.nav__item:hover, i:hover{    
     color: var(--color-txt-hover);
     fill: var(--color-txt-hover);
     --clippy: polygon(100% 0, 0 0, 0 100%, 100% 100%);   
 }
 
-.focus-section, svg{
+.focus-section{
     color: var(--color-txt-hover);
     fill: var(--color-txt-light);
     --clippy: polygon(100% 0, 0 0, 0 100%, 100% 100%);   
 }
 
-svg{
-    margin: 0px 10px 5px 0px;
+i{
+    margin: 0px 10px 8px 0px;
+    width: 1.3rem;    
 }
 
 @media screen and (min-width: 1024px) {

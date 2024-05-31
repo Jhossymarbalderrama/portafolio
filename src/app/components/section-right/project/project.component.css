@@ -1,17 +1,14 @@
 * {
+    font-family: var(--font-txt-df-regular);
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    font-family: var(--font-txt-df);
     text-shadow: 4px 2px 5px black;
-
 }
 
 article {
-    /* margin: var(--margin-article-m);
-    padding: var(--padding-article); */
     margin: var(--margin-article-m);
-    /* padding: var(--padding-article); */
+    color: var(--color-txt-light-fv);
 }
 
 
@@ -22,6 +19,7 @@ h1 {
 }
 
 h3 {
+    font-family: var(--font-txt-df-semibold);
     font-size: var(--font-size-ss);
 }
 
@@ -69,6 +67,10 @@ p {
     object-fit:scale-down;    
 }
 
+.project-details{
+    font-family: var(--font-txt-df-thin);
+}
+
 .hover-overlay {
     position: absolute;
     top: 0;
@@ -94,7 +96,7 @@ p {
     align-items: center;
     
     background-color: #003470e7 !important;
-    color: white;
+    color: var(--color-txt-light-fv);
     padding: 15px 25px;
     font-size: 18px;
     font-weight: bold;

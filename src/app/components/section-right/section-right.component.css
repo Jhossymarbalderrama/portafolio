@@ -17,7 +17,8 @@ html {
 
 .home {
     min-height: 100vh;
-    background: linear-gradient(#00000098, #00000070),
+    /* background: linear-gradient(#00000098, #00000070), */
+    background: linear-gradient(var(--bg-gradient-1), var(--bg-gradient-2)),
     var(--bg-img-notebook);
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,9 +117,13 @@ html {
 }
 
 .back-to-top span {
-    color: var(--color-txt-light);
+    color: var(--color-txt-light);    
     /* font-size: 1rem; */
     transition: 0.2s ease-out;
+}
+
+.back-to-top span svg{
+    fill: var(--color-txt-light-fv);
 }
 
 .back-to-top:hover {    

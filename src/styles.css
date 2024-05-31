@@ -1,88 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+
 @font-face {
-    font-family: "IBM Plex Sans Bold";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-Bold.ttf")
+    font-family: "Outfit Thin";
+    src: url("../src/assets/font/Outfit/Outfit-Thin.ttf")
 }
 
 @font-face {
-    font-family: "IBM Plex Sans Bold Italic";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-BoldItalic.ttf")
+    font-family: "Outfit Regular";
+    src: url("../src/assets/font/Outfit/Outfit-Regular.ttf")
 }
 
 @font-face {
-    font-family: "IBM Plex Sans Extra Light";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-ExtraLight.ttf")
+    font-family: "Outfit Medium";
+    src: url("../src/assets/font/Outfit/Outfit-Medium.ttf")
 }
 
 @font-face {
-    font-family: "IBM Plex Sans Extra Light Italic";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.ttf")
+    font-family: "Outfit Bold";
+    src: url("../src/assets/font/Outfit/Outfit-Bold.ttf")
 }
 
 @font-face {
-    font-family: "IBM Plex Sans Italic";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-Italic.ttf")
+    font-family: "Outfit SemiBold";
+    src: url("../src/assets/font/Outfit/Outfit-SemiBold.ttf")
 }
 
-@font-face {
-    font-family: "IBM Plex Sans Light";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-Light.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans Light Italic";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-LightItalic.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans Medium";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-Medium.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans Medium Italic";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-MediumItalic.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-Regular.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans Semi Bold";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans Bold Italic";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-BoldItalic.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans Semi Bold Italic";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans Thin";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-Thin.ttf")
-}
-
-@font-face {
-    font-family: "IBM Plex Sans Thin Italic";
-    src: url("../src/assets/font/IBM_Plex_Sans/IBMPlexSans-ThinItalic.ttf")
-}
 
 :root {
     /* Fonts */
-    --font-txt-df: "IBM Plex Sans", sans-serif;
-    --font-txt-df-bold: "IBM Plex Sans Bold", sans-serif;
-    --font-txt-df-italic: "IBM Plex Sans Italic", sans-serif;
-    --font-txt-df-bold-italic: "IBM Plex Sans Bold Italic", sans-serif;
-    --font-txt-df-semi-bold: "IBM Plex Sans Semi Bold", sans-serif;
-    --font-txt-df-arial: Arial, Helvetica, sans-serif;
-    --font-txt-df-verdana: Verdana, sans-serif;
+    --font-txt-df: "Outfit Regular", sans-serif;
+    --font-txt-df-thin: "Outfit Thin", sans-serif;
+    --font-txt-df-medium: "Outfit Medium", sans-serif;
+    --font-txt-df-bold: "Outfit Bold", sans-serif;
+    --font-txt-df-semi-bold: "Outfit SemiBold", sans-serif;
+
     /* TITLE
         CLASS{ h3} 
         h2
@@ -122,9 +72,12 @@
     --margin-article-l: 0% 15%;
 
 
+
     /* Colors */
     --color-txt-light: white;
     --color-txt-dark: black;
+    --color-txt-light-fv: white;
+    --color-txt-dark-fv: black;
     --color-txt-hover: #0077ff;
     /*0059ff , 0099ff*/
     --color-txt-pink: #FF0084;
@@ -173,6 +126,10 @@
     --bg-color-900: #0e0e0e;
     --bg-color-950: #000000;
 
+    --bg-gradient-1: #00000098;
+    --bg-gradient-2: #00000070;
+    /* !---------------- URL IMAGENES -------------------------- */
+
     /* ? Fondos*/
     --bg-img-notebook: url('./assets/img/backgrounds/bg1.webp');
     --bg-img-moon: url('./assets/img/backgrounds/bg4.webp');
@@ -181,8 +138,9 @@
     --bg-img-sky-profile: url('./assets/img/backgrounds/bg-0.webp');
 
     /* ? Perfil*/
-    --bg-img-profile: url('./assets/img/perfil.webp');
-
+    /* --bg-img-profile: url('./assets/img/perfil.webp'); */
+    --bg-img-profile: url('./assets/img/profile.webp');
+    --bg-img-about-profile: url('./assets/img/about-profile.webp');
     /* --bg-img-profile2: url('./assets/img/perfil_2.png'); */
 
     /* ? Lenguajes */
@@ -199,11 +157,40 @@
     --img-flag-c-br: url('./assets/img/languajes/br.webp');
 
     /* ? Certificados */
-
     --bg-img-certificado-1: url('./assets/img/certificados/certificateUdemy.webp');
     --bg-img-certificado-2: url('./assets/img/certificados/certificatePython.webp');
     --bg-img-certificado-3: url('./assets/img/certificados/certificateYoProgramo.webp');
     --bg-img-certificado-4: url('./assets/img/certificados/certificateSePrograma.webp');
+    
+}
+
+
+/* !---------------- Theme Light -------------------------- */
+.dark-light{
+    --color-txt-light: black;
+    --color-txt-dark: white;
+    --color-txt-hover: #0077ff;
+
+
+    --bg-color-transp-pink: #ff00848f;
+    --bg-color-transp-blue: #0077ff88;
+    --bg-color-transp-dark: #ffffffa6;
+
+    
+    --bg-color-950: #f6f6f6;
+    --bg-color-900: #e7e7e7;
+    --bg-color-800: #d1d1d1;
+    --bg-color-700: #b0b0b0;
+    --bg-color-600: #888888;
+    --bg-color-500: #6d6d6d;
+    --bg-color-400: #5d5d5d;
+    --bg-color-300: #4f4f4f;
+    --bg-color-200: #454545;
+    --bg-color-100: #0e0e0e;
+    --bg-color-50: #000000;
+
+    --bg-gradient-1: #00000098;
+    --bg-gradient-2: #00000070;
 }
 
 html {
@@ -224,11 +211,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #0a0916;
+    /* background-color: #0a0916; */
+    background-color: var(--color-txt-dark);
     /* background-color: #f0f0f0; */
 }
 
-@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     :root {
@@ -247,7 +237,7 @@ html {
 
         --font-size-ssl: 1.4vw;
         --font-size-ssm: 1.3vw;
-        --font-size-sss: 1.2vw;
+        --font-size-sss: 1.2vw;       
     }
 }
 
@@ -269,5 +259,7 @@ html {
         --font-size-ssl: 2.8vw;
         --font-size-ssm: 2.7vw;
         --font-size-sss: 2.6vw;
+
+        --bg-img-about-profile: url('./assets/img/profile.webp');
     }
 }

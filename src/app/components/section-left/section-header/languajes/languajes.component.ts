@@ -9,7 +9,8 @@ import { AuthService } from 'src/app/services/auth.service';
 export class LanguajesComponent implements OnInit {
 
   languaje: string = "es";
-  
+  themeDark: boolean = true;
+
   constructor(private auth: AuthService) {
 
   }
@@ -28,6 +29,16 @@ export class LanguajesComponent implements OnInit {
         (<HTMLElement>document.getElementById(lang))?.classList.remove("select-languaje");
       }
     });
+  }
+
+  changeTheme(){
+    this.themeDark = !this.themeDark;
+
+    if(!this.themeDark){
+      document.body.classList.add("dark-light");
+    }else{
+      document.body.classList.remove("dark-light");
+    }
   }
 }
 

@@ -1,7 +1,7 @@
 * {
-    /* font-family: var(--font-txt-df-arial); */
-    font-family: var(--font-txt-df);
-    text-shadow: var(--color-txt-dark) 4px 1px 4px;
+    font-family: var(--font-txt-df-thin);
+    text-shadow: var(--color-txt-dark-fv) 4px 1px 4px;
+    color: var(--color-txt-light-fv);
 }
 
 .row {
@@ -15,10 +15,6 @@
     margin: var(--margin-article-l);    
 }
 
-.content > p > a{
-    /* font-size: var(--margin-article-l); */    
-}
-
 
 .col-md-3 {
     width: 20%;    
@@ -30,7 +26,7 @@
     background: var(--bg-color-600);
     background: radial-gradient(circle, #5454d47c 0%, #3434777a 92%, #1d1d367e 100%);
 
-    color: var(--color-txt-light);
+    color: var(--color-txt-light-fv);
     fill: var(--color-txt-light);
     cursor: pointer;
     min-width: 100%;

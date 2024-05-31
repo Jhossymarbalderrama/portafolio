@@ -25,15 +25,6 @@ export class HomeComponent {
       presentationF: "and i'm a ", 
       profesion: "Full Stack Developer",
       btn: "Contact me"
-    },
-    br:{
-      title: "Bem-vindo ao meu portfólio",
-      presentationH: "Olá, eu sou ", 
-      firstName: "Jhossymar",
-      lastName: "Balderrama Rocha",
-      presentationF: "e eu sou um ", 
-      profesion: "Full Stack Developer",
-      btn: "Contate-me"
     }
   };
 
@@ -46,11 +37,10 @@ export class HomeComponent {
   changeLanguaje() : boolean{
     if(this.auth.languajeSelect == 'es'){
       this.data = this.dataHome.es;
-    }else if(this.auth.languajeSelect == 'en'){
-      this.data = this.dataHome.en;
     }else{
-      this.data = this.dataHome.br;
+      this.data = this.dataHome.en;
     }
+    
     return true;
   }
 }

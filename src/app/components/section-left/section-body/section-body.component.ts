@@ -11,34 +11,24 @@ export class SectionBodyComponent {
 
   dataMenu: any = {
     es: {
-      home: "inicio",
-      about: "sobre mí",
-      education: "educación",
-      experience: "experiencia",
-      project: "proyectos",
-      skill: "conocimientos",
-      certificate: "certificados",
-      contact: "contacto"
+      home: "Home",
+      about: "Sobre mí",
+      education: "Educación",
+      experience: "Experiencia",
+      project: "Proyectos",
+      skill: "Conocimientos",
+      certificate: "Certificados",
+      contact: "Contacto"
     },
     en: {
-      home: "home",
-      about: "about me",
-      education: "education",
-      experience: "experience",
-      project: "project",
-      skill: "skill",
-      certificate: "certificates",
-      contact: "contact"
-    },
-    br: {
-      home: "lar",
-      about: "sobre mim",
-      education: "Educação",
-      experience: "experiência",
-      project: "projeto",
-      skill: "skill",
-      certificate: "certificados",
-      contact: "contato"
+      home: "Home",
+      about: "About me",
+      education: "Education",
+      experience: "Experience",
+      project: "Project",
+      skill: "Skill",
+      certificate: "Certificates",
+      contact: "Contact"
     }
   }
 
@@ -52,11 +42,9 @@ export class SectionBodyComponent {
   changeLanguaje(): boolean {
     if (this.auth.languajeSelect == 'es') {
       this.data = this.dataMenu.es;
-    } else if (this.auth.languajeSelect == 'en') {
+    } else{
       this.data = this.dataMenu.en;
-    } else {
-      this.data = this.dataMenu.br;
-    }
+    } 
     return true;
   }
 

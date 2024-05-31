@@ -10,13 +10,14 @@ export class SkillsComponent {
 
   dataSkills: any = {
     es: {
-      title: "Tecnologías con las que estoy familiarizado"
+      db: "Base de datos",
+      tools: "Herramientas",
+      others: "Otras tecnologías",
     },
     en: {
-      title: "Technologies with which I am familiar"
-    },
-    br: {
-      title: "Tecnologias com as quais estou familiarizado"
+      db: "Data base",
+      tools: "Tools",
+      others: "Other technologies",
     }
   }
 
@@ -29,10 +30,8 @@ export class SkillsComponent {
   changeLanguaje() : boolean{
     if(this.auth.languajeSelect == 'es'){
       this.data = this.dataSkills.es;
-    }else if(this.auth.languajeSelect == 'en'){
-      this.data = this.dataSkills.en;
     }else{
-      this.data = this.dataSkills.br;
+      this.data = this.dataSkills.en;
     }
     return true;
   }

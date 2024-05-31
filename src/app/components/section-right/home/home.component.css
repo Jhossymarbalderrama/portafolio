@@ -1,6 +1,7 @@
 * {
-    text-shadow: black 5px 5px 8px;
     font-family: var(--font-txt-df);
+    text-shadow: black 5px 5px 8px;
+    color: var(--color-txt-light-fv);
 }
 
 .container {
@@ -16,8 +17,7 @@
 }
 
 section>article {
-    text-align: center;
-    font-family: var(--font-txt-df-arial);
+    text-align: center;    
 }
 
 article>p {
@@ -28,7 +28,7 @@ article>p {
 .title {
     display: block;
     font-size: var(--font-size-ll);
-    color: var(--color-txt-light);
+    color: var(--color-txt-light-fv);
     font-weight: bolder;
     white-space: nowrap;
     border-right: 8px solid;

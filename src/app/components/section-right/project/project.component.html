@@ -4,15 +4,14 @@
             <h5>{{data.subtitle}}</h5>
             <h2>{{data.title}}</h2>
 
-            <p>{{data.description}}<a href="https://github.com/Jhossymarbalderrama" target="_blank">GitHub
-                </a> </p>
+            <p>{{data.description}}<a href="https://github.com/Jhossymarbalderrama" target="_blank" title="Repositorio Jhossymar Balderrama">GitHub</a>.</p>
         </div>
     </div>
 
 
     <div class="row background-container">
         <div *ngFor="let project of getProjectsLanguaje()" class="col-12 col-md-6 col-xl-4 p-4 item-project">
-            <div class="project">
+            <div class="project" data-aos="fade-up" data-aos-duration="2000">
                 <h3>{{ project.title }}</h3>                
                 <div class="image-container my-1">
                     <a [href]="project.urlWeb" target="_blank" title="ver demo">

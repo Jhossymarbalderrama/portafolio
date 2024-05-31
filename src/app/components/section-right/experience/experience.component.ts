@@ -40,20 +40,6 @@ export class ExperienceComponent {
                     "Soporte técnico software y hardware."
                   ],
       titleTechnologies: "Tecnologias utilizada:",
-    },
-    br:{
-      title: "Experiência",
-      company: this.company,
-      year: this.year,
-      technologies: this.technologies,
-      functionIn: "Desenvolvedor de software na Genexus, criando e otimizando aplicações em múltiplas plataformas.",
-      description: ["Desenvolvimento de sistemas web em Genexus Evolution 2 e 3.",
-                    "Desenvolvimento de sistemas win em Genexus 9.", 
-                    "Desenvolvimento de páginas web em Joomla.",
-                    "Gerenciamento Básico de MySQL e SQL Server.",
-                    "Software e hardware de suporte técnico."
-                  ],
-      titleTechnologies: "Tecnologia usada:",
     }
   }
 
@@ -66,10 +52,8 @@ export class ExperienceComponent {
   changeLanguaje() : boolean{
     if(this.auth.languajeSelect == 'es'){
       this.data = this.dataExperience.es;
-    }else if(this.auth.languajeSelect == 'en'){
-      this.data = this.dataExperience.en;
     }else{
-      this.data = this.dataExperience.br;
+      this.data = this.dataExperience.en;
     }
     return true;
   }

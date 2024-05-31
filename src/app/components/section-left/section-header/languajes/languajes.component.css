@@ -1,22 +1,25 @@
 * {
-    font-family: var(--font-txt-df-bold);
     color: white;
 }
 
-.box{        
-    display: flex;
-    justify-content: right;      
-    width: 100%; 
+.row{
+    display: flex;            
     margin-top: 10px;   
+}
+
+.box{        
+    width: 100%;
+    display: flex;
+    justify-content: right;          
 }
 
 
 .item{
     display: flex;
     justify-content: center;
-    height: 3vh;
+    height: 3.5vh;
     cursor: pointer;
-
+    padding: 0px 2px;
     transition: 0.3s all ease;
 }
 
@@ -30,4 +33,10 @@
 
 .select-languaje{
     border: 2px solid var(--color-txt-hover);
+}
+
+.theme i{
+    font-size: var(--font-size-ss);
+    padding-left: 0.5rem;
+    padding-top: 0.18rem;
 }

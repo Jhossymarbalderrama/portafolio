@@ -1,5 +1,5 @@
 * {
-    font-family: var(--font-txt-df);
+    font-family: var(--font-txt-df-thin);
     text-shadow: var(--color-txt-dark) 3px 3px 2px;
     color: var(--color-txt-light);
 }
@@ -15,8 +15,14 @@
 } */
 
 h2{
+    font-family: var(--font-txt-df-bold);
     font-size: var(--font-size-sm);    
     font-weight: bold;
+}
+
+i{
+    font-size: 0.9rem;
+    width: 20px;
 }
 
 /* Box Section Left */
