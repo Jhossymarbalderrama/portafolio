@@ -147,6 +147,11 @@
     box-shadow: 3px 3px 3px 3px var(--color-tailwind);
 }
 
+.xampp:hover{
+    box-shadow: 3px 3px 3px 3px var(--color-xampp);
+}
+
+
 .cuadro:not(:hover) {
     transition: 0.5s;
     transform: scale(1);

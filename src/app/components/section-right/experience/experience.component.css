@@ -121,7 +121,7 @@ button:hover a {
 @media screen and (max-width: 767px) {
     .row{
         overflow: hidden;
-        margin: var(--margin-article-s);
-        padding: var(--padding-article-l);
+        margin: 0rem;
+        padding: 1.5rem 1rem;
     }
 }

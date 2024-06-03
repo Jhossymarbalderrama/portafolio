@@ -18,12 +18,12 @@ export class ExperienceComponent {
       company: this.company,
       year: this.year,
       technologies: this.technologies,
-      functionIn: "Software developer in Genexus, creation and optimization of multiple platform applications.",
-      description: ["Web systems development in Genexus Evolution 2 and 3.",
-                    "Win the development of systems in Genexus 9.", 
-                    "Web pages development in Joomla.",
-                    "Basic Management of MySQL and SQL Server.",
-                    "Technical support software and hardware."
+      functionIn: `Software developer in <strong>Genexus</strong>, creation and optimization of multiple platform applications.`,
+      description: [`Web systems development in <strong>Genexus Evolution 2 and 3</strong>.`,
+                    `Win the development of systems in <strong>Genexus 9</strong>.`, 
+                    `Web pages development in <strong>Joomla</strong>.`,
+                    `Basic Management of <strong>MySQL</strong> and <strong>SQL Server</strong>.`,
+                    `Technical support software and hardware.`
                   ],
       titleTechnologies: "Technology used:",
     },
@@ -32,12 +32,12 @@ export class ExperienceComponent {
       company: this.company,
       year: this.year,
       technologies: this.technologies,
-      functionIn: "Desarrollador de software en GeneXus, creacion y optimizacion de aplicaciones multi plataforma.",
-      description: ["Desarrollo de sistemas Web en GeneXus Evolution 2 y 3.",
-                    "Desarrollo de sistemas Win en GeneXus 9.", 
-                    "Desarrollo de páginas web en Joomla.",
-                    "Manejo básico de MySQL y SQL Server.",
-                    "Soporte técnico software y hardware."
+      functionIn: `Desarrollador de software en <strong>GeneXus</strong>, creacion y optimizacion de aplicaciones multi plataforma.`,
+      description: [`Desarrollo de sistemas Web en <strong>GeneXus Evolution 2 y 3</strong>.`,
+                    `Desarrollo de sistemas Win en <strong>GeneXus 9</strong>.`, 
+                    `Desarrollo de páginas web en <strong>Joomla</strong>.`,
+                    `Manejo básico de MySQL y SQL Server.`,
+                    `Soporte técnico software y hardware.`
                   ],
       titleTechnologies: "Tecnologias utilizada:",
     }

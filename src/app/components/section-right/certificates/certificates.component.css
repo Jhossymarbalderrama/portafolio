@@ -84,7 +84,7 @@ article{
     }
 
     .card {                
-        height: 25vh;    
+        height: 20vw;    
     }
     article{
         margin: var(--margin-article-s);
@@ -101,5 +101,10 @@ article{
 
     .row{
         padding: 0vh;
+    }
+
+    article{
+        margin: 0rem 1.5rem;
+        padding: 2rem 0rem;
     }
 }

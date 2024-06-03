@@ -108,6 +108,7 @@
     --color-npm: #df144d;
     --color-boostrap: #7942d8;
     --color-tailwind: #00b7c4;
+    --color-xampp: #FB7A24;
 
     --bg-color-transp-pink: #ff00848f;
     --bg-color-transp-blue: #0077ff88;
@@ -235,7 +236,7 @@ html {
         --font-size-sm: 3vw;
         --font-size-ss: 2.5vw;
 
-        --font-size-ssl: 1.4vw;
+        --font-size-ssl: 1.4vw;        
         --font-size-ssm: 1.3vw;
         --font-size-sss: 1.2vw;       
     }

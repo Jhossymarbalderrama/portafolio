@@ -120,8 +120,9 @@ p {
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {    
     article {
-        margin: var(--margin-article-s);
+        margin: var(--margin-article-sm);
+        padding: 1.5rem 1rem;
     }
 }

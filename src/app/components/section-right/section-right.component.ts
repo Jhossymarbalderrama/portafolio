@@ -56,10 +56,7 @@ export class SectionRightComponent implements OnInit{
     const nameClass: string = "focus-section";
     
     const btnToTop = (<HTMLElement>document.querySelector('#icon-up'));
-    // console.log(Math.floor(yOffset));    
-    
-    // La CLASE focus-section se encuentra dentro de la seccion Left de la pagina en section-left/section-body/css
-
+    const btnWsp = (<HTMLElement>document.querySelector('#icon-wsp'));
     // Home
     if (yOffset <= yHome?.offsetTop) {
       this.removeClassFocusInMenu();
@@ -104,11 +101,12 @@ export class SectionRightComponent implements OnInit{
 
     
     if (yOffset <= 100){
-      btnToTop?.classList.add('icon-up')
+      btnToTop?.classList.add('icon-up');
+      btnWsp?.classList.remove('icon-wsp-move');
     }else{
-      btnToTop?.classList.remove('icon-up')
-    }
-    
+      btnToTop?.classList.remove('icon-up');
+      btnWsp?.classList.add('icon-wsp-move');
+    }    
   }
 
   removeClassFocusInMenu():void{
