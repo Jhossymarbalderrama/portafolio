@@ -31,7 +31,7 @@ export class ProjectComponent {
           description: "Mi portafolio web desarrollado en Angular.",
           urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
-          img:'https://github.com/Jhossymarbalderrama/TP-ClinicaOnline/assets/52534649/47597276-0688-4e0f-82d4-25fc4606c6e3',
+          img:'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/cdc832d5-378b-4bf1-8c39-f96f65b26f46',
           technologies: [
             this.tools.angular,
             this.tools.bootstrap,
