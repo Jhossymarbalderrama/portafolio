@@ -29,31 +29,31 @@ export class SectionRightComponent implements OnInit{
   onScroll(event: Event): void {
 
     // Elementos para obtener la posicion en el Scroll
-    const yHome = this.elementRef.nativeElement.querySelector('#homeHref');
-    const yAbout = this.elementRef.nativeElement.querySelector('#about');
-    const yProject = this.elementRef.nativeElement.querySelector('#project');
-    const yEducation = this.elementRef.nativeElement.querySelector('#education');
-    const yExperience = this.elementRef.nativeElement.querySelector('#experience');    
-    const ySkills = this.elementRef.nativeElement.querySelector('#skills');
-    const yCertificate = this.elementRef.nativeElement.querySelector('#certificate');
-    const yContact = this.elementRef.nativeElement.querySelector('#contact');
+    let yHome = this.elementRef.nativeElement.querySelector('#homeHref');
+    let yAbout = this.elementRef.nativeElement.querySelector('#about');
+    let yProject = this.elementRef.nativeElement.querySelector('#project');
+    let yEducation = this.elementRef.nativeElement.querySelector('#education');
+    let yExperience = this.elementRef.nativeElement.querySelector('#experience');    
+    let ySkills = this.elementRef.nativeElement.querySelector('#skills');
+    let yCertificate = this.elementRef.nativeElement.querySelector('#certificate');
+    let yContact = this.elementRef.nativeElement.querySelector('#contact');
 
 
     // Elementos Menu al que poner Clase Focus
-    const mHome = <HTMLElement>document.querySelector('#mHome');
-    const mAbout = <HTMLElement>document.querySelector('#mAbout');
-    const mProject = <HTMLElement> document.querySelector('#mProject');
-    const mEducation = <HTMLElement>document.querySelector('#mEducation');
-    const mExperience = <HTMLElement>document.querySelector('#mExperience');
-    const mSkills = <HTMLElement>document.querySelector('#mSkills');
-    const mCertificate = <HTMLElement>document.querySelector('#mCertificate');
-    const mContact = <HTMLElement>document.querySelector('#mContact');
+    let mHome = <HTMLElement>document.querySelector('#mHome');
+    let mAbout = <HTMLElement>document.querySelector('#mAbout');
+    let mProject = <HTMLElement> document.querySelector('#mProject');
+    let mEducation = <HTMLElement>document.querySelector('#mEducation');
+    let mExperience = <HTMLElement>document.querySelector('#mExperience');
+    let mSkills = <HTMLElement>document.querySelector('#mSkills');
+    let mCertificate = <HTMLElement>document.querySelector('#mCertificate');
+    let mContact = <HTMLElement>document.querySelector('#mContact');
 
-    const yOffset = window.scrollY;
-    const nameClass: string = "focus-section";
+    let yOffset = window.scrollY;
+    let nameClass: string = "focus-section";
     
-    const btnToTop = (<HTMLElement>document.querySelector('#icon-up'));
-    const btnWsp = (<HTMLElement>document.querySelector('#icon-wsp'));
+    let btnToTop = (<HTMLElement>document.querySelector('#icon-up'));
+    let btnWsp = (<HTMLElement>document.querySelector('#icon-wsp'));
     // Home
     if (yOffset <= yHome?.offsetTop) {
       this.removeClassFocusInMenu();
@@ -67,31 +67,31 @@ export class SectionRightComponent implements OnInit{
     }
 
     // Proyect
-    if(yOffset > yAbout?.offsetTop){
+    if(yOffset > yAbout?.offsetTop+100){
         this.removeClassFocusInMenu();
         mProject?.classList.add(nameClass);
     }
   
     // Experience    
-    if(yOffset > yProject?.offsetTop+50){            
+    if(yOffset > yProject?.offsetTop+200){            
         this.removeClassFocusInMenu();
         mExperience?.classList.add(nameClass);  
     }
     
     // Skills
-    if(yOffset > yExperience?.offsetTop+50){      
+    if(yOffset > yExperience?.offsetTop+200){      
       this.removeClassFocusInMenu();
       mSkills?.classList.add(nameClass);  
     }
     
     // Certificates
-    if(yOffset > ySkills?.offsetTop+50){      
+    if(yOffset > ySkills?.offsetTop+1200){      
       this.removeClassFocusInMenu();
       mCertificate?.classList.add(nameClass); 
     }
     
     // Contacts
-    if(yOffset > yCertificate?.offsetTop+50){      
+    if(yOffset > yCertificate?.offsetTop+200){      
       this.removeClassFocusInMenu();
       mContact?.classList.add(nameClass); 
     }
@@ -107,15 +107,15 @@ export class SectionRightComponent implements OnInit{
   }
 
   removeClassFocusInMenu():void{
-    const mHome = <HTMLElement>document.querySelector('#mHome');
-    const mAbout = <HTMLElement>document.querySelector('#mAbout');
-    const mEducation = <HTMLElement>document.querySelector('#mEducation');
-    const mExperience = <HTMLElement>document.querySelector('#mExperience');
-    const mProject = <HTMLElement> document.querySelector('#mProject');
-    const mSkills = <HTMLElement>document.querySelector('#mSkills');
-    const mCertificate = <HTMLElement>document.querySelector('#mCertificate');
-    const mContact = <HTMLElement>document.querySelector('#mContact');
-    const nameClass: string = "focus-section";
+    let mHome = <HTMLElement>document.querySelector('#mHome');
+    let mAbout = <HTMLElement>document.querySelector('#mAbout');
+    let mEducation = <HTMLElement>document.querySelector('#mEducation');
+    let mExperience = <HTMLElement>document.querySelector('#mExperience');
+    let mProject = <HTMLElement> document.querySelector('#mProject');
+    let mSkills = <HTMLElement>document.querySelector('#mSkills');
+    let mCertificate = <HTMLElement>document.querySelector('#mCertificate');
+    let mContact = <HTMLElement>document.querySelector('#mContact');
+    let nameClass: string = "focus-section";
 
     mHome?.classList.remove(nameClass);
     mAbout?.classList.remove(nameClass);
@@ -138,12 +138,12 @@ export class SectionRightComponent implements OnInit{
   }
 
   viewNav(){
-    const btn = document.getElementById('navbarsExample01');
+    let btn = document.getElementById('navbarsExample01');
     if(btn?.classList.contains('collapse')){
       btn?.classList.remove('collapse');
       btn?.classList.remove('show');
     }else{
-      btn?.classList.add('collapse');
+      btn?.classList.add('collapse');      
     }
   }
 
