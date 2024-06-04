@@ -145,17 +145,9 @@
     /* --bg-img-profile2: url('./assets/img/perfil_2.png'); */
 
     /* ? Lenguajes */
-    --img-flag-es: url('./assets/img/languajes/es-flag.webp');
     --img-flag-c-es: url('./assets/img/languajes/es.webp');
 
-    --img-flag-uk: url('./assets/img/languajes/uk-flag.webp');
     --img-flag-c-uk: url('./assets/img/languajes/uk.webp');
-
-    --img-flag-eu: url('./assets/img/languajes/eeuu-flag.webp');
-    --img-flag-c-eu: url('./assets/img/languajes/eeuu.webp');
-
-    --img-flag-br: url('./assets/img/languajes/br-flag.webp');
-    --img-flag-c-br: url('./assets/img/languajes/br.webp');
 
     /* ? Certificados */
     --bg-img-certificado-1: url('./assets/img/certificados/certificateUdemy.webp');
@@ -192,6 +184,7 @@
 
     --bg-gradient-1: #00000098;
     --bg-gradient-2: #00000070;
+    --bg-gradient-3: #032347d0;
 }
 
 html {

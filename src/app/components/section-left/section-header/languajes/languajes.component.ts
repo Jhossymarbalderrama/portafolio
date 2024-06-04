@@ -11,8 +11,7 @@ export class LanguajesComponent implements OnInit {
   languaje: string = "es";
   themeDark: boolean = true;
 
-  constructor(private auth: AuthService) {
-
+  constructor(private auth: AuthService) {    
   }
 
 

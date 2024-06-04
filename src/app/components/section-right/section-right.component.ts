@@ -10,13 +10,10 @@ export class SectionRightComponent implements OnInit{
 
   dataSection: any = {
     es:{
-      title:"Mí Portafolio"
+      title:"Portafolio"
     },
     en:{
-      title:"My Portfolio"
-    },
-    br:{
-      title:"Meu portfolio"
+      title:"Portfolio"
     }
   }
 
@@ -134,10 +131,8 @@ export class SectionRightComponent implements OnInit{
   changeLanguaje() : boolean{
     if(this.auth.languajeSelect == 'es'){
       this.data = this.dataSection.es;
-    }else if(this.auth.languajeSelect == 'en'){
-      this.data = this.dataSection.en;
     }else{
-      this.data = this.dataSection.br;
+      this.data = this.dataSection.en;
     }
     return true;
   }
@@ -151,4 +146,5 @@ export class SectionRightComponent implements OnInit{
       btn?.classList.add('collapse');
     }
   }
+
 }

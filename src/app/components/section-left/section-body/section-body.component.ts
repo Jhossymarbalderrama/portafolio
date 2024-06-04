@@ -51,9 +51,12 @@ export class SectionBodyComponent {
 
   closeMenu() {
     const btn = document.getElementById('navbarsExample01');
-
-    btn?.classList.add('collapse');
-    btn?.classList.add('navbar-collapse');
     
+    if(btn?.classList.contains('collapse')){
+      btn?.classList.remove('collapse');
+      btn?.classList.remove('show');
+    }else{
+      btn?.classList.add('collapse');
+    }
   }
 }

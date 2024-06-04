@@ -27,16 +27,30 @@
     transform: scale(1.2);
 }
 
-.item > img{    
+.item > img{   
     border-radius: 100%;
 }
 
 .select-languaje{
     border: 2px solid var(--color-txt-hover);
+    border-radius: 100%;
 }
 
 .theme i{
     font-size: var(--font-size-ss);
     padding-left: 0.5rem;
     padding-top: 0.18rem;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .item{
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 767px) {  
+    .item{
+        height: 4.5vh;
+    }
 }

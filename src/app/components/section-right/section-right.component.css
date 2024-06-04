@@ -1,7 +1,7 @@
 *,
 html {
     color: var(--color-txt-light);
-
+    
     scroll-behavior: smooth !important;
 }
 
@@ -99,10 +99,16 @@ html {
     display: none;
 }
 
+
+.icon-wsp i{
+    font-size: 3rem;    
+}
+
 .icon-wsp {    
     font-size: 2.5vw;
     z-index: 999;
     position: fixed;
+    font-size: 3rem; 
     bottom: 2rem;
     right: 2rem;
     display: inline-flex;
@@ -118,7 +124,7 @@ html {
 }
 
 .icon-wsp-move{
-    bottom: 2em !important;
+    bottom: 2.1em !important;
 }
 
 .icon-wsp:hover {  
@@ -148,7 +154,7 @@ html {
     transition: 0.2s ease-out;
 }
 
-.back-to-top span svg{
+.back-to-top span i{
     fill: var(--color-txt-light-fv);
 }
 
@@ -160,51 +166,36 @@ html {
     transform: translateY(-4px);
 }
 
-@keyframes phoneCall {
-    0% {
-      transform: translate(0, 0);
-    }
-    10% {
-      transform: translate(-3px, 3px);
-    }
-    20% {
-      transform: translate(3px, -3px);
-    }
-    30% {
-      transform: translate(-3px, 3px);
-    }
-    40% {
-      transform: translate(3px, -3px);
-    }
-    50% {
-      transform: translate(-3px, 3px);
-    }
-    60% {
-      transform: translate(3px, -3px);
-    }
-    70% {
-      transform: translate(-3px, 3px);
-    }
-    80% {
-      transform: translate(3px, -3px);
-    }
-    90% {
-      transform: translate(-3px, 3px);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
-  }
+.navbar-brand{
+    font-family: var(--font-txt-df-bold);
+}
+
+.navbar-toggler {          
+    /* background-color: var(--color-txt-light);              */    
+    box-shadow: none; 
+}
+
+.navbar-toggler:hover{
+    border: 3px solid var(--color-txt-light);
+}   
+
+.navbar-toggler i{
+    font-size: 1.9rem;
+}
+
+
+.menu-phone .navbar {
+    backdrop-filter: blur(3px);
+    background: #00000094;
+    color: var(--color-txt-light);
+    border: 1px solid #000000e5;
+}
+
 /* Desktop */
 @media screen and (min-width: 1024px) {
     .home {
         min-width: 100%;
         max-width: 100%;
-    }
-
-    .back-to-top > span > svg{
-        width: 2vw;
-        height: 4.5vh;
     }
 }
 
@@ -241,21 +232,13 @@ html {
 
     .navbar-brand:hover{
         color: var(--color-txt-light);
-    }
+    }  
 
-    .navbar-toggler {
-        background-color: var(--color-txt-light);             
-        box-shadow: none; 
-    }
-
-    .navbar-toggler:hover{
-        border: 3px solid var(--color-txt-hover);
-    }   
 
 }
 
 /* Smartphone */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {  
     .home {
         min-width: 100%;
         max-width: 100%;
@@ -274,12 +257,6 @@ html {
         display: block;
     }
 
-    .menu-phone .navbar {
-        backdrop-filter: blur(3px);
-        background: var(--bg-color-950);
-        color: var(--color-txt-light);
-    }
-
     .navbar-brand{
         font-weight: bold;
         color: var(--color-txt-hover);
@@ -287,15 +264,5 @@ html {
 
     .navbar-brand:hover{
         color: var(--color-txt-light);
-    }
-
-    .navbar-toggler {
-        background-color: var(--color-txt-light);             
-        box-shadow: none; 
-    }
-
-    .navbar-toggler:hover{
-        border: 3px solid var(--color-txt-hover);
-    }   
-
+    }  
 }
