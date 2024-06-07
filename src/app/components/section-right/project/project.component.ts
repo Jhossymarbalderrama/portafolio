@@ -28,7 +28,7 @@ export class ProjectComponent {
         {
           title: "Portafolio",
           subtitle: "Frontend Web",
-          description: "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase",
+          description: "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase.",
           urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
           img:'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/cdc832d5-378b-4bf1-8c39-f96f65b26f46',
@@ -44,7 +44,7 @@ export class ProjectComponent {
           description: "Una aplicación web completa desarrollada con Angular para el frontend y Node.js con Express para el backend.",
           urlWeb: 'https://pet-food-premium-jbr.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front',
-          img: 'https://github.com/Jhossymarbalderrama/petfood/assets/52534649/2f2ddd18-b042-4433-9edb-91efed8f5843',
+          img: 'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/2c414fea-ec28-4676-a001-8d95b3e6f677',
           technologies: [
             this.tools.angular,
             this.tools.nodejs,
@@ -102,11 +102,11 @@ export class ProjectComponent {
       projects: [        
         {
           title: "Portfolio",
-          subtitle: "Web",
-          description: "My web portfolio developed in Angular.",
+          subtitle: "Web Frontend",
+          description: "Personal portfolio developed using Angular and Bootstrap 5, hosted on Firebase.",
           urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
-          img:'https://github.com/Jhossymarbalderrama/TP-ClinicaOnline/assets/52534649/47597276-0688-4e0f-82d4-25fc4606c6e3',
+          img:'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/cdc832d5-378b-4bf1-8c39-f96f65b26f46',
           technologies: [
             this.tools.angular,
             this.tools.bootstrap,
@@ -115,11 +115,11 @@ export class ProjectComponent {
         },
         {
           title: "Pet Food Premium",
-          subtitle: "Web Full Stack",
-          description: "Website dedicated to pet food distributors.",
+          subtitle: "Full Stack Development",
+          description: "A complete web application developed with Angular for the frontend and Node.js with Express for the backend.",
           urlWeb: 'https://pet-food-premium-jbr.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front',
-          img: 'https://github.com/Jhossymarbalderrama/petfood/assets/52534649/2f2ddd18-b042-4433-9edb-91efed8f5843',
+          img: 'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/2c414fea-ec28-4676-a001-8d95b3e6f677',
           technologies: [
             this.tools.angular,
             this.tools.nodejs,
@@ -130,8 +130,8 @@ export class ProjectComponent {
         },
         {
           title: "Apex Store",
-          subtitle: "Web Full Stack",
-          description: "Full stack online store, developed in angular, spring boot, mysql.",
+          subtitle: "Full Stack Development",
+          description: "A complete online store built with Angular, Tailwind CSS and Spring Boot on the backend. It uses Firebase for hosting and a MySQL database to manage products and orders.",
           urlWeb:'https://e-commerce-ac291.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front',
           img: "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/c29e4dbb-fbb6-4d91-8fb1-bc1732769c57",
@@ -145,8 +145,8 @@ export class ProjectComponent {
         },
         {
           title: "Weather",
-          subtitle: "Web",
-          description: "Website to check the climate of the Avellaneda area (Buenos Aires)",
+          subtitle: "Web Frontend",
+          description: "A web application developed in Angular that consumes a weather API to provide up-to-date weather information. It uses Firebase for hosting and Bootstrap 5 for responsive design.",
           urlWeb:'https://weather-jbr.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/weather',
           img:'https://github.com/Jhossymarbalderrama/weather/assets/52534649/89125e9f-32c1-4548-b2fc-0375f56ee339',
@@ -159,8 +159,8 @@ export class ProjectComponent {
         },        
         {
           title: "task list",
-          subtitle: "Web",
-          description: "A dedicated website to save your daily personal tasks.",
+          subtitle: "Web Frontend",
+          description: "A simple web application developed in Angular and Bootstrap 5 that allows users to manage their daily tasks.",
           urlWeb:'https://jhossymarbalderrama.github.io/tasksList/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/tasksList',
           img: 'https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/88880175-20a4-4a75-b91a-839ff340554b',
