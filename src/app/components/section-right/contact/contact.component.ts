@@ -18,7 +18,7 @@ export class ContactComponent implements OnInit{
       form:{
         name: "Nombre",
         placeName: "ingrese un nombre",
-        mail: "Mail",
+        mail: "Email",
         placeMail: "ingrese un mail",
         subject: "Asunto",
         placeSubject: "ingrese un asunto",
@@ -40,7 +40,7 @@ export class ContactComponent implements OnInit{
       form:{
         name: "Name",
         placeName: "enter a name",
-        mail: "Mail",
+        mail: "Email",
         placeMail: "enter a mail",
         subject: "Subject",
         placeSubject: "enter a subject",

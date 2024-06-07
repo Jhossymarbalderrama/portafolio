@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    text-shadow: 4px 2px 5px black;
+    text-shadow: 4px 2px 10px #000000;
 }
 
 article {
@@ -68,7 +68,11 @@ p {
 }
 
 .project-details{
-    font-family: var(--font-txt-df-thin);
+    font-family: var(--font-txt-df-thin);    
+}
+
+.project-details p{
+    padding: 0.5rem 0rem;
 }
 
 .hover-overlay {
@@ -109,6 +113,10 @@ p {
     opacity: 1;
 }
 
+.project-details{
+    background: linear-gradient(to Top, #01275233 ,#0127525b, #0127529a);
+    border-radius: 0px 0px 10px 10px;    
+}
 
 /* ! END REVISADO */
 

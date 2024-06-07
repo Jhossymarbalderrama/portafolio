@@ -27,8 +27,8 @@ export class ProjectComponent {
       projects: [        
         {
           title: "Portafolio",
-          subtitle: "Web",
-          description: "Mi portafolio web desarrollado en Angular.",
+          subtitle: "Frontend Web",
+          description: "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase",
           urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
           img:'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/cdc832d5-378b-4bf1-8c39-f96f65b26f46',
@@ -40,8 +40,8 @@ export class ProjectComponent {
         },
         {
           title: "Pet Food Premium",
-          subtitle: "Web Full Stack",
-          description: "Sitio web dedicado a los distribuidores de alimentos para mascotas.",
+          subtitle: "Desarrollo Full Stack",
+          description: "Una aplicación web completa desarrollada con Angular para el frontend y Node.js con Express para el backend.",
           urlWeb: 'https://pet-food-premium-jbr.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front',
           img: 'https://github.com/Jhossymarbalderrama/petfood/assets/52534649/2f2ddd18-b042-4433-9edb-91efed8f5843',
@@ -49,14 +49,13 @@ export class ProjectComponent {
             this.tools.angular,
             this.tools.nodejs,
             this.tools.bootstrap,
-            this.tools.mysql,
-            this.tools.apiRest
+            this.tools.mysql
           ]
         },
         {
           title: "Apex Store",
-          subtitle: "Web Full Stack",
-          description: "Tienda Online full stack, desarrollada en angular, spring boot, mysql.",
+          subtitle: "Desarrollo Full Stack",
+          description: "Una tienda online completa construida con Angular, Tailwind CSS y Spring Boot en el backend. Utiliza Firebase para el hosting y una base de datos MySQL para gestionar los productos y pedidos.",
           urlWeb:'https://e-commerce-ac291.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front',
           img: "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/c29e4dbb-fbb6-4d91-8fb1-bc1732769c57",
@@ -70,8 +69,8 @@ export class ProjectComponent {
         },
         {
           title: "Clima",
-          subtitle: "Web",
-          description: "Sitio web para consultar el clima del área de Avellaneda (Buenos Aires)",
+          subtitle: "Frontend Web",
+          description: "Una aplicación web desarrollada en Angular que consume una API de clima para proporcionar información meteorológica actualizada. Utiliza Firebase para el alojamiento y Bootstrap 5 para el diseño responsivo.",
           urlWeb:'https://weather-jbr.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/weather',
           img:'https://github.com/Jhossymarbalderrama/weather/assets/52534649/89125e9f-32c1-4548-b2fc-0375f56ee339',
@@ -84,8 +83,8 @@ export class ProjectComponent {
         },        
         {
           title: "Lista de tareas",
-          subtitle: "Web",
-          description: "Un sitio web dedicado para guardar sus tareas personales diarias.",
+          subtitle: "Frontend Web",
+          description: "Una aplicación web simple desarrollada en Angular y Bootstrap 5 que permite a los usuarios gestionar sus tareas diarias.",
           urlWeb:'https://jhossymarbalderrama.github.io/tasksList/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/tasksList',
           img: 'https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/88880175-20a4-4a75-b91a-839ff340554b',
