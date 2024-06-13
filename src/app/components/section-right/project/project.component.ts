@@ -16,7 +16,10 @@ export class ProjectComponent {
     mysql: 'https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white',
     apiRest: 'https://github.com/Jhossymarbalderrama/weather/assets/52534649/9d386143-cb70-4a9b-9f71-1823ff950dfd',
     springBoot: 'https://camo.githubusercontent.com/c2a58428fe9b38967494da3b0a098f1d28f9cc395e3bbf123cbc14fb36bc1b07/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f737072696e672d2532333644423333462e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d737072696e67266c6f676f436f6c6f723d7768697465',
-    tailwindCSS: 'https://camo.githubusercontent.com/3b41d3ae73bc489dbb2be32e772cc814e3a76e372027056c72e5b970c04684a5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7461696c77696e646373732d2532333338423241432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7461696c77696e642d637373266c6f676f436f6c6f723d7768697465'
+    tailwindCSS: 'https://camo.githubusercontent.com/3b41d3ae73bc489dbb2be32e772cc814e3a76e372027056c72e5b970c04684a5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7461696c77696e646373732d2532333338423241432e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d7461696c77696e642d637373266c6f676f436f6c6f723d7768697465',
+    javascript: 'https://camo.githubusercontent.com/84372c7d2f1a7308844360ecad82d49b3f6cbc068a0c5e31aeea6ca5344b77ba/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d4637444631453f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d626c61636b',
+    html: 'https://camo.githubusercontent.com/bfe6a48836e87b13a16f1f56f88fee428475c2ac29247992ec9b8bcc7154f881/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465',
+    css: 'https://camo.githubusercontent.com/472c222e8f240a48ae51cd9b082a1b857be809dcd851a25150890c2da50c13a5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465'
   };
   
   dataProject: any = {
@@ -80,7 +83,22 @@ export class ProjectComponent {
             this.tools.bootstrap,
             this.tools.apiRest
           ]
-        },        
+        },                
+        {
+          title: "Proyecto CAC | Movies Online ",
+          subtitle: "Frontend Web",
+          description: 'En grupo, desarrollamos una plataforma de películas online usando solo HTML, CSS, y JavaScript puro (vanilla JS) como parte del curso Codo a Codo. ',
+          urlWeb: 'https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page/index.html',
+          urlRepo:'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page',
+          img: 'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page/assets/52534649/f7c2698f-5749-4e98-a32b-4105e98c7e36',
+          technologies: [
+            this.tools.javascript,
+            this.tools.html,
+            this.tools.css,
+            this.tools.bootstrap,
+            this.tools.apiRest
+          ]
+        },
         {
           title: "Lista de tareas",
           subtitle: "Frontend Web",
@@ -92,7 +110,7 @@ export class ProjectComponent {
             this.tools.angular,
             this.tools.bootstrap
           ]
-        },        
+        },   
       ]
     },
     en: {
@@ -153,6 +171,21 @@ export class ProjectComponent {
           technologies: [
             this.tools.angular,
             this.tools.firebase,
+            this.tools.bootstrap,
+            this.tools.apiRest
+          ]
+        },                
+        {
+          title: "Project CAC | Movies Online ",
+          subtitle: "Frontend Web",
+          description: 'As a group, we developed an online movie platform using only HTML, CSS and pure JavaScript (vanilla JS) as part of the Codo A Codo course.',
+          urlWeb: 'https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page/index.html',
+          urlRepo:'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page',
+          img: 'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page/assets/52534649/f7c2698f-5749-4e98-a32b-4105e98c7e36',
+          technologies: [
+            this.tools.javascript,
+            this.tools.html,
+            this.tools.css,
             this.tools.bootstrap,
             this.tools.apiRest
           ]
