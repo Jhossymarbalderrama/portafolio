@@ -88,8 +88,8 @@ export class ProjectComponent {
           title: "Proyecto CAC | Movies Online ",
           subtitle: "Frontend Web",
           description: 'En grupo, desarrollamos una plataforma de películas online usando solo HTML, CSS, y JavaScript puro (vanilla JS) como parte del curso Codo a Codo. ',
-          urlWeb: 'https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page/index.html',
-          urlRepo:'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page',
+          urlWeb: 'https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page_frontend/',
+          urlRepo:'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page_frontend',
           img: 'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page/assets/52534649/f7c2698f-5749-4e98-a32b-4105e98c7e36',
           technologies: [
             this.tools.javascript,
