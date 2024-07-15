@@ -57,7 +57,9 @@ article{
     background-image: var(--bg-img-certificado-4);
 }
 
-
+.degreesUTNFra{
+    background-image: var(--bg-img-certificado-0);
+}
 
 .card:hover {    
     position: relative;

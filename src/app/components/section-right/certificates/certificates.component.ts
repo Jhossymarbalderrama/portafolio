@@ -10,10 +10,10 @@ export class CertificatesComponent {
 
   dataCertificates: any = {
     es:{
-      title: "Certificados",
+      title: "Títulos y Certificados",
     },
     en:{
-      title: "Certificates",
+      title: "Degrees and Certificates",
     }
   }
 

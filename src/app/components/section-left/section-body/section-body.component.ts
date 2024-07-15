@@ -17,7 +17,7 @@ export class SectionBodyComponent {
       experience: "Experiencia",
       project: "Proyectos",
       skill: "Conocimientos",
-      certificate: "Certificados",
+      certificate: "Títulos y Certificados",
       contact: "Contacto"
     },
     en: {
@@ -27,7 +27,7 @@ export class SectionBodyComponent {
       experience: "Experience",
       project: "Project",
       skill: "Skill",
-      certificate: "Certificates",
+      certificate: "Degrees and Certificates",
       contact: "Contact"
     }
   }

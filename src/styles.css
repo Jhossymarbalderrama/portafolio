@@ -149,7 +149,8 @@
 
     --img-flag-c-uk: url('./assets/img/languajes/uk.webp');
 
-    /* ? Certificados */
+    /* ? Titulos y Certificados */
+    --bg-img-certificado-0: url('./assets/img/certificados/tituloUTNFraTUP.webp');
     --bg-img-certificado-1: url('./assets/img/certificados/certificateUdemy.webp');
     --bg-img-certificado-2: url('./assets/img/certificados/certificatePython.webp');
     --bg-img-certificado-3: url('./assets/img/certificados/certificateYoProgramo.webp');
