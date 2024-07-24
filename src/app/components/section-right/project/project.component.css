@@ -114,7 +114,8 @@ p {
 }
 
 .project-details{
-    background: linear-gradient(to Top, #01275233 ,#0127525b, #0127529a);
+    /* background: linear-gradient(to Top, #01275233 ,#0127525b, #0127529a); */
+    background: linear-gradient(to Top, #01173011 ,#001731ad, #001a36e0);
     border-radius: 0px 0px 10px 10px;    
 }
 

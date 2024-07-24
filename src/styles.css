@@ -74,11 +74,16 @@
 
 
     /* Colors */
-    --color-txt-light: white;
+    --color-txt-light: #f7f7f7ee;
+    --color-txt-light-2: white;
     --color-txt-dark: black;
+    --color-text-dark-metal: #1B1F23;
+    --color-text-dark-metal-2: #171b1f;
     --color-txt-light-fv: white;
     --color-txt-dark-fv: black;
-    --color-txt-hover: #0077ff;
+    /* --color-txt-hover: #0077ff; */
+    /* --color-txt-hover: #014492; */
+    --color-txt-hover: #0068df;
     /*0059ff , 0099ff*/
     --color-txt-pink: #FF0084;
     --color-txt-brown: #F57E25;
@@ -141,7 +146,7 @@
     /* ? Perfil*/
     /* --bg-img-profile: url('./assets/img/perfil.webp'); */
     --bg-img-profile: url('./assets/img/profile.webp');
-    --bg-img-about-profile: url('./assets/img/about-profile.webp');
+    /* --bg-img-about-profile: url('./assets/img/grad.jpeg'); */
     /* --bg-img-profile2: url('./assets/img/perfil_2.png'); */
 
     /* ? Lenguajes */
@@ -257,4 +262,8 @@ html {
 
         --bg-img-about-profile: url('./assets/img/profile.webp');
     }
+}
+
+hr{
+    border: 1.5px solid var(--color-txt-hover);
 }

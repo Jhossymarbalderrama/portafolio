@@ -91,7 +91,8 @@ html {
 .about,
 .experience,
 .certificate {
-    background-color: var(--bg-color-900);
+    /* background-color: var(--bg-color-900); */
+    background-color: var(--color-text-dark-metal-2);
 }
 
 

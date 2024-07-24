@@ -1,35 +1,28 @@
 <div class="row" *ngIf="auth.languajeSelect ? changeLanguaje() : changeLanguaje()">
   <p class="h3">{{ data.title }}</p>
   <div class="row">
-    <h2>
+    <h4 class="fw-bold">
       {{ data.company }}
-    </h2>
+    </h4>
     <hr class="featurette-divider" />
 
     <div class="col-md-8 order-1 box-left">
-      <h4>
+      <h5>
         {{ data.year }}
-      </h4>
-      <p>
-        <a [innerHTML]="data.functionIn">{{ data.functionIn }}</a>
-      </p>
-      <ul>
-        <li *ngFor="let description of data.description" [innerHTML]="description">
-          <a>{{ description }}</a>
-        </li>
-      </ul>
+      </h5>
+      
+      <div class="box-exp my-1" *ngFor="let item of data.sections" >
+        <p>{{item.title}}</p>
+        <ul *ngFor="let st of item.functions">
+          <li [innerHTML]="st">{{st}}</li>
+        </ul>
+      </div>    
     </div>
 
     <div class="col-md-4 order-2 box-right">
       <h4>
-        <a>{{ data.titleTechnologies }}</a>
+        <a>{{ data.titleEmpresa }}</a>
       </h4>
-      <ul>
-        <li *ngFor="let technology of data.technologies">
-          <a>{{ technology }}</a>
-        </li>
-      </ul>
-
       <div class="btn-download" align="center">
         <button>
           <a href="http://www.vlb.com.ar/" target="_blank">
@@ -38,6 +31,11 @@
           </a>
         </button>
       </div>
+      <ul class="py-2">
+        <li *ngFor="let technology of data.technologies">
+          <a>{{ technology }}</a>
+        </li>
+      </ul>
     </div>
   </div>
 </div>

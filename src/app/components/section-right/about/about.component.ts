@@ -31,7 +31,7 @@ export class AboutComponent {
       Me apasiona trabajar en equipo, ya que creo firmemente que la colaboración potencia el 
       desarrollo de proyectos y nos permite crecer juntos, tanto profesional como personalmente.`,
       ],
-      phrase: "“Mi objetivo es crear y desarrollar software que satisfaga y resuelva problemas en las áreas Backend y Frontend, colaborando estrechamente con varios equipos y promoviendo el crecimiento conjunto con mis compañeros de proyecto, utilizando conocimientos especializados para lograr soluciones efectivas y eficientes”"
+      phrase: "“Aspiro a un puesto de desarrollador Full Stack donde pueda aprovechar mis habilidades en Angular, Spring Boot y MySQL para crear soluciones tecnológicas innovadoras que mejoren la experiencia del usuario y aborden los desafíos empresariales. Además, busco contribuir a un entorno de trabajo colaborativo y fomentar el crecimiento grupal, impulsando así el éxito colectivo del equipo y de la empresa.”"
     },
     en: {
       firstName: this.firstName,
@@ -50,7 +50,7 @@ export class AboutComponent {
         I am passionate about working as a team, since I firmly believe that collaboration enhances the 
         development of projects and allows us to grow together, both professionally and personally.`,
       ],
-      phrase: "“My goal is to create and develop software that satisfies and solves problems in the Backend and Frontend areas, collaborating closely with various teams and promoting joint growth with my project colleagues, using specialized knowledge to achieve effective and efficient solutions.”"
+      phrase: "“I aspire to a Full Stack Developer position where I can leverage my skills in Angular, Spring Boot, and MySQL to create innovative technological solutions that enhance user experience and address business challenges. Additionally, I seek to contribute to a collaborative work environment and foster group growth, thereby driving the collective success of the team and the company.”"
     }
   }
 

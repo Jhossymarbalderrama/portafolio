@@ -31,37 +31,23 @@ export class ProjectComponent {
         {
           title: "Portafolio",
           subtitle: "Frontend Web",
-          description: "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase.",
+          description: "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase. Este proyecto está diseñado para ser completamente responsivo y dinámico, destacando mis habilidades en el desarrollo web.",
           urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
-          img:'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/cdc832d5-378b-4bf1-8c39-f96f65b26f46',
+          img:'https://i.postimg.cc/65fJJ0Xb/336213848-cdc832d5-378b-4bf1-8c39-f96f65b26f46.png',
           technologies: [
             this.tools.angular,
             this.tools.bootstrap,
             this.tools.firebase
           ]
-        },
-        {
-          title: "Pet Food Premium",
-          subtitle: "Desarrollo Full Stack",
-          description: "Una aplicación web completa desarrollada con Angular para el frontend y Node.js con Express para el backend.",
-          urlWeb: 'https://pet-food-premium-jbr.web.app/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front',
-          img: 'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/2c414fea-ec28-4676-a001-8d95b3e6f677',
-          technologies: [
-            this.tools.angular,
-            this.tools.nodejs,
-            this.tools.bootstrap,
-            this.tools.mysql
-          ]
-        },
+        },        
         {
           title: "Apex Store",
           subtitle: "Desarrollo Full Stack",
           description: "Una tienda online completa construida con Angular, Tailwind CSS y Spring Boot en el backend. Utiliza Firebase para el hosting y una base de datos MySQL para gestionar los productos y pedidos.",
           urlWeb:'https://e-commerce-ac291.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front',
-          img: "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/c29e4dbb-fbb6-4d91-8fb1-bc1732769c57",
+          img: "https://i.postimg.cc/RVR8bZ7j/330834348-c29e4dbb-fbb6-4d91-8fb1-bc1732769c57.png",
           technologies: [
             this.tools.angular,
             this.tools.springBoot,
@@ -71,26 +57,39 @@ export class ProjectComponent {
           ]
         },
         {
-          title: "Clima",
-          subtitle: "Frontend Web",
-          description: "Una aplicación web desarrollada en Angular que consume una API de clima para proporcionar información meteorológica actualizada. Utiliza Firebase para el alojamiento y Bootstrap 5 para el diseño responsivo.",
-          urlWeb:'https://weather-jbr.web.app/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/weather',
-          img:'https://github.com/Jhossymarbalderrama/weather/assets/52534649/89125e9f-32c1-4548-b2fc-0375f56ee339',
+          title: "Pet Food Premium",
+          subtitle: "Desarrollo Full Stack",
+          description: "Una aplicación web completa desarrollada con Angular para el frontend y Node.js con Express para el backend.",
+          urlWeb: 'https://pet-food-premium-jbr.web.app/',
+          urlRepo: 'https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front',
+          img: 'https://i.postimg.cc/4yGLBDmf/337773382-2c414fea-ec28-4676-a001-8d95b3e6f677.png',
           technologies: [
             this.tools.angular,
-            this.tools.firebase,
+            this.tools.nodejs,
             this.tools.bootstrap,
-            this.tools.apiRest
+            this.tools.mysql
           ]
-        },                
+        },
         {
-          title: "Proyecto CAC | Movies Online ",
+          title: "Clínica Online",
+          subtitle: "Frontend Web",
+          description: "Clinica Online es una pagina web de turnos para una clinica. El sistema de turnos es flexible y facil y rapido ya sea para el paciente que va sacar un turno o el especialista.",
+          urlWeb: "https://tp-clinicaonline-ef480.web.app/",
+          urlRepo: "https://github.com/Jhossymarbalderrama/TP-ClinicaOnline",
+          img: "https://i.postimg.cc/c4skYGpT/351792427-db53292e-1fc1-41af-b3de-24b519ed50c2.png",
+          technologies: [
+            this.tools.angular,
+            this.tools.bootstrap,
+            this.tools.firebase
+          ]
+        },
+        {
+          title: "Movies Online ",
           subtitle: "Frontend Web",
           description: 'En grupo, desarrollamos una plataforma de películas online usando solo HTML, CSS, y JavaScript puro (vanilla JS) como parte del curso Codo a Codo. ',
           urlWeb: 'https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page_frontend/',
           urlRepo:'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page_frontend',
-          img: 'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page/assets/52534649/f7c2698f-5749-4e98-a32b-4105e98c7e36',
+          img: 'https://i.postimg.cc/sXYKQTKt/339382768-f7c2698f-5749-4e98-a32b-4105e98c7e36.png',
           technologies: [
             this.tools.javascript,
             this.tools.html,
@@ -100,17 +99,19 @@ export class ProjectComponent {
           ]
         },
         {
-          title: "Lista de tareas",
+          title: "Clima",
           subtitle: "Frontend Web",
-          description: "Una aplicación web simple desarrollada en Angular y Bootstrap 5 que permite a los usuarios gestionar sus tareas diarias.",
-          urlWeb:'https://jhossymarbalderrama.github.io/tasksList/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/tasksList',
-          img: 'https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/88880175-20a4-4a75-b91a-839ff340554b',
+          description: "Una aplicación web desarrollada en Angular que consume una API de clima para proporcionar información meteorológica actualizada. Utiliza Firebase para el alojamiento y Bootstrap 5 para el diseño responsivo.",
+          urlWeb:'https://weather-jbr.web.app/',
+          urlRepo: 'https://github.com/Jhossymarbalderrama/weather',
+          img:'https://i.postimg.cc/yxnPnWMj/273046404-89125e9f-32c1-4548-b2fc-0375f56ee339.png',
           technologies: [
             this.tools.angular,
-            this.tools.bootstrap
+            this.tools.firebase,
+            this.tools.bootstrap,
+            this.tools.apiRest
           ]
-        },   
+        }   
       ]
     },
     en: {
@@ -121,38 +122,23 @@ export class ProjectComponent {
         {
           title: "Portfolio",
           subtitle: "Web Frontend",
-          description: "Personal portfolio developed using Angular and Bootstrap 5, hosted on Firebase.",
+          description: "Personal portfolio developed using Angular and Bootstrap 5, hosted on Firebase. This project is designed to be fully responsive and dynamic, showcasing my skills in web development.",
           urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
-          img:'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/cdc832d5-378b-4bf1-8c39-f96f65b26f46',
+          img:'https://i.postimg.cc/65fJJ0Xb/336213848-cdc832d5-378b-4bf1-8c39-f96f65b26f46.png',
           technologies: [
             this.tools.angular,
             this.tools.bootstrap,
             this.tools.firebase
           ]
-        },
-        {
-          title: "Pet Food Premium",
-          subtitle: "Full Stack Development",
-          description: "A complete web application developed with Angular for the frontend and Node.js with Express for the backend.",
-          urlWeb: 'https://pet-food-premium-jbr.web.app/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front',
-          img: 'https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/2c414fea-ec28-4676-a001-8d95b3e6f677',
-          technologies: [
-            this.tools.angular,
-            this.tools.nodejs,
-            this.tools.bootstrap,
-            this.tools.mysql,
-            this.tools.apiRest
-          ]
-        },
+        },        
         {
           title: "Apex Store",
           subtitle: "Full Stack Development",
           description: "A complete online store built with Angular, Tailwind CSS and Spring Boot on the backend. It uses Firebase for hosting and a MySQL database to manage products and orders.",
           urlWeb:'https://e-commerce-ac291.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front',
-          img: "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/c29e4dbb-fbb6-4d91-8fb1-bc1732769c57",
+          img: "https://i.postimg.cc/RVR8bZ7j/330834348-c29e4dbb-fbb6-4d91-8fb1-bc1732769c57.png",
           technologies: [
             this.tools.angular,
             this.tools.springBoot,
@@ -162,26 +148,40 @@ export class ProjectComponent {
           ]
         },
         {
-          title: "Weather",
-          subtitle: "Web Frontend",
-          description: "A web application developed in Angular that consumes a weather API to provide up-to-date weather information. It uses Firebase for hosting and Bootstrap 5 for responsive design.",
-          urlWeb:'https://weather-jbr.web.app/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/weather',
-          img:'https://github.com/Jhossymarbalderrama/weather/assets/52534649/89125e9f-32c1-4548-b2fc-0375f56ee339',
+          title: "Pet Food Premium",
+          subtitle: "Full Stack Development",
+          description: "A complete web application developed with Angular for the frontend and Node.js with Express for the backend.",
+          urlWeb: 'https://pet-food-premium-jbr.web.app/',
+          urlRepo: 'https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front',
+          img: 'https://i.postimg.cc/4yGLBDmf/337773382-2c414fea-ec28-4676-a001-8d95b3e6f677.png',
           technologies: [
             this.tools.angular,
-            this.tools.firebase,
+            this.tools.nodejs,
             this.tools.bootstrap,
+            this.tools.mysql,
             this.tools.apiRest
           ]
-        },                
+        },
         {
-          title: "Project CAC | Movies Online ",
+          title: "Clínic Online",
+          subtitle: "Frontend Web",
+          description: "Clínica Online is a web page for scheduling appointments at a clinic. The appointment system is flexible, easy, and fast, whether for the patient booking an appointment or the specialist.",
+          urlWeb: "https://tp-clinicaonline-ef480.web.app/",
+          urlRepo: "https://github.com/Jhossymarbalderrama/TP-ClinicaOnline",
+          img: "https://i.postimg.cc/c4skYGpT/351792427-db53292e-1fc1-41af-b3de-24b519ed50c2.png",
+          technologies: [
+            this.tools.angular,
+            this.tools.bootstrap,
+            this.tools.firebase
+          ]
+        },               
+        {
+          title: "Movies Online ",
           subtitle: "Frontend Web",
           description: 'As a group, we developed an online movie platform using only HTML, CSS and pure JavaScript (vanilla JS) as part of the Codo A Codo course.',
           urlWeb: 'https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page/index.html',
           urlRepo:'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page',
-          img: 'https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page/assets/52534649/f7c2698f-5749-4e98-a32b-4105e98c7e36',
+          img: 'https://i.postimg.cc/sXYKQTKt/339382768-f7c2698f-5749-4e98-a32b-4105e98c7e36.png',
           technologies: [
             this.tools.javascript,
             this.tools.html,
@@ -191,17 +191,19 @@ export class ProjectComponent {
           ]
         },        
         {
-          title: "task list",
+          title: "Weather",
           subtitle: "Web Frontend",
-          description: "A simple web application developed in Angular and Bootstrap 5 that allows users to manage their daily tasks.",
-          urlWeb:'https://jhossymarbalderrama.github.io/tasksList/',
-          urlRepo: 'https://github.com/Jhossymarbalderrama/tasksList',
-          img: 'https://github.com/Jhossymarbalderrama/tasksList/assets/52534649/88880175-20a4-4a75-b91a-839ff340554b',
+          description: "A web application developed in Angular that consumes a weather API to provide up-to-date weather information. It uses Firebase for hosting and Bootstrap 5 for responsive design.",
+          urlWeb:'https://weather-jbr.web.app/',
+          urlRepo: 'https://github.com/Jhossymarbalderrama/weather',
+          img:'https://i.postimg.cc/yxnPnWMj/273046404-89125e9f-32c1-4548-b2fc-0375f56ee339.png',
           technologies: [
             this.tools.angular,
-            this.tools.bootstrap
+            this.tools.firebase,
+            this.tools.bootstrap,
+            this.tools.apiRest
           ]
-        },        
+        }        
       ]
     }    
   }

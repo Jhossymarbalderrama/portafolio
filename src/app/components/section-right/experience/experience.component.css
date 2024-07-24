@@ -25,6 +25,25 @@ i{
     width: 20px;
 }
 
+.box-title-exp{
+    margin: 0;
+    padding-right: 3.5rem;
+}
+
+.box-exp{
+    font-size: var(--font-size-ssl);
+}
+
+.box-exp p {
+    font-weight: bold;
+}
+
+.box-exp p, .box-exp ul{
+    margin: 0;
+}
+
+
+
 /* Box Section Left */
 
 .box-left{
@@ -33,29 +52,15 @@ i{
     flex-direction: column;    
 }
 
-.box-left > h4{
-    font-size: var(--font-size-ss);
-}
-
-.box-left > p {
-    font-size: var(--font-size-ssl);
-}
-
-.box-left > ul > li {
-    font-size: var(--font-size-ssl);
-}
 
 /* Box Section Right */
-.box-right{
+/* .box-right{
     display: flex;
     justify-content: center;    
     flex-direction: column;
-}
+} */
 
 
-.box-right > ul > li{
-    font-size: var(--font-size-ssl);
-}
 
 .btn-download{
     width: 100%;
