@@ -78,7 +78,9 @@
     --color-txt-light-2: white;
     --color-txt-dark: black;
     --color-text-dark-metal: #1B1F23;
-    --color-text-dark-metal-2: #171b1f;
+    --color-text-dark-metal-2: #171b1f; /* ? Gris Metal*/
+    --color-text-dark-metal-3: #242424; /* ? Gris Granito */
+    --color-text-dark-metal-4: #0f151d; /* ? Azul Metal*/
     --color-txt-light-fv: white;
     --color-txt-dark-fv: black;
     /* --color-txt-hover: #0077ff; */

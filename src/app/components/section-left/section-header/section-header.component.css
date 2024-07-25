@@ -5,11 +5,12 @@
 
 .font-style {
     color: var(--color-txt-hover);
-    text-shadow: 0px 2px 10px var(--color-txt-hover);
+    text-shadow: 1px 1px 10px var(--color-txt-hover);
 }
 
 p {
     margin: 0;
+    letter-spacing: 1px;
 }
 
 .box-img {
@@ -21,7 +22,8 @@ p {
     position: relative;
     display: flex;
     border-radius: 50%;
-    background-color: black;
+    /* background-color: black; */
+    background-color: transparent;
 }
 
 .efect-img {
@@ -41,9 +43,14 @@ p {
 
 
 .efect-img .imgProfile {
-    background: 
+    /* background: 
     linear-gradient(to bottom, #00000000, #0000002a, #00000071,#000000),
-     var(--bg-img-profile);
+     var(--bg-img-profile); */
+     background: var(--bg-img-profile);
+     mask-image: linear-gradient(
+        black 60%,
+        transparent   
+    );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
