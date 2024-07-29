@@ -22,9 +22,10 @@
 
 .cuadro {
     text-align: center;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     background: var(--bg-color-600);
-    background: radial-gradient(circle, #5454d47c 0%, #3434777a 92%, #1d1d367e 100%);
+    /* background: radial-gradient(circle, #5454d47c 0%, #3434777a 92%, #1d1d367e 100%); */
+    background: radial-gradient(circle, #1c3352c5 0%, #1c33528e 92%, #1c335209 100%);
 
     color: var(--color-txt-light-fv);
     fill: var(--color-txt-light);

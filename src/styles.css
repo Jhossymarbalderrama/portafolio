@@ -81,11 +81,14 @@
     --color-text-dark-metal-2: #171b1f; /* ? Gris Metal*/
     --color-text-dark-metal-3: #242424; /* ? Gris Granito */
     --color-text-dark-metal-4: #0f151d; /* ? Azul Metal*/
+	--color-text-dark-metal-5: #232C38; /* ? Azul Metal Claro Office*/	
+    --color-text-dark-metal-6: #0f151df5; /* ? Azul Metal Claro/lite Office*/	
     --color-txt-light-fv: white;
     --color-txt-dark-fv: black;
     /* --color-txt-hover: #0077ff; */
     /* --color-txt-hover: #014492; */
     --color-txt-hover: #0068df;
+    --color-txt-hover-2: #023570;
     /*0059ff , 0099ff*/
     --color-txt-pink: #FF0084;
     --color-txt-brown: #F57E25;
@@ -120,6 +123,7 @@
     --bg-color-transp-pink: #ff00848f;
     --bg-color-transp-blue: #0077ff88;
     --bg-color-transp-dark: #000000a6;
+    --bg-color-transp-page: #1c3352d7;
 
     --bg-color-50: #f6f6f6;
     --bg-color-100: #e7e7e7;

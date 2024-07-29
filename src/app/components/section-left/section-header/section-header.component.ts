@@ -17,19 +17,15 @@ export class SectionHeaderComponent implements OnInit{
       title: "Mi Portafolio",
       firstName: "Jhossymar",
       lastName: "Balderrama Rocha",
-      description: "Desarrollador Full Stack"
+      description: "Desarrollador Full Stack",
+      descriptionStack: "Angular - Spring Boot",
     },
     en:{
       title: "My Portfolio",
       firstName: "Jhossymar",
       lastName: "Balderrama Rocha",
-      description: "Full Stack Developer"
-    },
-    br:{
-      title: "Meu portfolio",
-      firstName: "Jhossymar",
-      lastName: "Balderrama Rocha",
-      description: "Full Stack Developer"
+      description: "Full Stack Developer",
+      descriptionStack: "Angular - Spring Boot",
     }
   }
 

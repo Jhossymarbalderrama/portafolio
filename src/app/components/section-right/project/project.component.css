@@ -99,7 +99,7 @@ p {
     justify-content: center;
     align-items: center;
     
-    background-color: #003470e7 !important;
+    background-color: #1c3352d7 !important;
     color: var(--color-txt-light-fv);
     padding: 15px 25px;
     font-size: 18px;
@@ -115,7 +115,8 @@ p {
 
 .project-details{
     /* background: linear-gradient(to Top, #01275233 ,#0127525b, #0127529a); */
-    background: linear-gradient(to Top, #01173011 ,#001731ad, #001a36e0);
+    /* background: linear-gradient(to Top, #01173011 ,#001731ad, #001a36e0); */
+    background: linear-gradient(to Top, #1c335209 ,#1c33528e, #1c3352c5);
     border-radius: 0px 0px 10px 10px;    
 }
 

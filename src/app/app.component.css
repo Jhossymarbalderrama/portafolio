@@ -15,7 +15,7 @@
 
 .sidebar-container {   
     /* background: var(--bg-color-950); */
-    background-color: var(--color-text-dark-metal);
+    background-color: var(--color-text-dark-metal-4);
 
     min-height: 100vh;
     min-width: 36vh;

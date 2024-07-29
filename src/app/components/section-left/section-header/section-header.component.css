@@ -5,7 +5,7 @@
 
 .font-style {
     color: var(--color-txt-hover);
-    text-shadow: 1px 1px 10px var(--color-txt-hover);
+    text-shadow: 1px 1px 10px var(--color-txt-hover-2);
 }
 
 p {
