@@ -89,6 +89,7 @@
     /* --color-txt-hover: #014492; */
     --color-txt-hover: #0068df;
     --color-txt-hover-2: #023570;
+    --color-txt-hover-3: #0d2d52cb;
     /*0059ff , 0099ff*/
     --color-txt-pink: #FF0084;
     --color-txt-brown: #F57E25;
@@ -122,8 +123,9 @@
 
     --bg-color-transp-pink: #ff00848f;
     --bg-color-transp-blue: #0077ff88;
+    --bg-color-transp-blue-2: #1b4c8588;
     --bg-color-transp-dark: #000000a6;
-    --bg-color-transp-page: #1c3352d7;
+    --bg-color-transp-page: #1e3c63c9;
 
     --bg-color-50: #f6f6f6;
     --bg-color-100: #e7e7e7;

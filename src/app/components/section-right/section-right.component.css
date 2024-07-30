@@ -154,12 +154,14 @@ html {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg-color-transp-blue);
+    /* background-color: var(--bg-color-transp-blue); */
+    background-color: var(--bg-color-transp-blue-2);    
     border-radius: 0.4rem;
     padding: 0.2vh;
     text-decoration: none;
     transition: 0.2s ease-out;
-    border: 1px solid var(--color-txt-hover);
+    /* border: 1px solid var(--color-txt-hover); */
+    border: 1px solid var(--color-txt-hover-3);
     backdrop-filter: blur(2px);        
 }
 

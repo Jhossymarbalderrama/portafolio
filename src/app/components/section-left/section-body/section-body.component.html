@@ -1,6 +1,6 @@
 <div class="container pt-md-4" *ngIf="auth.languajeSelect == 'es' ? changeLanguaje() : changeLanguaje()">
   <ul class="nav flex-column menu nav__menu first-item">
-    <li class="nav-item" (click)="closeMenu()">
+    <li class="nav-item" (click)="closeMenu()" [title]="data.home">
       <a id="mHome" href="#home" class="d-block lead nav__item focus-section">  
 
         <i class="fa-solid fa-house-chimney"></i>
@@ -8,7 +8,7 @@
         
       </a>
     </li>
-    <li class="nav-item" (click)="closeMenu()">     
+    <li class="nav-item" (click)="closeMenu()" [title]="data.about">     
       <a id="mAbout" href="#about" class="d-block lead nav__item">
 
         <i class="fa-solid fa-id-card"></i>        
@@ -17,7 +17,7 @@
       </a>
     </li>
 
-    <li class="nav-item" (click)="closeMenu()">
+    <li class="nav-item" (click)="closeMenu()" [title]="data.project">
       <a id="mProject" href="#project" class="d-block lead nav__item">
         
         <i class="fa-solid fa-pen-ruler"></i>        
@@ -25,28 +25,28 @@
       >
     </li>
 
-    <li class="nav-item" (click)="closeMenu()">
+    <li class="nav-item" (click)="closeMenu()" [title]="data.experience">
       <a id="mExperience" href="#experience" class="d-block lead nav__item">
         
         <i class="fa-solid fa-briefcase"></i>        
         <a>{{ data.experience }}</a></a
       >
     </li>
-    <li class="nav-item" (click)="closeMenu()">
+    <li class="nav-item" (click)="closeMenu()" [title]="data.skill">
       <a id="mSkills" href="#skills" class="d-block lead nav__item">
         
         <i class="fa-solid fa-star"></i>        
         <a>{{ data.skill }}</a></a
       >
     </li>
-    <li class="nav-item" (click)="closeMenu()">
+    <li class="nav-item" (click)="closeMenu()" [title]="data.certificate">
       <a id="mCertificate" href="#certificate" class="d-block lead nav__item">
         
         <i class="fa-solid fa-book-bookmark"></i>      
         <a>{{ data.certificate }}</a></a
       >
     </li>
-    <li class="nav-item" (click)="closeMenu()">
+    <li class="nav-item" (click)="closeMenu()" [title]="data.contact">
       <a id="mContact" href="#contact" class="d-block lead nav__item">
                 
         <i class="fa-solid fa-envelope"></i>

@@ -34,7 +34,7 @@ export class ProjectComponent {
           description: "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase. Este proyecto está diseñado para ser completamente responsivo y dinámico, destacando mis habilidades en el desarrollo web.",
           urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
-          img:'https://i.postimg.cc/65fJJ0Xb/336213848-cdc832d5-378b-4bf1-8c39-f96f65b26f46.png',
+          img:'https://i.postimg.cc/Dzz19ktJ/Portafolio-img.webp',
           technologies: [
             this.tools.angular,
             this.tools.bootstrap,
@@ -125,7 +125,7 @@ export class ProjectComponent {
           description: "Personal portfolio developed using Angular and Bootstrap 5, hosted on Firebase. This project is designed to be fully responsive and dynamic, showcasing my skills in web development.",
           urlWeb:'https://jhossymarbalderrama-portafolio.web.app/',
           urlRepo: 'https://github.com/Jhossymarbalderrama/portafolio',
-          img:'https://i.postimg.cc/65fJJ0Xb/336213848-cdc832d5-378b-4bf1-8c39-f96f65b26f46.png',
+          img:'https://i.postimg.cc/Dzz19ktJ/Portafolio-img.webp',
           technologies: [
             this.tools.angular,
             this.tools.bootstrap,
