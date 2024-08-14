@@ -172,7 +172,7 @@
 .img > p{
     font-size: var(--font-size-sss);
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 /* Desktop */
