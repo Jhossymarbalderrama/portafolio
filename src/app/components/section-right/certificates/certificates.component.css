@@ -17,9 +17,9 @@ article{
     z-index: 10;
     height: 30vh;    
     box-shadow: 2px 2px 2px 2px var(--color-txt-dark);
-    border: 3px solid var(--bg-color-600);
+    /* border: 3px solid var(--bg-color-600); */    
     cursor: pointer;
-    border-radius: 0px;
+    border-radius: 0px;    
 }
  
 .img {
@@ -61,18 +61,24 @@ article{
     background-image: var(--bg-img-certificado-0);
 }
 
+.certificateReactEsencial{
+    background-image: var(--bg-img-certificado-5);
+}
+
 .card:hover {    
     position: relative;
     z-index: 999;
     transition: 0.7s;
     transform: scale(1.05);
     overflow: hidden;
+    background-color: var(--color-text-dark-metal-5);
 }
 
 .card:not(:hover) {
     transition: 0.7s;
     transform: none;
 } 
+
 
 /* Desktop */
 @media screen and (min-width: 1024px) {

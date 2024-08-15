@@ -24,8 +24,6 @@
     text-align: center;
     border-radius: 0.3rem;
     background: var(--bg-color-600);
-    /* background: radial-gradient(circle, #5454d47c 0%, #3434777a 92%, #1d1d367e 100%); */
-    /* background: radial-gradient(circle, #1c3352c5 0%, #1c33528e 92%, #1c335209 100%); */
     background: radial-gradient(circle, #1c3352c5 100%, #1c33528e 100%, #1c335209 100%);
 
     color: var(--color-txt-light-fv);
@@ -50,107 +48,115 @@
 }
 
 .html:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-html);    
+    box-shadow: 5px 5px var(--color-html);    
 }
 
 .css:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-css);
+    box-shadow: 5px 5px var(--color-css);
 }
 
 .js:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-js);
+    box-shadow: 5px 5px var(--color-js);
 }
 
 .ts:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-ts);
+    box-shadow: 5px 5px var(--color-ts);
 }
 
 .angular:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-angular);
+    box-shadow:  5px 5px var(--color-angular);
 }
 
 .nodejs:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-nodejs);
+    box-shadow: 5px 5px var(--color-nodejs);
 }
 
 .firebase:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-firebase);
+    box-shadow: 5px 5px var(--color-firebase);
 }
 
 .ionic:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-ionic);
+    box-shadow: 5px 5px var(--color-ionic);
 }
 
 .joomla:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-joomla);
+    box-shadow: 5px 5px var(--color-joomla);
 }
 
 .genexus:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-genexus);
+    box-shadow: 5px 5px var(--color-genexus);
 }
 
 .c:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-c);
+    box-shadow: 5px 5px var(--color-c);
 }
 
 .csharp:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-csharp);
+    box-shadow: 5px 5px var(--color-csharp);
 }
 
 .php:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-php);
+    box-shadow: 5px 5px var(--color-php);
 }
 
 .java:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-java);
+    box-shadow: 5px 5px var(--color-java);
 }
 
 .springboot:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-springboot);
+    box-shadow: 5px 5px var(--color-springboot);
 }
 
 .arduino:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-arduino);
+    box-shadow: 5px 5px var(--color-arduino);
 }
 
 .github:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-github);
+    box-shadow: 5px 5px var(--color-github);
 }
 
 .postman:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-postman);
+    box-shadow: 5px 5px var(--color-postman);
 }
 
 .mysql:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-mysql);
+    box-shadow: 5px 5px var(--color-mysql);
 }
 
 .mongodb:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-mongodb);
+    box-shadow: 5px 5px var(--color-mongodb);
 }
 
 .vscode:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-vscode);
+    box-shadow: 5px 5px var(--color-vscode);
 }
 
 .photoshop:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-photoshop);
+    box-shadow: 5px 5px var(--color-photoshop);
 }
 
 .npm:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-npm);
+    box-shadow: 5px 5px var(--color-npm);
 }
 
 .boostrap:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-boostrap);
+    box-shadow: 5px 5px var(--color-boostrap);
+}
+
+.swagger:hover{
+    box-shadow: 5px 5px var(--color-swagger);
+}
+
+.git:hover{
+    box-shadow: 5px 5px var(--color-git);
 }
 
 .tailwind:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-tailwind);
+    box-shadow: 5px 5px var(--color-tailwind);
 }
 
 .xampp:hover{
-    box-shadow: 3px 3px 3px 3px var(--color-xampp);
+    box-shadow: 5px 5px var(--color-xampp);
 }
 
 
@@ -171,8 +177,7 @@
 
 .img > p{
     font-size: var(--font-size-sss);
-    font-weight: bold;
-    /* text-transform: uppercase; */
+    font-weight: bold;        
 }
 
 /* Desktop */

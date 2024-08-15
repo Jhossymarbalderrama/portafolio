@@ -111,7 +111,7 @@
     --color-springboot: #479E51;
     --color-arduino: #00c4b0;
     --color-github: #658492;
-    --color-postman: #ff3c00;
+    --color-postman: #ED7899;
     --color-mysql: #00b7c4;
     --color-mongodb: #349740;
     --color-vscode: #0071B9;
@@ -120,6 +120,8 @@
     --color-boostrap: #7942d8;
     --color-tailwind: #00b7c4;
     --color-xampp: #FB7A24;
+    --color-swagger: #20C997;
+    --color-git: #F4511E;
 
     --bg-color-transp-pink: #ff00848f;
     --bg-color-transp-blue: #0077ff88;
@@ -168,6 +170,7 @@
     --bg-img-certificado-2: url('./assets/img/certificados/certificatePython.webp');
     --bg-img-certificado-3: url('./assets/img/certificados/certificateYoProgramo.webp');
     --bg-img-certificado-4: url('./assets/img/certificados/certificateSePrograma.webp');
+    --bg-img-certificado-5: url('./assets/img/certificados/CertificadoDeFinalizacion_React-esencial.webp');
     
 }
 
