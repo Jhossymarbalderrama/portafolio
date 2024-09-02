@@ -1,0 +1,19 @@
+.grid-item:hover .bg-item {
+    background-color: var(--bg-dark-metal-4-hover);
+}
+
+.title-description{
+    text-shadow: 1px 1px 10px black;
+}
+
+@media (min-width: 640px) {
+    #projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    #projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
     font-family: "Outfit Thin";
@@ -24,257 +27,175 @@
     src: url("../src/assets/font/Outfit/Outfit-SemiBold.ttf")
 }
 
+:root , .dark-theme{
 
-:root {
-    /* Fonts */
+    /* ? Fonts Family */
     --font-txt-df: "Outfit Regular", sans-serif;
-    --font-txt-df-thin: "Outfit Thin", sans-serif;
+    --font-txt-df-thin: "Outfit Thin", sans-serif; 
+    
     --font-txt-df-medium: "Outfit Medium", sans-serif;
     --font-txt-df-bold: "Outfit Bold", sans-serif;
     --font-txt-df-semi-bold: "Outfit SemiBold", sans-serif;
 
-    /* TITLE
-        CLASS{ h3} 
-        h2
 
-        SubTitle
-        h4
-        ss
+    /* ? Text*/
+    --txt-color-dark: #000000;
+    --txt-color-light: #ffffff;
+    --txt-color-blue: #0068df;
+    --txt-color-blue-dark: #023570;
 
-        Text
-        ssl
-    */
+    --txt-color-blue-dark-h: #0d2d52cb;
 
-    --font-size-ll: 5vw;
-    --font-size-lm: 4.5vw;
-    --font-size-ls: 4vw;
+    /* * Estilos */
+    --txt-shadow-titles: black 5px 5px 8px;
+    --txt-shadow-titles-blue: var(--color-txt-hover-3) 5px 5px 8px;
 
-    --font-size-ml: 4vw;
-    --font-size-mm: 3.5vw;
-    --font-size-ms: 3vw;
+    /* ? Backgrounds*/
+    --bg-dark-metal-1: #1B1F23;
+    --bg-dark-metal-2: #171b1f;
+    /* ? Gris Metal*/
+    --bg-dark-metal-3: #242424;
+    /* ? Gris Granito */
+    /* --bg-dark-metal-4: #0f151d; */
+    --bg-dark-metal-4: #0a0e13;
+    /* ? Azul Metal*/
+    --bg-dark-metal-5: #232C38;
+    /* ? Azul Metal Claro Office*/
+    /* --bg-dark-metal-6: #0f151df5; */
+    --bg-dark-metal-6: #0d121af5;
+    /* ? Azul Metal Claro/lite Office*/
 
-    --font-size-sl: 2vw;
-    --font-size-sm: 1.5vw;
-    --font-size-ss: 1vw;
+    --bg-dark-metal-4-h: #0f151dc9;
 
-    --font-size-ssl: 0.9vw;
-    --font-size-ssm: 0.8vw;
-    --font-size-sss: 0.7vw;
+    --bg-gradient-1: #00000083;
+    --bg-gradient-2: #000000e5;
 
-    /* Margin Padding - Container */
-    --padding-article: 15px 0px;
-    --margin-article: 0px 50px;
-    --padding-article-s: 1% 0%;
-    --margin-article-s: 0% 5%;
-    --padding-article-m: 2% 0%;
-    --margin-article-m: 0% 10%;
-    --padding-article-l: 3% 0%;
-    --margin-article-l: 0% 15%;
+    /* ? Colors */
 
+    /* ? Links | URL */
+
+    /* ? Images | URL */
+    --bg-img-profile: url('/assets/img/profile.webp');
+    --bg-img-notebook: url('/assets/img/backgrounds/bg1.webp');
+    --bg-img-moon: url('/assets/img/backgrounds/bg4.webp');
+    --bg-img-earth: url('/assets/img/backgrounds/bg3.webp');
+    --bg-img-sky: url('/assets/img/backgrounds/bg2.webp');
+    --bg-img-sky-profile: url('/assets/img/backgrounds/bg-0.webp');
 
 
-    /* Colors */
-    --color-txt-light: #f7f7f7ee;
-    --color-txt-light-2: white;
-    --color-txt-dark: black;
-    --color-text-dark-metal: #1B1F23;
-    --color-text-dark-metal-2: #171b1f; /* ? Gris Metal*/
-    --color-text-dark-metal-3: #242424; /* ? Gris Granito */
-    --color-text-dark-metal-4: #0f151d; /* ? Azul Metal*/
-	--color-text-dark-metal-5: #232C38; /* ? Azul Metal Claro Office*/	
-    --color-text-dark-metal-6: #0f151df5; /* ? Azul Metal Claro/lite Office*/	
-    --color-txt-light-fv: white;
-    --color-txt-dark-fv: black;
-    /* --color-txt-hover: #0077ff; */
-    /* --color-txt-hover: #014492; */
-    --color-txt-hover: #0068df;
+    /* ! Indefinidos */
+    /* --color-txt-hover: #0068df; */
+    /* 00A1E4 */
+    --color-txt-hover: #0167ff;
+    --color-txt-hover-1: #0253b1c7;
     --color-txt-hover-2: #023570;
     --color-txt-hover-3: #0d2d52cb;
-    /*0059ff , 0099ff*/
-    --color-txt-pink: #FF0084;
-    --color-txt-brown: #F57E25;
+    --color-txt-hover-4: #0253b1c7;
+    --bg-dark-metal-4-hover: #0f151df8;
+    --bg-dark-metal-5-hover: #ffffffdc;
 
-    --color-html: #EF9501;
-    --color-css: #0A83DF;
-    --color-js: #F7DF1E;
-    --color-ts: #1892E9;
-    --color-angular: #EE3C49;
-    --color-nodejs: #21A366;
-    --color-firebase: #FFC400;
-    --color-ionic: #448AFF;
-    --color-joomla: #479E51;
-    --color-genexus: #c6083d;
-    --color-c: #6774ff;
-    --color-csharp: #78c4e7;
-    --color-php: #ad94ff;
-    --color-java: #c6083d;
-    --color-springboot: #479E51;
-    --color-arduino: #00c4b0;
-    --color-github: #658492;
-    --color-postman: #ED7899;
-    --color-mysql: #00b7c4;
-    --color-mongodb: #349740;
-    --color-vscode: #0071B9;
-    --color-photoshop: #1c66ce;
-    --color-npm: #df144d;
-    --color-boostrap: #7942d8;
-    --color-tailwind: #00b7c4;
-    --color-xampp: #FB7A24;
-    --color-swagger: #20C997;
-    --color-git: #F4511E;
-
-    --bg-color-transp-pink: #ff00848f;
-    --bg-color-transp-blue: #0077ff88;
-    --bg-color-transp-blue-2: #1b4c8588;
-    --bg-color-transp-dark: #000000a6;
-    --bg-color-transp-page: #1e3c63c9;
-
-    --bg-color-50: #f6f6f6;
-    --bg-color-100: #e7e7e7;
-    --bg-color-200: #d1d1d1;
-    --bg-color-300: #b0b0b0;
-    --bg-color-400: #888888;
-    --bg-color-500: #6d6d6d;
-    --bg-color-600: #5d5d5d;
-    --bg-color-700: #4f4f4f;
-    --bg-color-800: #454545;
-    /* --bg-color-900: #0a0a0a;  */
-    --bg-color-900: #0e0e0e;
-    --bg-color-950: #000000;
-
-    --bg-gradient-1: #00000098;
-    --bg-gradient-2: #00000070;
-    /* !---------------- URL IMAGENES -------------------------- */
-
-    /* ? Fondos*/
-    --bg-img-notebook: url('./assets/img/backgrounds/bg1.webp');
-    --bg-img-moon: url('./assets/img/backgrounds/bg4.webp');
-    --bg-img-earth: url('./assets/img/backgrounds/bg3.webp');
-    --bg-img-sky: url('./assets/img/backgrounds/bg2.webp');
-    --bg-img-sky-profile: url('./assets/img/backgrounds/bg-0.webp');
-
-    /* ? Perfil*/
-    /* --bg-img-profile: url('./assets/img/perfil.webp'); */
-    --bg-img-profile: url('./assets/img/profile.webp');
-    /* --bg-img-about-profile: url('./assets/img/grad.jpeg'); */
-    /* --bg-img-profile2: url('./assets/img/perfil_2.png'); */
-
-    /* ? Lenguajes */
-    --img-flag-c-es: url('./assets/img/languajes/es.webp');
-
-    --img-flag-c-uk: url('./assets/img/languajes/uk.webp');
-
-    /* ? Titulos y Certificados */
-    --bg-img-certificado-0: url('./assets/img/certificados/tituloUTNFraTUP.webp');
-    --bg-img-certificado-1: url('./assets/img/certificados/certificateUdemy.webp');
-    --bg-img-certificado-2: url('./assets/img/certificados/certificatePython.webp');
-    --bg-img-certificado-3: url('./assets/img/certificados/certificateYoProgramo.webp');
-    --bg-img-certificado-4: url('./assets/img/certificados/certificateSePrograma.webp');
-    --bg-img-certificado-5: url('./assets/img/certificados/CertificadoDeFinalizacion_React-esencial.webp');
-    
-}
-
-
-/* !---------------- Theme Light -------------------------- */
-.dark-light{
-    --color-txt-light: black;
-    --color-txt-dark: white;
-    --color-txt-hover: #0077ff;
-
-
-    --bg-color-transp-pink: #ff00848f;
-    --bg-color-transp-blue: #0077ff88;
-    --bg-color-transp-dark: #ffffffa6;
-
-    
-    --bg-color-950: #f6f6f6;
-    --bg-color-900: #e7e7e7;
-    --bg-color-800: #d1d1d1;
-    --bg-color-700: #b0b0b0;
-    --bg-color-600: #888888;
-    --bg-color-500: #6d6d6d;
-    --bg-color-400: #5d5d5d;
-    --bg-color-300: #4f4f4f;
-    --bg-color-200: #454545;
-    --bg-color-100: #0e0e0e;
-    --bg-color-50: #000000;
-
-    --bg-gradient-1: #00000098;
-    --bg-gradient-2: #00000070;
-    --bg-gradient-3: #032347d0;
+    /* --off-canvas-min-width-df: 36vh; */
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-* {
-    /* cursor: url('../src/assets/img/material/cursor_spink_premium/Arrow.cur'), auto; */
-}
-
 ::-webkit-scrollbar {
-    width: 1.5vh;
+    width: 1.8vh;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--color-txt-hover);
-    border-radius: 2px;
+    border-radius: 1px;
 }
 
 ::-webkit-scrollbar-track {
-    /* background-color: #0a0916; */
-    background-color: var(--color-txt-dark);
-    /* background-color: #f0f0f0; */
+    background-color: var(--bg-dark-metal-4);
 }
 
-@media screen and (min-width: 1024px) {
-    
+
+/* ? Diseño Boton */
+
+.content-btn {
+    margin: 10px 0px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    :root {
-        /* Fonts Sizes */
-        --font-size-ll: 7vw;
-        --font-size-lm: 6.5vw;
-        --font-size-ls: 6vw;
 
-        --font-size-ml: 5vw;
-        --font-size-mm: 4.5vw;
-        --font-size-ms: 4vw;
-
-        --font-size-sl: 3.5vw;
-        --font-size-sm: 3vw;
-        --font-size-ss: 2.5vw;
-
-        --font-size-ssl: 1.4vw;        
-        --font-size-ssm: 1.3vw;
-        --font-size-sss: 1.2vw;       
-    }
+button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-txt-hover-4);
+    /* background: var(--color-txt-hover-2); */
+    box-shadow: 0px 6px 24px 0px #00000033;
+    overflow: hidden;
+    border: none;
+    border-radius: 0.1rem;
 }
 
-@media screen and (max-width: 767px) {
-    :root {
-        /* Fonts Sizes */
-        --font-size-ll: 7vw;
-        --font-size-lm: 6.5vw;
-        --font-size-ls: 6vw;
-
-        --font-size-ml: 5.5vw;
-        --font-size-mm: 5vw;
-        --font-size-ms: 4.5vw;
-
-        --font-size-sl: 4vw;
-        --font-size-sm: 3.5vw;
-        --font-size-ss: 3vw;
-
-        --font-size-ssl: 2.8vw;
-        --font-size-ssm: 2.7vw;
-        --font-size-sss: 2.6vw;
-
-        --bg-img-about-profile: url('./assets/img/profile.webp');
-    }
+button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: var(--bg-dark-metal-5);
+    /* border: 0.5px solid var(--color-txt-hover);     */
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+    border-radius: 0.1rem;    
 }
 
-hr{
-    border: 1.5px solid var(--color-txt-hover);
+button:hover{
+    transition: 0.3s ease-in-out all;
+    transform: scale(1.05);
+}
+
+button:not(:hover){
+    transition: 0.3s ease-in-out all;
+    transform: scale(1);
+}
+
+button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+}
+
+button a {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 14px 20px;
+    color: var(--txt-color-light);
+    letter-spacing: 0.2em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+    font-size: small !important;
+    font-weight: bold;
+}
+
+/* ? End Diseño Boton */
+
+hr {
+    border: 0.15rem solid var(--color-txt-hover-4) !important;
+    border-radius: 0.1rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.block {
+    display: block !important;
+}
+
+.txt-blue{
+    color: var(--color-txt-hover);
+    filter: drop-shadow(0px 0px 8px #00050ac7);
+}
+
+.txt-blue-web{
+    color: #4690ff;
 }

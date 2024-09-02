@@ -1,0 +1,27 @@
+<div id="toast-info" class="hidden flex justify-between items-center py-4 2xl:py-5 px-4 text-light bg-gray-800 rounded-lg shadow dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800" role="alert">
+    <div class="flex items-center justify-center flex-shrink-0 w-8 h-8 text-blue-500 rounded-md">
+      <i class="fa-solid fa-circle-info text-2xl 2xl:text-3xl"></i> 
+    </div>
+    <div class="ms-3 text-md 2xl:text-xl"> ⌛ {{data.toast_info}} . . .</div>
+    <span type="button" class="cursor-pointer ms-auto -mx-1.5-mx-1.5 -my-1.5 text-red-600 inline-flex items-center justify-center h-8 w-8" data-dismiss-target="#toast-success" aria-label="Close">
+      <i class="fa-solid fa-xmark"></i>
+  </span>
+  </div>
+  <div id="toast-success" class="hidden flex justify-between items-center py-4 2xl:py-5 px-4 text-light bg-gray-800 rounded-lg shadow dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800" role="alert">
+    <div class="flex items-center justify-center flex-shrink-0 w-8 h-8 text-green-500 rounded-md">
+      <i class="fa-solid fa-circle-check text-2xl 2xl:text-3xl"></i> 
+    </div>
+    <div class="ms-3 text-md 2xl:text-xl">😊 {{data.toast_success}}</div>
+    <span type="button" class="cursor-pointer ms-auto -mx-1.5-mx-1.5 -my-1.5 text-red-600 inline-flex items-center justify-center h-8 w-8" data-dismiss-target="#toast-success" aria-label="Close">            
+        <i class="fa-solid fa-xmark"></i>
+    </span>
+  </div>
+  <div id="toast-danger" class="hidden flex justify-between items-center py-4 2xl:py-5 px-4 text-light bg-gray-800 rounded-lg shadow dark:text-gray-400 dark:divide-gray-700 dark:bg-gray-800" role="alert">
+    <div class="flex items-center justify-center flex-shrink-0 w-8 h-8 text-red-500 rounded-md">
+      <i class="fa-solid fa-triangle-exclamation text-2xl 2xl:text-3xl"></i>      
+    </div>
+    <div class="ms-3 text-md 2xl:text-xl"> {{data.toast_danger}}</div>
+    <span type="button" class="cursor-pointer ms-auto -mx-1.5-mx-1.5 -my-1.5 text-red-600 inline-flex items-center justify-center h-8 w-8" data-dismiss-target="#toast-success" aria-label="Close">            
+        <i class="fa-solid fa-xmark"></i>
+    </span>
+  </div>

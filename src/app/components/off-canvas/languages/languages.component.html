@@ -1,0 +1,9 @@
+<div class="relative flex lg:flex-col items-center gap-2 lg:gap-0 mx-4 my-2 lg:m-0">
+    <div class="item">
+        <i class="fa-solid fa-language" style="padding-left: 0.01rem;"></i>
+    </div>
+    <div class="item cursor-pointer tooltip-container">
+        <span class="tooltip-text">{{data_language.description}}</span>
+        <img [src]="data_language.icon" (click)="changeLang()"/>
+    </div>
+</div>

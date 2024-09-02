@@ -1,0 +1,53 @@
+
+
+i{
+    color: var(--icon-color);
+}
+
+.item img{
+    height: auto;
+    width: 1.6rem;    
+    cursor: pointer;
+}
+
+.item img:hover{
+    transition: 0.3s ease all;
+    transform: scale(1.1);
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    position: absolute;
+    visibility: hidden;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0.8rem;
+    padding: 0.3rem 2rem 0.3rem 2rem;    
+    z-index: 1;
+    left: 100%; 
+    top: 60%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;    
+    background: var(--bg-dark-metal-4-hover); 
+    white-space: nowrap; 
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-50%) translateX(10px); /* Ajuste para separar el tooltip del ícono */
+}
+
+/* ? Tablets & Smartphones*/
+@media screen and (max-width: 1023px) {
+
+    .item img{
+        width: 2rem;   
+    }
+    
+}

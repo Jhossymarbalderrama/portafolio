@@ -1,0 +1,48 @@
+<section class="my-4">
+    <h2 class="text-3xl 2xl:text-4xl font-bold text-center tracking-widest capitalize" [innerHTML]=" data.title">
+        {{ data.title }}
+    </h2>
+    <div class="w-100 flex flex-col items-center mb-10 pt-4">
+        <hr class="w-3/4 md:w-2/4 ">
+    </div>
+
+
+    <div class="section-certificates flex flex-col rounded-md shadow-lg py-2 px-4 md:py-5 md:px-8 lg:py-10 lg:px-16">
+        <div class="grid justify-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10" >
+            <div *ngFor="let cert of paginatedCertificates" class="relative group cursor-pointer">
+                <a [href]="cert.img" target="_blank">
+                    <img [src]="cert.img" alt="{{ cert.title }}"
+                        class="certificate-image w-full h-full object-contain rounded-md transition-transform duration-300 ease-in-out transform group-hover:scale-110" />
+                    <div
+                        class="certificate-overlay absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-gray-800 bg-opacity-95 transition-opacity duration-300 ease-in-out rounded-md p-4">
+                        <div class="text-center text-white">
+                            <h3 class="text-lg 2xl:text-xl font-bold">{{ cert.year }}</h3>
+                            <h2 class="text-xl 2xl:text-2xl font-bold">{{ cert.title }}</h2>
+                            <p class="text-md 2xl:text-xl">{{ cert.institution }}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="pagination-controls flex justify-center items-center mt-8">
+            <button (click)="prevPage()" [disabled]="currentPage === 1"
+                class="cursor-pointer text-white rounded-md w-28">
+                <a>{{ data.btn_before }}</a>
+            </button>
+
+            <div class="flex space-x-2 mx-6 gap-4">
+                <span *ngFor="let page of [].constructor(totalPages); let i = index" (click)="goToPage(i + 1)"
+                    [class.bg-gray-700]="currentPage === i + 1" class="h-2 rounded-full cursor-pointer px-6 navigate" [ngClass]="
+              currentPage === i + 1 ? 'nav-activate' : 'nav-not-activate'
+            "></span>
+            </div>
+
+            <button (click)="nextPage()" [disabled]="currentPage === totalPages"
+                class="cursor-pointer text-white rounded-md w-28">
+                <a>{{ data.btn_after }}</a>
+            </button>
+        </div>
+    </div>
+
+</section>

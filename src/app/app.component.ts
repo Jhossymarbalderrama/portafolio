@@ -1,17 +1,25 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { initFlowbite } from 'flowbite';
+import { OffCanvasComponent } from "./components/off-canvas/off-canvas.component";
+import { ContentWebComponent } from "./components/content-web/content-web.component";
 
-import * as AOS from 'aos';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  standalone: true,
+  imports: [RouterOutlet, OffCanvasComponent, ContentWebComponent],
+  templateUrl: './app.component.html', 
+  styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit {
-  title = 'portafolio';
+export class AppComponent implements OnInit{
 
-  ngOnInit(){
-    AOS.init()
-    window.addEventListener('load',AOS.refresh);
+  ngOnInit(): void {
+    initFlowbite();
+    AOS.init();
+
   }
+
+  
 }

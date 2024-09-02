@@ -1,0 +1,459 @@
+{
+    "title": "Mi Portafolio",
+    "first_name": "Jhossymar",
+    "last_name": "Balderrama Rocha",
+    "age": "26",
+    "img_profile": "/assets/img/profile.webp",
+    "cv_url": "/assets/documents/Balderrama Rocha Jhossymar CV-ES.pdf",
+    "logo": "/assets/img/logo.png",
+    "title_menu": "<b class='txt-blue'>{ </b><span>Portafolio</span><b class='txt-blue'>.Dev }</b>",
+    "languages_flags": [
+        {
+            "title": "es",
+            "description": "Cambiar a Inglés",
+            "name": "Spanish",
+            "icon":  "/assets/img/languajes/es.webp"
+        },{
+            "title": "en",
+            "description": "Cambiar a Inglés",
+            "name": "English",
+            "icon": "/assets/img/languajes/uk.webp"
+        }
+    ],
+    "profesion": {
+        "title": "Desarrollador Full Stack",
+        "description": "Angular - Spring Boot"
+    },
+    "menu": {
+        "home": {
+            "title": "home",
+            "icon": "fa-solid fa-house-chimney"
+        },
+        "about": {
+            "title": "Acerca de mí",
+            "icon": "fa-solid fa-address-card"
+        },
+        "project": {
+            "title" : "Mis Proyectos",
+            "icon": "fa-solid fa-folder-open"
+        },
+        "experience": {
+            "title": "Experiencia",
+            "icon": "fa-solid fa-briefcase"
+        },
+        "skill": {
+            "title": "Skills & Habilidades",
+            "icon": "fa-solid fa-tools"
+        },
+        "certificate": {
+            "title": "Títulos y Certificados",
+            "icon": "fa-solid fa-award"
+        },
+        "contact": {
+            "title": "Contacto",
+            "icon": "fa-solid fa-phone"
+        }
+    },
+    "social_networks": {
+        "whatsapp": "https://api.whatsapp.com/send?phone=5491163079082&text=Hola%20Jhossymar%20%F0%9F%91%8B%2C%20quisiera%20coordinar%20una%20reuni%C3%B3n%20para%20discutir%20una%20propuesta.%20%C2%BFCu%C3%A1ndo%20estar%C3%ADas%20disponible%3F",
+        "linkedin": "https://www.linkedin.com/in/jhossymarbalderrama/",
+        "github": "https://github.com/Jhossymarbalderrama",
+        "instagram": "https://www.instagram.com/blackjhossy/",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/jhossymar.balderrama",
+        "discord": "#blackjhossy"
+    },
+    "data_home": {
+        "title": [
+            "Desarrollador Fullstack",
+            "Desarrollador Frontend",
+            "Desarrollador Backend"
+        ],
+        "title_head": "Jhossymar Balderrama Rocha",
+        "title_description": "Angular - Spring Boot",
+        "title_paragraph": "Soy un desarrollador autodidacta con una profunda pasión por el aprendizaje continuo y la resolución de problemas. Actualmente, soy freelance y estoy en búsqueda de nuevas oportunidades profesionales para aplicar mis habilidades y conocimientos en proyectos desafiantes.",
+        "btn": "Contáctame",
+        "btn_about": "Acerca de mí"
+    },
+    "data_about": {
+        "title": "Sobre <span class='txt-blue-web'> mí<span>",
+        "title_btn_cv": "Descargar CV",
+        "about": [
+            "¡Hola 👋! Soy <b>Jhossymar</b>, tengo 26 años, y soy de <b>Avellaneda, Buenos Aires, Argentina</b> 🌍.",
+            "💻 Soy un <b>Desarrollador Full Stack</b> con experiencia en la creación de aplicaciones web, utilizando tecnologías Frontend como  <b>Angular</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>Tailwind CSS</b> y <b>Bootstrap 5</b>. En el Backend, tengo sólidas competencias en <b>Java</b> con <b>Spring Boot</b> y <b>Node.js</b> en el desarrollo de <b>APIs RESTful</b>, además de la gestión de bases de datos en <b>MySQL</b>.",
+            "🚀 Con <a href='#experience' class='txt-blue-web'><b>3 años de experiencia</b></a> en desarrollo y mantenimiento de software, he participado en una amplia variedad de proyectos, desde la creación de aplicaciones multiplataforma con <b>GeneXus</b> hasta el desarrollo de sitios web con <b>Joomla</b>. Además, he brindado <b>soporte IT</b>, gestionando bases de datos y resolviendo problemas técnicos en entornos ágiles utilizando metodologías como <b>Scrum</b>.",
+            "🛠️ Me caracterizo por mi capacidad para comunicarme de manera efectiva, resolver problemas con enfoque analítico y gestionar múltiples tareas de manera eficiente. Comprometido con el aprendizaje continuo, me esfuerzo por mantenerme actualizado con las últimas tendencias tecnológicas y mejorar constantemente mis habilidades profesionales."
+        ],
+        "phrase": "“Mi objetivo es obtener un rol como desarrollador Full Stack en el que pueda aplicar mi experiencia con Angular, Spring Boot y MySQL para crear soluciones tecnológicas innovadoras que mejoren la experiencia del usuario y aborden desafíos empresariales. Busco formar parte de un equipo colaborativo donde pueda aportar al desarrollo del equipo y al éxito general de la empresa.”"
+    },
+    "data_project": {
+        "title": "Mis  <span class='txt-blue-web'>proyectos<span>",
+        "subtitle": "Blog",
+        "description": "Los siguientes proyectos están disponibles en mi repositorio de  <a href='https://github.com/Jhossymarbalderrama' target='_blank' title='Repositorio Jhossymar Balderrama' class='text-blue-600 font-bold hover:underline'>GitHub</a> <i class='fa-brands fa-github'></i>.",
+        "projects": [
+            {
+                "title": "Portafolio Personal",
+                "subtitle": "Frontend Web",
+                "description": "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase. Este proyecto está diseñado para ser completamente responsivo y dinámico, destacando mis habilidades en el desarrollo web.",
+                "urlWeb": "https://jhossymarbalderrama-portafolio.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/portafolio",
+                "img": "/assets/img/projects/portfolio.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/fluency/96/tailwind_css.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png"
+                ]
+            },
+            {
+                "title": "E-Commerce",
+                "subtitle": "Desarrollo Full Stack",
+                "description": "Apex Store es una tienda online completa construida con Angular, Tailwind CSS y Spring Boot en el backend. Utiliza Firebase para el hosting y una base de datos MySQL para gestionar los productos y pedidos.",
+                "urlWeb": "https://e-commerce-ac291.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front",
+                "img": "/assets/img/projects/apexstore.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/color/96/spring-logo.png",
+                    "https://img.icons8.com/fluency/96/tailwind_css.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png",
+                    "https://img.icons8.com/color/96/mysql-logo.png"
+                ]
+            },
+            {
+                "title": "Distribuidora de Alimentos",
+                "subtitle": "Desarrollo Full Stack",
+                "description": "Pet Food Premium es una aplicación web completa desarrollada con Angular para el frontend y Node.js con Express para el backend.",
+                "urlWeb": "https://pet-food-premium-jbr.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front",
+                "img": "/assets/img/projects/petfoot.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/fluency/96/node-js.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/mysql-logo.png"
+                ]
+            },
+            {
+                "title": "Clínica Online",
+                "subtitle": "Frontend Web",
+                "description": "Clinica Online es una pagina web de turnos para una clinica. El sistema de turnos es flexible y facil y rapido ya sea para el paciente que va sacar un turno o el especialista.",
+                "urlWeb": "https://tp-clinicaonline-ef480.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/TP-ClinicaOnline",
+                "img": "/assets/img/projects/clinica.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png"
+                ]
+            },
+            {
+                "title": "Trailers - Peliculas",
+                "subtitle": "Frontend Web",
+                "description": "Movies Online es una plataforma para ver detalles y trailers de películas en línea utilizando únicamente HTML, CSS, JavaScript y consumo de una Api Rest, como parte del curso Codo a Codo",
+                "urlWeb": "https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page_frontend/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page_frontend",
+                "img": "/assets/img/projects/movie.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/javascript.png",
+                    "https://img.icons8.com/fluency/96/html-5.png",
+                    "https://img.icons8.com/fluency/96/css3.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/fluency/96/api.png"
+                ]
+            },
+            {
+                "title": "Clima Avellaneda",
+                "subtitle": "Frontend Web",
+                "description": "Una aplicación web desarrollada en Angular que consume una API de clima para proporcionar información meteorológica actualizada. Utiliza Firebase para el alojamiento y Bootstrap 5 para el diseño responsivo.",
+                "urlWeb": "https://weather-jbr.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/weather",
+                "img": "/assets/img/projects/weather.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png",
+                    "https://img.icons8.com/fluency/96/api.png"
+                ]
+            }
+        ]
+    },
+    "data_experience": {
+        "title": "Experiencia",
+        "company_name": "🏢 CA VLB s.a.",
+        "company_address": "Sarandi, Buenos Aires, Argentina",
+        "logo": "/assets/img/others/images.webp",
+        "company_years": "2016 - 2019",
+        "title_technologies": "Tecnologías",
+        "web_url": "http://www.vlb.com.ar/",
+        "icons_technologies": [
+            {
+                "name": "GeneXus",
+                "img": "/assets/img/icons skills/genexus.webp"
+            },
+            {
+                "name": "Joomla",
+                "img": "https://img.icons8.com/color/96/joomla.png"
+            },
+            {
+                "name": "MySQL",
+                "img": "https://img.icons8.com/color/96/mysql-logo.png"
+            }
+        ],
+        "technologies": [
+            "Developer GeneXus Evo 2",
+            "Developer GeneXus Evo 3",
+            "Developer GeneXus 9",
+            "Web Developer Joomla",
+            "Soporte IT"
+        ],
+        "company_title": "Servicios de Consultoría en Informática y Suministro de Software",
+        "description": [
+            {
+                "title": "Desarrollador de Software en GeneXus",
+                "functions": [
+                    "Creación y optimización de aplicaciones multiplataforma.",
+                    "Desarrollo y mantenimiento de sistemas Web en <b>GeneXus Evolution 2</b> y <b>3</b>.",
+                    "Desarrollo de sistemas Win en <b>GeneXus 9</b>."
+                ]
+            },
+            {
+                "title": "Desarrollador Web con Joomla",
+                "functions": [
+                    "Desarrollo y mantenimiento de páginas web utilizando <b>Joomla</b>."
+                ]
+            },
+            {
+                "title": "Gestión de Bases de Datos",
+                "functions": [
+                    "Manejo básico de <b>MySQL</b> y <b>SQL Server</b>."
+                ]
+            },
+            {
+                "title": "Soporte IT",
+                "functions": [
+                    "Implementación y actualización de sistemas.",
+                    "Reparaciones y mantenimiento de programas.",
+                    "Transferencia de datos y realización de copias de seguridad.",
+                    "Resolución de problemas técnicos en software y hardware."
+                ]
+            }
+        ]
+    },
+    "data_skill": {
+        "title": "Skills & <span class='txt-blue-web'>Habilidades</span>",
+        "title_stack": "Tecnologías Stack",
+        "title_others": "Otras Tecnologías y Herramientas",
+        "my_stack": [
+            {
+                "name": "Angular",
+                "img": "https://img.icons8.com/fluency/96/angularjs.png"
+            },
+            {
+                "name": "TypeScript",
+                "img": "https://img.icons8.com/fluency/96/typescript--v2.png"
+            },
+            {
+                "name": "Tailwind",
+                "img": "https://img.icons8.com/fluency/96/tailwind_css.png"
+            },
+            {
+                "name": "Bootstrap",
+                "img": "https://img.icons8.com/fluency/96/bootstrap.png"
+            },
+            {
+                "name": "VSCode",
+                "img": "https://img.icons8.com/fluency/96/visual-studio-code-2019.png"
+            },
+            {
+                "name": "SpringBoot",
+                "img": "https://img.icons8.com/color/96/spring-logo.png"
+            },
+            {
+                "name": "Java",
+                "img": "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png"
+            },            
+            {
+                "name": "JsonWebToken",
+                "img": "https://img.icons8.com/color/96/java-web-token.png"
+            },
+            {
+                "name": "Docker",
+                "img": "https://img.icons8.com/fluency/96/docker.png"
+            },
+            {
+                "name": "NetBeans",
+                "img": "https://img.icons8.com/color/96/apache-netbeans.png"
+            },
+            {
+                "name": "Swagger",
+                "img": "/assets/img/icons skills/swagger.webp"
+            },           
+            {
+                "name": "MySQL",
+                "img": "https://img.icons8.com/color/96/mysql-logo.png"
+            }
+        ],
+        "others": [
+            {
+                "name": "NodeJS",
+                "img": "https://img.icons8.com/fluency/96/node-js.png"
+            },
+            {
+                "name": "ExpressJS",
+                "img": "https://img.icons8.com/office/96/express-js.png"
+            },
+            {
+                "name": "C-Sharp",
+                "img": "https://img.icons8.com/fluency/96/c-sharp-logo.png"
+            },
+            {
+                "name": "JavaScript",
+                "img": "https://img.icons8.com/fluency/96/javascript.png"
+            },
+            {
+                "name": "HTML5",
+                "img": "https://img.icons8.com/fluency/96/html-5.png"
+            },
+            {
+                "name": "CSS3",
+                "img": "https://img.icons8.com/fluency/96/css3.png"
+            },
+            {
+                "name": "Ionic",
+                "img": "https://img.icons8.com/color/96/ionic.png"
+            },
+            {
+                "name": "PHP",
+                "img": "https://img.icons8.com/offices/96/php-logo.png"
+            },
+            {
+                "name": "GeneXus",
+                "img": "/assets/img/icons skills/genexus.webp"
+            },
+            {
+                "name": "Joomla",
+                "img": "https://img.icons8.com/color/96/joomla.png"
+            },
+            {
+                "name": "Arduino",
+                "img": "https://img.icons8.com/fluency/96/arduino.png"
+            },
+            {
+                "name": "Firebase",
+                "img": "https://img.icons8.com/color/96/google-firebase-console.png"
+            },
+            {
+                "name": "Maven",
+                "img": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-color-tal-revivo.png"
+            },
+            {
+                "name": "Git",
+                "img": "https://img.icons8.com/color/96/git.png"
+            },
+            {
+                "name": "GitHub",
+                "img": "https://img.icons8.com/color/96/github--v1.png"
+            },
+            {
+                "name": "Postman",
+                "img": "https://img.icons8.com/dusk/96/postman-api.png"
+            },
+            {
+                "name": "Photoshop",
+                "img": "https://img.icons8.com/color/96/adobe-photoshop--v1.png"
+            },
+            {
+                "name": "npm",
+                "img": "https://img.icons8.com/color/96/npm.png"
+            }
+        ]
+    },
+    "data_certificate": {
+        "title": "Títulos & <span class='txt-blue-web'>Certificados </span>",
+        "btn_before": "Anterior",
+        "btn_after": "Siguiente",
+        "certificates": [
+            {
+                "title": "React js Esencial",
+                "institution": "Linkedin Learning",
+                "year": "2024",
+                "img": "/assets/img/certificados/CertificadoDeFinalizacion_React-esencial.webp",
+                "type": "certificado"
+            },
+            {
+                "title": "Fundamentos de SCRUM",
+                "institution": "Soylider.net",
+                "year": "2024",
+                "img": "/assets/img/certificados/Certificado-Fundamentos-SCRUM-Jhossymar-Balderrama-Rocha.webp",
+                "type": "certificado"
+            },
+            {
+              "title": "Full Stack Java",
+              "institution": "Programa Codo a Codo 4.0",
+              "year": "2024",
+              "img": "/assets/img/certificados/CodoACodo.webp"  ,
+              "type": "certificado"
+            },
+            {
+                "title": "Técnico Universitario en Programación",
+                "institution": "Universidad Tecnológica Nacional",
+                "year": "2023",
+                "img": "/assets/img/certificados/tituloUTNFraTUP.webp",
+                "type": "titulo"
+            },
+            {
+                "title": "Python IBM",
+                "institution": "Cognitive Class",
+                "year": "2023",
+                "img": "/assets/img/certificados/certificatePython.webp",
+                "type": "certificado"
+            },            
+            {
+                "title": "Master en JavaScript",
+                "institution": "Udemy",
+                "year": "2023",
+                "img": "/assets/img/certificados/certificateUdemy.webp",
+                "type": "certificado"
+            },                       
+            {
+                "title": "#YoProgramo",
+                "institution": "Argentina Programa",
+                "year": "2023",
+                "img": "/assets/img/certificados/certificateYoProgramo.webp",
+                "type": "certificado"
+            },
+            {
+                "title": "#SéProgramar",
+                "institution": "Argentina Programa",
+                "year": "2022",
+                "img": "/assets/img/certificados/certificateSePrograma.webp",
+                "type": "certificado"
+            }
+        ]
+    },
+    "data_contact": {
+        "title": "Contáctame",
+        "tag": "Contacto",
+        "description": "Para consultas o dudas, complete el <b>Formulario</b> que se encuentra a la derecha, o envíame un mensaje por <b>WhatsApp</b> usando el ícono ubicado en la parte inferior derecha de la página. Responderé lo antes posible.",
+        "form": {
+            "title": "Formulario",
+            "btn_submit": "Enviar Mensaje",
+            "name": "Nombre",
+            "name_span": "Nombre requerido",
+            "placeName": "ingrese un nombre",
+            "mail": "Email",
+            "mail_span": "Email requerido",
+            "mail_span_format": "Formato de mail invalido",
+            "placeMail": "ingrese un mail",
+            "subject": "Asunto",
+            "placeSubject": "ingrese un asunto",
+            "message": "Mensaje",
+            "placeMessage": "mensaje",
+            "message_span": "Mensaje requerido",
+            "btn": "Enviar ↗️"
+        },
+        "toast_success": "Enviando formulario",
+        "toast_info": "Formulario enviado",
+        "toast_danger": "Error al enviar el formulario"
+    }
+}

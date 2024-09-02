@@ -1,0 +1,73 @@
+<div class="contenido-web" id="contenido-web">
+    <!-- <div class="theme-mode flex gap-4">
+        <i id="theme-dark" class="fa-regular fa-moon text-xl 2xl:text-2xl theme-mode-active" (click)="changeTheMode('moon')"></i>
+        <i id="theme-light" class="fa-regular fa-sun text-xl 2xl:text-2xl" (click)="changeTheMode('sun')"></i>
+    </div> -->
+
+    <nav class="z-40 fixed top-0 w-full bg-black bg-opacity-100 lg:hidden" >
+        <div class="flex items-center justify-between w-full" style="padding: 1rem 1.2rem;">
+          <!-- Logo -->
+          <a class="flex items-center" href="#home">
+            <span class="self-center text-3xl whitespace-nowrap dark:text-white italic font-black shadow-lg" [innerHTML]="title_menu">
+            {{title_menu}}
+            </span>
+          </a>
+      
+          <!-- Menu Button -->
+          <div data-collapse-toggle="navbar-language" type="button" 
+                  class="cursor-pointer inline-flex items-center justify-center w-8 h-8 text-4xl lg:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      
+        <!-- Menu Content -->
+        <div class="hidden w-full" id="navbar-language">
+          <app-content-canvas></app-content-canvas>
+          <app-languages></app-languages>
+        </div>
+      </nav>
+      
+    <div id="href_home"></div>
+    <div class="home">
+        <app-home id="home"></app-home>
+    </div>
+
+    <div class="about">
+        <app-about id="about"></app-about>
+    </div>
+
+    <div class="project">
+        <app-project id="project"></app-project>
+    </div>
+
+    <div class="experience">
+        <app-experience id="experience"></app-experience>
+    </div>
+
+    <div class="skill">
+        <app-skill id="skill"></app-skill>
+    </div>
+
+    <div class="certificate">
+        <app-certificate id="certificate"></app-certificate>
+    </div>
+
+    <div class="contact">
+        <app-contact id="contact"></app-contact>
+    </div>
+
+    <div>       
+        <a href="https://bit.ly/JhossymarBalderramaR98" target="_blank" title="Whatsapp">
+            <div id="icon-wsp" class="icon-wsp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </a>
+    </div>
+
+    <div class="icon-arrow-up">
+        <a href="#home">
+            <i  id="icon-arrow-up" class="fa-solid fa-angles-up cursor-pointer hidden"></i>
+        </a>
+    </div>
+</div>
+

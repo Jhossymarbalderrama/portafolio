@@ -1,0 +1,77 @@
+<section class="py-4">
+    <h2 class="text-3xl 2xl:text-4xl font-bold text-center tracking-widest capitalize">
+        {{ data.title }}
+    </h2>
+    <div class="w-100 flex flex-col items-center mb-10 pt-4">
+        <hr class="w-3/4 md:w-2/4 ">
+    </div>
+
+    <div class="flex flex-col experience-section rounded-md shadow-lg px-5 py-10 md:px-10 md:py-10">
+        <div class="experience-cards">
+            <div class="experience-card flex flex-col lg:flex-row items-start">
+                <div class="w-full lg:w-1/3 flex flex-col mb-4 md:mb-0 py-1 px-2">
+                    <div class="w-full flex flex-col items-center gap-2">
+                        <div
+                            class="w-100 h-100 lg:w-30 lg:h-30 bg-blue-500 text-white flex items-center justify-center rounded-full lg:ml-4 lg:mb-4">
+                            <img [src]="data.logo" alt="" width="150" height="auto" class="rounded-full" />
+                        </div>
+                        <div class="ml-5 text-center">
+                            <h3 class="text-2xl 2xl:text-3xl font-bold">
+                                {{ data.company_name }}
+                            </h3>
+                            <hr class="my-2" />
+                            <h5 class="text-lg 2xl:text-xl font-bold">
+                                {{ data.company_address }}
+                            </h5>
+                            <p class="text-lg 2xl:text-xl text-gray-400 font-semibold">
+                                {{ data.company_years }}
+                            </p>
+                        </div>
+
+                        <div class="flex flex-row items-center">
+                            <div class="tooltip-container" *ngFor="let item of data.icons_technologies">
+                                <span class="tooltip-text">{{ item.name }}</span>
+                                <img [src]="item.img" [alt]="item.name" class="tooltip-target tooltip-target-settings"
+                                    ngClass="{{ item.name }}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-2/3 mt-4 md:mt-0">
+                    <div class="mb-6" data-aos="fade-up" data-aos-duration="1000">
+                        <h4 class="text-xl 2xl:text-2xl font-bold">
+                            {{ data.company_title }}
+                        </h4>
+                        <a [href]="data.web_url" target="_blank"
+                            class="url-web text-md 2xl:text-lg text-white py-2 px-4 rounded-md flex items-center mt-2 transition-colors duration-300">
+                            🌍 Web | {{ data.company_name }}
+                        </a>
+                    </div>
+                    <div *ngFor="let item of data.description" class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                        <h5 class="text-lg 2xl:text-xl font-semibold text-gray-300">
+                            {{ item.title }}
+                        </h5>
+                        <ul class="text-md 2xl:text-lg list-disc pl-6 text-gray-400 mt-2">
+                            <li *ngFor="let st of item.functions" [innerHTML]="st">
+                                {{ st }}
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="text-md 2xl:text-lg font-semibold text-gray-300">
+                            {{ data.title_technologies }}:
+                        </p>
+                        <ul class="flex flex-wrap gap-2 mt-2">
+                            <li *ngFor="let technology of data.technologies"
+                                class="url-web text-xs 2xl:text-sm text-gray-200 py-2 px-3 rounded-md cursor-pointer hover:scale-105"
+                                data-aos="fade-up" data-aos-duration="1000">
+                                {{ technology }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

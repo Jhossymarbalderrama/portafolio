@@ -1,0 +1,104 @@
+
+#menu-off-canvas{      
+    width: 100%;
+    height: 100vh;
+}
+
+#off-canvas-icons {
+    margin-top: -6rem;
+}
+
+#off-canvas-icons a {
+    z-index: 20;        
+    height: auto;
+    width: auto;    
+}
+
+i:hover{
+    transition: 0.2s ease all;
+    transform: scale(1.4);
+}
+
+
+
+#menu-off-canvas i{
+    cursor: pointer;
+}
+
+#menu-off-canvas i:hover{    
+    filter: drop-shadow(0px 0px 8px rgb(111, 157, 255));    
+}
+
+
+.off-canvas{
+    position: sticky;
+    top: 0;
+    left: 0;         
+}
+
+
+.language{
+    min-height: 4vh;
+    max-height: 4vh;     
+}
+
+.header{
+    min-height: 45vh;
+    max-height: 45vh;
+}
+
+.content{
+    min-height: 45vh;
+    max-height: 45vh; 
+}
+
+.footer{
+    min-height: 2vh;
+    max-height: 2vh; 
+} 
+
+.off-canvas-hidde-item{
+        display: grid;
+        justify-content: center;
+}
+
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    position: absolute;
+    visibility: hidden;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0.8rem;
+    padding: 0.3rem 2rem 0.3rem 2rem;    
+    z-index: 1;
+    left: 100%; 
+    top: 60%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    text-transform: capitalize;
+    background: var(--bg-dark-metal-4-hover); 
+    white-space: nowrap; 
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-50%) translateX(10px);
+}
+
+.active {
+    transform: scale(1.5);
+    /* margin: 0.3rem 0rem; */
+    /* filter: drop-shadow(0px 0px 6px #4a83ff);     */
+    /* filter: drop-shadow(0px 0px 2px #4a83ffcc);     */
+    color: #2270ffe5;
+    /* filter: drop-shadow(0px 0px 10px #4a83ff3b);     */
+    /* color: #3686fffa; */
+
+}

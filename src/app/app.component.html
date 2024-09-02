@@ -1,11 +1,9 @@
-<!-- <router-outlet></router-outlet> -->
-
-<div class="d-flex content">
-  <div class="sidebar-container h-100">
-    <app-section-left></app-section-left>
+<div class="flex">
+  <div class="off-canvas" id="off-canvas" style="border-right: 2px solid #141a22">
+    <app-off-canvas></app-off-canvas>
   </div>
 
-  <div class="content">
-    <app-section-right></app-section-right>
+  <div class="content-web" id="content-web">
+      <app-content-web></app-content-web>
   </div>
 </div>

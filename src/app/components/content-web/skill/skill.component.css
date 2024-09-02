@@ -1,0 +1,197 @@
+#particles-skill {
+    position: absolute;
+    width: auto;
+    height: 200%;
+    opacity: 40%;
+}
+
+.container {
+    position: relative;
+    overflow: hidden !important;
+}
+
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    min-width: 120px;
+    width: auto;
+    background-color: #0f151d;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 24px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    position: absolute;
+    letter-spacing: 1px;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-10px);
+}
+
+
+.tooltip-target {
+    height: 7rem;
+}
+
+.tooltip-target-settings{
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;   
+}
+
+.tooltip-target-others {
+    height: 6rem;
+}
+
+.tooltip-target:hover, .tooltip-target-others:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease all;
+}
+
+.tooltip-target:not(:hover), .tooltip-target-others:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s ease all;
+}
+
+
+/* ! Hovers Skills  Stack*/
+.Angular:hover{
+    filter: drop-shadow(1px 1px 15px #ee3e4ac7);
+}
+
+.TypeScript:hover{
+    filter: drop-shadow(1px 1px 15px #1b94eacb);    
+}
+
+.Tailwind:hover{
+    filter: drop-shadow(1px 1px 15px #00b0cfcb);    
+}
+
+.Bootstrap:hover{
+    filter: drop-shadow(1px 1px 15px #8c4acdcb);    
+}
+
+.VSCode:hover{
+    filter: drop-shadow(1px 1px 15px #0076bbc7);    
+}
+
+.SpringBoot:hover{
+    filter: drop-shadow(1px 1px 15px #8bc34acb);    
+}
+
+.Java:hover{
+    filter: drop-shadow(1px 1px 15px #0c4dffd3);    
+}
+
+.JsonWebToken:hover{
+    filter: drop-shadow(1px 1px 15px #b004e0d7);    
+}
+
+.Swagger:hover{
+    filter: drop-shadow(1px 1px 15px #609c06c4);    
+}
+
+.Docker:hover{
+    filter: drop-shadow(1px 1px 15px #2395eccb);    
+}
+
+.NetBeans:hover{
+    filter: drop-shadow(1px 1px 15px #e0e0e0ce);    
+}
+
+.MySQL:hover{
+    filter: drop-shadow(1px 1px 20px #02ebcfe5);    
+}
+
+/* ! Hovers Skills  Others*/
+
+.NodeJS:hover{
+    filter: drop-shadow(1px 1px 15px #21A366);    
+}
+
+.ExpressJS:hover{
+    filter: drop-shadow(1px 1px 15px #7b8794de);    
+}
+
+.C-Sharp:hover{
+    filter: drop-shadow(1px 1px 15px #848C94);    
+}
+
+.JavaScript:hover{
+    filter: drop-shadow(1px 1px 15px #F7DF1E);    
+}
+
+.HTML5:hover{
+    filter: drop-shadow(1px 1px 15px #F09601);    
+}
+
+.CSS3:hover{
+    filter: drop-shadow(1px 1px 15px #35C1F1);    
+}
+
+.Ionic:hover{
+    filter: drop-shadow(1px 1px 15px #448AFF);    
+}
+
+.PHP:hover{
+    filter: drop-shadow(1px 1px 15px #DCD5F2);    
+}
+
+.GeneXus:hover{
+    filter: drop-shadow(1px 1px 15px #990524);    
+}
+
+.Joomla:hover{
+    filter: drop-shadow(1px 1px 15px #FF9800);    
+}
+
+
+.Arduino:hover{
+    filter: drop-shadow(1px 1px 15px #00A1A7);    
+}
+
+.Firebase:hover{
+    filter: drop-shadow(1px 1px 15px #FFCA28);    
+}
+
+.Maven:hover{
+    filter: drop-shadow(1px 1px 15px #EC8320);    
+}
+
+.Git:hover{
+    filter: drop-shadow(1px 1px 15px #F4511E);    
+}
+
+.GitHub:hover{
+    filter: drop-shadow(1px 1px 15px #00BCD4);    
+}
+
+.Postman:hover{
+    filter: drop-shadow(1px 1px 15px #ED7899);    
+}
+
+.Photoshop:hover{
+    filter: drop-shadow(1px 1px 15px #03A9F4);    
+}
+
+.npm:hover{
+    filter: drop-shadow(1px 1px 15px #D50000);    
+}

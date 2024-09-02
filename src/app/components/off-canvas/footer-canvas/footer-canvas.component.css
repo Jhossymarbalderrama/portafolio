@@ -1,0 +1,20 @@
+i{
+    fill: white;   
+    font-size: 1vw;
+    border-radius: 3px;
+    transition: all 0.200s;   
+    cursor: pointer;
+}
+
+i:hover{
+    fill: var(--txt-color-blue-dark-h);   
+    color: var(--txt-color-blue);   
+    transition: 0.3s;
+    transform: scale(1.5);   
+}
+
+
+i:not(:hover){    
+    transition: 0.5s;
+    transform: scale(1);
+}

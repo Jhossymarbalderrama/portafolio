@@ -1,0 +1,96 @@
+<div class="off-canvas" id="off-canvas-body">
+  <div class="flex flex-row justify-between language p-2 mb-2">
+    <div class="flex flex-row gap-1 canvas-item">
+    </div>
+
+    <div id="menu-off-canvas" class="flex flex-col items-center justify-between pb-4 pt-2">
+      <div class="text-md 2xl:text-xl">
+        <app-languages></app-languages>
+      </div>
+
+      <div class="flex flex-col gap-2 2xl:gap-4 hidden text-lg 2xl:text-2xl" id="off-canvas-icons">
+        <div class="tooltip-container">
+          <span class="tooltip-text">{{ menu.home.title }}</span>
+          <a href="#home">
+            <i id="icon-home" class="cursor-pointer item-menu-canvas" [class]="menu.home.icon" [class.active]="
+                sectionActive === 'home' || sectionActive === undefined
+              "></i>
+          </a>
+        </div>
+
+        <div class="tooltip-container">
+          <span class="tooltip-text">{{ menu.about.title }}</span>
+          <a href="#about">
+            <i id="icon-about" class="cursor-pointer item-menu-canvas" [class]="menu.about.icon"></i>
+          </a>
+        </div>
+
+        <div class="tooltip-container">
+          <span class="tooltip-text">{{ menu.project.title }}</span>
+          <a href="#project">
+            <i id="icon-project" class="cursor-pointer item-menu-canvas" [class]="menu.project.icon"></i>
+          </a>
+        </div>
+
+        <div class="tooltip-container">
+          <span class="tooltip-text">{{ menu.experience.title }}</span>
+          <a href="#experience">
+            <i id="icon-experience" class="cursor-pointer item-menu-canvas" [class]="menu.experience.icon"></i>
+          </a>
+        </div>
+
+        <div class="tooltip-container">
+          <span class="tooltip-text">{{ menu.skill.title }}</span>
+          <a href="#skill">
+            <i id="icon-skill" class="cursor-pointer item-menu-canvas" [class]="menu.skill.icon"></i>
+          </a>
+        </div>
+
+        <div class="tooltip-container">
+          <span class="tooltip-text">{{ menu.certificate.title }}</span>
+          <a href="#certificate">
+            <i id="icon-certificate" class="cursor-pointer item-menu-canvas" [class]="menu.certificate.icon"></i>
+          </a>
+        </div>
+
+        <div class="tooltip-container">
+          <span class="tooltip-text">{{ menu.contact.title }}</span>
+          <a href="#contact">
+            <i id="icon-contact" class="cursor-pointer item-menu-canvas" [class]="menu.contact.icon"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col hidden  gap-1 2xl:gap-2 text-md 2xl:text-xl" id="off-canvas-socials">
+        <a>
+          <div class="tooltip-container">
+            <a href="https://www.linkedin.com/in/jhossymarbalderrama/" target="_blank">
+              <span class="tooltip-text">Linkedin</span>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </a>
+        <a>
+          <div class="tooltip-container">
+            <a href="https://github.com/Jhossymarbalderrama" target="_blank">
+              <span class="tooltip-text">Github</span>
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid justify-items-center header">
+    <!-- <app-header-canvas class="canvas-item"></app-header-canvas> -->
+  </div>
+
+  <div class="grid content-center content">
+    <!-- <app-content-canvas class="canvas-item"></app-content-canvas> -->
+  </div>
+
+  <div class="footer">
+    <!-- <app-footer-canvas class="canvas-item"></app-footer-canvas> -->
+  </div>
+</div>

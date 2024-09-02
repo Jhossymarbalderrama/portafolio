@@ -1,0 +1,105 @@
+
+
+<div class="fixed flex flex-col z-40 max-w-xs 2xl:max-w-sm w-full top-5 right-5 gap-2">    
+  <app-toast-form></app-toast-form>
+</div>
+
+<section class="px-2 py-10 sm:px-2 sm:py-6 lg:px-10 lg:py-10">
+  <div class="content-contact mx-auto rounded-md shadow-lg">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-12">
+      <div class="contact-info grid flex-wrap">
+        <div class="md:px-6 md:py-8">
+        
+          <h2 class="text-3xl 2xl:text-4xl font-bold text-start tracking-widest capitalize" [innerHTML]="data.title">
+            {{ data.title }} 
+          </h2>
+          <div class="w-100 mb-6 pt-4">
+            <hr class="w-2/4">
+          </div>
+
+          <h3 class="text-md 2xl:text-lg font-bold text-start mb-2 tracking-widest">
+            <span class="txt-blue"><</span>
+            {{data.first_name}} {{data.last_name}}
+            <span class="txt-blue">/></span>
+          </h3>
+          
+          <p class="text-gray-200 mb-6 text-lg 2xl:text-xl" [innerHTML]="data.description">
+            {{ data.description }}
+          </p>
+
+          <div class="space-y-4">
+            <div class="flex items-center text-gray-200 text-md 2xl:text-lg">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13126.764993208239!2d-58.37302059718926!3d-34.66249956010772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3335230bd052b%3A0x9d632a18eea90a31!2sAvellaneda%2C%20Buenos%20Aires%20Province!5e0!3m2!1sen!2sar!4v1695663517981!5m2!1sen!2sar"
+            class="w-full h-64 rounded-md shadow-lg border-0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="contact-form bg-opacity-80 p-4 md:p-8 rounded-md shadow-lg">
+        <form [formGroup]="formContact" id="form-contact" class="space-y-6 needs-validation" (ngSubmit)="sendContact()">
+          <h3 class="text-3xl 2xl:text-4xl font-bold text-start mb-6 tracking-widest">
+            {{ data.form.title }}
+          </h3>
+
+          <div class="form-group">
+            <label for="name" class="text-gray-200">*{{ data.form.name }}</label>
+            <div *ngIf="name.invalid && (name.dirty || name.touched)" class="text-red-600 text-md font-bold">
+              <span *ngIf="name.errors?.['required']">{{ data.form.name_span }} requerido</span>
+            </div>
+            <input type="text"
+              class="w-full p-3 mt-2 rounded-md border border-gray-600 focus:outline-none focus:border-blue-400 form-control"
+              formControlName="name" id="name" name="name" placeholder="{{ data.form.placeName }}"
+              [ngClass]="name.invalid && (name.dirty || name.touched) ? 'border-red-600 border-2' : ''" />
+          </div>
+
+          <div class="form-group">
+            <label for="mail" class="text-gray-200">*{{ data.form.mail }}</label>
+            <div *ngIf="mail.invalid && (mail.dirty || mail.touched)" class="text-red-600 text-md font-bold">
+              <span *ngIf="mail.errors?.['required']">{{ data.form.mail_span }}</span>
+              <span *ngIf="mail.errors?.['email']">{{ data.form.mail_span_format }} </span>
+            </div>
+            <input type="email"
+              class="w-full p-3 mt-2 rounded-md border border-gray-600 focus:outline-none focus:border-blue-400 form-control"
+              formControlName="mail" id="mail" name="mail" placeholder="{{ data.form.placeMail }}"
+              [ngClass]="mail.invalid && (mail.dirty || mail.touched) ? 'border-red-600 border-2' : ''" />
+          </div>
+
+          <div class="form-group">
+            <label for="subject" class="text-gray-200">{{
+              data.form.subject
+              }}</label>
+            <input type="text"
+              class="w-full p-3 mt-2 rounded-md border border-gray-600 focus:outline-none focus:border-blue-400 form-control"
+              formControlName="subject" id="subject" name="subject" placeholder="{{ data.form.placeSubject }}" />
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="text-gray-200">*{{
+              data.form.message
+              }}</label>
+            <div *ngIf="message.invalid && (message.dirty || message.touched)" class="text-red-600 text-md font-bold">
+              <span *ngIf="message.errors?.['required']">{{
+                data.form.message_span
+                }}</span>
+            </div>
+            <textarea formControlName="message" id="message" name="message" rows="4"
+              class="w-full p-3 mt-2 rounded-md border border-gray-600 focus:outline-none focus:border-blue-400 form-control"
+              placeholder="{{ data.form.placeMessage }}"
+              [ngClass]="message.invalid && (message.dirty || message.touched) ? 'border-red-600 border-2' : ''"></textarea>
+          </div>
+
+          <button type="submit" class="w-full rounded-md cursor-pointer">
+            <a id="btn-send-form-contact">{{data.form.btn}}</a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

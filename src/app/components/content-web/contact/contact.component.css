@@ -1,0 +1,35 @@
+
+.contact-form{
+    background-color: var(--bg-dark-metal-4-hover);
+    opacity: 90%;
+}
+
+input,textarea{
+    background-color: var(--bg-dark-metal-5-hover);
+    color: black;    
+}
+
+::-webkit-input-placeholder{
+    color: black;    
+}
+
+
+
+#btn-send-form-contact  {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 14px 20px;
+    background: var(--color-txt-hover-4);
+    color: var(--txt-color-light);
+    letter-spacing: 0.2em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+    font-size: small !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btn-send-form-contact:hover{
+    background-color: #0048df;
+}

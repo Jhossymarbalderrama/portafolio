@@ -1,0 +1,134 @@
+*{
+    /* text-shadow: var(--txt-shadow-titles); */
+    text-shadow: -5px 5px 8px #015fcac7; 
+    font-family: var(--font-txt-df);
+}
+
+#particles-home {    
+    position: absolute;
+    left: 0;    
+    width: 100%;
+    height: 100%;
+    opacity: 20%;         
+}
+
+.text-about-me{
+    transition: 0.3s ease all;
+    color: var(--color-txt-hover);
+    transform: scale(1.2);
+    animation: none;
+}
+
+.container {
+    position: relative;        
+}
+
+section {
+    width: auto;    
+    height: 100vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+hr {
+    border: 0.1px solid var(--color-txt-hover-2);   
+}
+
+
+.title {    
+    display: block;
+    color: #f3f3f3;
+    font-weight: bolder;
+    white-space: nowrap;
+    border-right: 8px solid;    
+    margin: auto auto;
+    width: 21ch;
+    overflow: hidden;
+
+    animation: typing 2s steps(21), blink 0.5s infinite step-end alternate;
+    /* font-size: 12vh; */
+    /* font-size: 60px; */
+    letter-spacing: 4px;
+    text-shadow: -5px 5px 8px #01346dc7; 
+}
+
+.parrafo-principal{
+    display: flex;
+    flex-wrap: 1;
+    margin: 1% 10% 1% 10%;
+    /* font-size: 1.1vw;   */
+    /* font-size: 1.4vw; */
+    letter-spacing: 0.2px;
+    text-shadow: -1px 1px 8px #00070ec7;    
+}
+
+.subtitle{
+    text-shadow: -1px 1px 8px #8bc1ffc7;
+    color: #e7e7e7;
+    /* font-size: 2vw;     */
+    letter-spacing: 6px;
+    font-style: italic;
+}
+
+/* .description{
+    font-size: 2vw;    
+    letter-spacing: 6px;
+    font-style: italic;
+    text-shadow: -1px 1px 8px #8bc1ffc7;
+    color: #e7e7e7;
+} */
+
+
+
+
+img{
+    width: 5vw;
+    /* filter: drop-shadow(1px 1px 15px #d6d6d6a8); */
+    filter: drop-shadow(1px 1px 25px #015fcac7);
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 21ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* ? Smartphone */
+@media screen and (max-width: 767px) {
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 4px solid;                     
+        animation:  blink 0.5s infinite step-end alternate;
+        white-space: normal;
+        width: auto; 
+        letter-spacing: 5px;
+        word-wrap: break-word;                    
+    }
+
+    .subtitle{
+        letter-spacing: 1px;        
+    }
+
+    .parrafo-principal{   
+        padding: 0;
+        margin: 0;
+        width: auto;  
+        letter-spacing: 0px;                
+    }
+    
+}

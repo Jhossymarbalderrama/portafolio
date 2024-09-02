@@ -1,0 +1,46 @@
+.section-certificates {
+  background-color: var(--bg-dark-metal-4);  
+}
+
+.certificate-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.certificate-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.group:hover .certificate-overlay {
+  opacity: 1;
+}
+
+.group {
+  position: relative;
+}
+
+.nav-activate {
+  background-color: var(--color-txt-hover-4);
+}
+
+.nav-not-activate {
+  background-color: var(--color-txt-hover-3);
+}
+
+/* ? PC */
+@media screen and (min-width: 768px) {
+  .navigate{
+    display: block;
+  }
+}
+
+/* ? Tablets & Smartphones*/
+@media screen and (max-width: 767px) {
+  .navigate{
+    display: none;
+  }
+}
+

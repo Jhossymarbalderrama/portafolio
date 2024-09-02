@@ -1,0 +1,23 @@
+Dependencias Instaladas | 
+
+✅ 1- Tailwind CSS  (cdn)
+✅ 2- Flowbite  (cdn)
+✅ 3- Font Awesome Icons (Script)
+❌ 4- Firebase 
+✅ 5- AOS animation | npm install aos --save
+✅ 6- Particles JS | https://www.npmjs.com/package/particles.js?activeTab=readme
+✅ 7- emailjs | npm install emailjs-com
+✅ 8- particles | npm install particles.js
+✅ 9- masonry-layout | npm install masonry-layout | npm install --save-dev @types/masonry-layout
+✅ 10- 
+✅ 11- 
+✅ 12- 
+
+
+Task List:
+
+1- Response Design ✅
+2- Tipografia ✅ ("No se cambio por tema de diseño")
+3- Toast Alert (instalar dependencia) ✅
+4- Pobar Menu Top (Default) ❌
+5- Menu (Response Device Phone) ✅

@@ -1,0 +1,460 @@
+{
+    "title": "My Portfolio",
+    "first_name": "Jhossymar",
+    "last_name": "Balderrama Rocha",
+    "age": "26",
+    "img_profile": "/assets/img/profile.webp",
+    "cv_url": "/assets/documents/Balderrama Rocha Jhossymar CV-ES.pdf",
+    "logo": "/assets/img/logo.webp",
+    "title_menu": "<b class='txt-blue'>{ </b><span>Portafolio</span><b class='txt-blue'>.Dev }</b>",
+    "languages_flags": [
+        {
+            "title": "es",
+            "name": "Spanish",
+            "description": "Change to Spanish",
+            "icon": "/assets/img/languajes/es.webp"
+        },
+        {
+            "title": "en",
+            "name": "English",
+            "description": "Change to English",
+            "icon": "/assets/img/languajes/uk.webp"
+        }
+    ],
+    "profesion": {
+        "title": "Full Stack Developer",
+        "description": "Angular - Spring Boot"
+    },
+    "menu": {
+        "home": {
+            "title": "home",
+            "icon": "fa-solid fa-house-chimney"
+        },
+        "about": {
+            "title": "About me",
+            "icon": "fa-solid fa-address-card"
+        },
+        "project": {
+            "title": "Projects",
+            "icon": "fa-solid fa-folder-open"
+        },
+        "experience": {
+            "title": "Experience",
+            "icon": "fa-solid fa-briefcase"
+        },
+        "skill": {
+            "title": "Skills and Abilities",
+            "icon": "fa-solid fa-tools"
+        },
+        "certificate": {
+            "title": "Titles and Certificates",
+            "icon": "fa-solid fa-award"
+        },
+        "contact": {
+            "title": "Contact",
+            "icon": "fa-solid fa-phone"
+        }
+    },
+    "social_networks": {
+        "whatsapp": "https://api.whatsapp.com/send?phone=5491163079082&text=Hola%20Jhossymar%20%F0%9F%91%8B%2C%20quisiera%20coordinar%20una%20reuni%C3%B3n%20para%20discutir%20una%20propuesta.%20%C2%BFCu%C3%A1ndo%20estar%C3%ADas%20disponible%3F",
+        "linkedin": "https://www.linkedin.com/in/jhossymarbalderrama/",
+        "github": "https://github.com/Jhossymarbalderrama",
+        "instagram": "https://www.instagram.com/blackjhossy/",
+        "twitter": "",
+        "facebook": "https://www.facebook.com/jhossymar.balderrama",
+        "discord": "#blackjhossy"
+    },
+    "data_home": {
+        "title": [
+            "Fullstack Developer",
+            "Frontend Developer",
+            "Backend Developer"
+        ],
+        "title_head": "Jhossymar Balderrama Rocha",
+        "title_description": "</ Angular - Spring Boot >",
+        "title_paragraph": "I am a self-taught developer with a deep passion for continuous learning and problem-solving. Currently, I am a freelancer seeking new professional opportunities to apply my skills and knowledge to challenging projects.",
+        "btn": "Contact Me",
+        "btn_about": "About me"
+    },
+    "data_about": {
+        "title": "About <span class='txt-blue-web'>me</span>",
+        "title_btn_cv": "Download CV",
+        "about": [
+            "Hello 👋! I’m <b>Jhossymar</b>, I'm 26 years old, and I’m from <b>Avellaneda, Buenos Aires, Argentina</b> 🌍.",
+            "💻 I’m a <b>Full Stack Developer</b> with experience in creating web applications, using Frontend technologies like <b>Angular</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>Tailwind CSS</b>, and <b>Bootstrap 5</b>. On the Backend, I have solid skills in <b>Java</b> with <b>Spring Boot</b> and <b>Node.js</b> for developing <b>RESTful APIs</b>, as well as managing databases in <b>MySQL</b>.",
+            "🚀 With <a href='#experience' class='txt-blue-web'><b>3 years of experience</b></a> in software development and maintenance, I have participated in a wide variety of projects, from creating cross-platform applications with <b>GeneXus</b> to developing websites with <b>Joomla</b>. Additionally, I have provided <b>IT support</b>, managing databases and solving technical issues in agile environments using methodologies like <b>Scrum</b>.",
+            "🛠️ I’m known for my ability to communicate effectively, solve problems with an analytical approach, and manage multiple tasks efficiently. Committed to continuous learning, I strive to stay updated with the latest technological trends and constantly improve my professional skills."
+        ],
+        "phrase": "“My goal is to secure a position as a Full Stack Developer where I can leverage my knowledge in Angular, Spring Boot, and MySQL to develop innovative technological solutions that enhance user experience and address business challenges. I also seek to integrate into a collaborative environment where I can contribute to team growth and the overall success of the company.”"
+    },
+    "data_project": {
+        "title": "Some <span class='txt-blue-web'>Projects</span>",
+        "subtitle": "Blog",
+        "description": "The following projects are available in my <a href='https://github.com/Jhossymarbalderrama' target='_blank' title='Jhossymar Balderrama Repository' class='text-blue-600 font-bold hover:underline'>GitHub</a> repository <i class='fa-brands fa-github'></i>.",
+        "projects": [
+            {
+                "title": "Personal Portfolio",
+                "subtitle": "Frontend Web",
+                "description": "Personal portfolio developed using Angular and Bootstrap 5, hosted on Firebase. This project is designed to be fully responsive and dynamic, showcasing my skills in web development.",
+                "urlWeb": "https://jhossymarbalderrama-portafolio.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/portafolio",
+                "img": "/assets/img/projects/portfolio.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/fluency/96/tailwind_css.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png"
+                ]
+            },
+            {
+                "title": "E-Commerce",
+                "subtitle": "Full Stack Development",
+                "description": "Apex Store is a complete online store built with Angular, Tailwind CSS, and Spring Boot on the backend. It uses Firebase for hosting and a MySQL database to manage products and orders.",
+                "urlWeb": "https://e-commerce-ac291.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front",
+                "img": "/assets/img/projects/apexstore.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/color/96/spring-logo.png",
+                    "https://img.icons8.com/fluency/96/tailwind_css.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png",
+                    "https://img.icons8.com/color/96/mysql-logo.png"
+                ]
+            },
+            {
+                "title": "Pet Food Distributor",
+                "subtitle": "Full Stack Development",
+                "description": "Pet Food Premium is a complete web application developed with Angular for the frontend and Node.js with Express for the backend.",
+                "urlWeb": "https://pet-food-premium-jbr.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front",
+                "img": "/assets/img/projects/petfoot.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/fluency/96/node-js.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/mysql-logo.png"
+                ]
+            },
+            {
+                "title": "Online Clinic",
+                "subtitle": "Frontend Web",
+                "description": "Online Clinic is a scheduling website for a clinic. The appointment system is flexible, easy, and quick, whether for a patient booking an appointment or for a specialist.",
+                "urlWeb": "https://tp-clinicaonline-ef480.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/TP-ClinicaOnline",
+                "img": "/assets/img/projects/clinica.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png"
+                ]
+            },
+            {
+                "title": "Trailers - Movies",
+                "subtitle": "Frontend Web",
+                "description": "Movies Online is a platform to view details and trailers of movies online using only HTML, CSS, JavaScript, and consuming a REST API, as part of the Codo a Codo course.",
+                "urlWeb": "https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page_frontend/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page_frontend",
+                "img": "/assets/img/projects/movie.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/javascript.png",
+                    "https://img.icons8.com/fluency/96/html-5.png",
+                    "https://img.icons8.com/fluency/96/css3.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/fluency/96/api.png"
+                ]
+            },
+            {
+                "title": "Weather Avellaneda",
+                "subtitle": "Frontend Web",
+                "description": "A web application developed in Angular that consumes a weather API to provide updated meteorological information. It uses Firebase for hosting and Bootstrap 5 for responsive design.",
+                "urlWeb": "https://weather-jbr.web.app/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/weather",
+                "img": "/assets/img/projects/weather.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png",
+                    "https://img.icons8.com/fluency/96/api.png"
+                ]
+            }
+        ]
+    },
+    "data_experience": {
+        "title": "Experience",
+        "company_name": "🏢 CA VLB s.a.",
+        "company_address": "Sarandi, Buenos Aires, Argentina",
+        "logo": "/assets/img/others/images.webp",
+        "company_years": "2016 - 2019",
+        "title_technologies": "Technologies",
+        "web_url": "http://www.vlb.com.ar/",
+        "icons_technologies": [
+            {
+                "name": "GeneXus",
+                "img": "/assets/img/icons skills/genexus.webp"
+            },
+            {
+                "name": "Joomla",
+                "img": "https://img.icons8.com/color/96/joomla.png"
+            },
+            {
+                "name": "MySQL",
+                "img": "https://img.icons8.com/color/96/mysql-logo.png"
+            }
+        ],
+        "technologies": [
+            "Developer GeneXus Evo 2",
+            "Developer GeneXus Evo 3",
+            "Developer GeneXus 9",
+            "Web Developer Joomla",
+            "Soporte IT"
+        ],
+        "company_title": "IT Consulting and Software Supply Services",
+        "description": [
+            {
+                "title": "Software Developer at GeneXus",
+                "functions": [
+                    "Creation and optimization of cross-platform applications.",
+                    "Development and maintenance of web systems in <b>GeneXus Evolution 2</b> and <b>3</b>.",
+                    "Development of Win systems in <b>GeneXus 9</b>."
+                ]
+            },
+            {
+                "title": "Web Developer with Joomla",
+                "functions": [
+                    "Development and maintenance of websites using <b>Joomla</b>."
+                ]
+            },
+            {
+                "title": "Database Management",
+                "functions": [
+                    "Basic handling of <b>MySQL</b> and <b>SQL Server</b>."
+                ]
+            },
+            {
+                "title": "IT Support",
+                "functions": [
+                    "Implementation and updating of systems.",
+                    "Repairs and maintenance of programs.",
+                    "Data transfer and backup creation.",
+                    "Resolution of technical problems in software and hardware."
+                ]
+            }
+        ]
+    },
+    "data_skill": {
+        "title": "Skills & <span class='txt-blue-web'>Abilities</span>",
+        "title_stack": "Technology Stack",
+        "title_others": "Other Technologies and Tools",
+        "my_stack": [
+            {
+                "name": "Angular",
+                "img": "https://img.icons8.com/fluency/96/angularjs.png"
+            },
+            {
+                "name": "TypeScript",
+                "img": "https://img.icons8.com/fluency/96/typescript--v2.png"
+            },
+            {
+                "name": "Tailwind",
+                "img": "https://img.icons8.com/fluency/96/tailwind_css.png"
+            },
+            {
+                "name": "Bootstrap",
+                "img": "https://img.icons8.com/fluency/96/bootstrap.png"
+            },
+            {
+                "name": "VSCode",
+                "img": "https://img.icons8.com/fluency/96/visual-studio-code-2019.png"
+            },
+            {
+                "name": "SpringBoot",
+                "img": "https://img.icons8.com/color/96/spring-logo.png"
+            },
+            {
+                "name": "Java",
+                "img": "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png"
+            },
+            {
+                "name": "JsonWebToken",
+                "img": "https://img.icons8.com/color/96/java-web-token.png"
+            },
+            {
+                "name": "Docker",
+                "img": "https://img.icons8.com/fluency/96/docker.png"
+            },
+            {
+                "name": "NetBeans",
+                "img": "https://img.icons8.com/color/96/apache-netbeans.png"
+            },
+            {
+                "name": "Swagger",
+                "img": "/assets/img/icons skills/swagger.webp"
+            },
+            {
+                "name": "MySQL",
+                "img": "https://img.icons8.com/color/96/mysql-logo.png"
+            }
+        ],
+        "others": [
+            {
+                "name": "NodeJS",
+                "img": "https://img.icons8.com/fluency/96/node-js.png"
+            },
+            {
+                "name": "ExpressJS",
+                "img": "https://img.icons8.com/office/96/express-js.png"
+            },
+            {
+                "name": "C-Sharp",
+                "img": "https://img.icons8.com/fluency/96/c-sharp-logo.png"
+            },
+            {
+                "name": "JavaScript",
+                "img": "https://img.icons8.com/fluency/96/javascript.png"
+            },
+            {
+                "name": "HTML5",
+                "img": "https://img.icons8.com/fluency/96/html-5.png"
+            },
+            {
+                "name": "CSS3",
+                "img": "https://img.icons8.com/fluency/96/css3.png"
+            },
+            {
+                "name": "Ionic",
+                "img": "https://img.icons8.com/color/96/ionic.png"
+            },
+            {
+                "name": "PHP",
+                "img": "https://img.icons8.com/offices/96/php-logo.png"
+            },
+            {
+                "name": "GeneXus",
+                "img": "/assets/img/icons skills/genexus.webp"
+            },
+            {
+                "name": "Joomla",
+                "img": "https://img.icons8.com/color/96/joomla.png"
+            },
+            {
+                "name": "Arduino",
+                "img": "https://img.icons8.com/fluency/96/arduino.png"
+            },
+            {
+                "name": "Firebase",
+                "img": "https://img.icons8.com/color/96/google-firebase-console.png"
+            },
+            {
+                "name": "Maven",
+                "img": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-color-tal-revivo.png"
+            },
+            {
+                "name": "Git",
+                "img": "https://img.icons8.com/color/96/git.png"
+            },
+            {
+                "name": "GitHub",
+                "img": "https://img.icons8.com/color/96/github--v1.png"
+            },
+            {
+                "name": "Postman",
+                "img": "https://img.icons8.com/dusk/96/postman-api.png"
+            },
+            {
+                "name": "Photoshop",
+                "img": "https://img.icons8.com/color/96/adobe-photoshop--v1.png"
+            },
+            {
+                "name": "npm",
+                "img": "https://img.icons8.com/color/96/npm.png"
+            }
+        ]
+    },
+    "data_certificate": {
+        "title": "Titles & <span class='txt-blue-web'>Certificates</span>",
+        "btn_before": "Previous",
+        "btn_after": "Next",
+        "certificates": [
+            {
+                "title": "React js Esencial",
+                "institution": "Linkedin Learning",
+                "year": "2024",
+                "img": "/assets/img/certificados/CertificadoDeFinalizacion_React-esencial.webp",
+                "type": "certificado"
+            },
+            {
+                "title": "SCRUM Fundamentals",
+                "institution": "Soylider.net",
+                "year": "2024",
+                "img": "/assets/img/certificados/Certificado-Fundamentos-SCRUM-Jhossymar-Balderrama-Rocha.webp",
+                "type": "certificado"
+            },
+            {
+              "title": "Full Stack Java",
+              "institution": "Program Codo a Codo 4.0",
+              "year": "2024",
+              "img": "/assets/img/certificados/CodoACodo.webp"  ,
+              "type": "certificado"
+            },
+            {
+                "title": "Técnico Universitario en Programación",
+                "institution": "Universidad Tecnológica Nacional",
+                "year": "2023",
+                "img": "/assets/img/certificados/tituloUTNFraTUP.webp",
+                "type": "titulo"
+            },
+            {
+                "title": "Python IBM",
+                "institution": "Cognitive Class",
+                "year": "2023",
+                "img": "/assets/img/certificados/certificatePython.webp",
+                "type": "certificado"
+            },            
+            {
+                "title": "Master en JavaScript",
+                "institution": "Udemy",
+                "year": "2023",
+                "img": "/assets/img/certificados/certificateUdemy.webp",
+                "type": "certificado"
+            },                       
+            {
+                "title": "#YoProgramo",
+                "institution": "Argentina Programa",
+                "year": "2023",
+                "img": "/assets/img/certificados/certificateYoProgramo.webp",
+                "type": "certificado"
+            },
+            {
+                "title": "#SéProgramar",
+                "institution": "Argentina Programa",
+                "year": "2022",
+                "img": "/assets/img/certificados/certificateSePrograma.webp",
+                "type": "certificado"
+            }
+        ]
+    },
+    "data_contact": {
+        "title": "Contact <span class='txt-blue-web'>Me</span>",
+        "tag": "Contact",
+        "description": "For inquiries or questions, please fill out the <b>Form</b> on the right, or send me a <b>WhatsApp</b> message using the icon located at the bottom right of the page. I will respond as soon as possible.",
+        "form": {
+            "title": "Form",
+            "btn_submit": "Send Message",
+            "name": "Name",
+            "name_span": "Name required",
+            "placeName": "enter a name",
+            "mail": "Email",
+            "mail_span": "Email required",
+            "mail_span_format": "Invalid email format",
+            "placeMail": "enter an email",
+            "subject": "Subject",
+            "placeSubject": "enter a subject",
+            "message": "Message",
+            "placeMessage": "message",
+            "message_span": "Message required",
+            "btn": "Send ↗️"
+        },
+        "toast_success": "Sending form",
+        "toast_info": "Form submitted",
+        "toast_danger": "Form submission failed"
+    }
+}

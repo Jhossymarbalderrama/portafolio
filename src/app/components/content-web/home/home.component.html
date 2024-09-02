@@ -1,0 +1,48 @@
+<div id="particles-home"></div>
+<section class="container grid grid-cols-2 gap-4 place-content-center ">
+  <article class="px-2 md:px-0 flex flex-col gap-4 md:gap-2">
+
+    <!-- <div class="w-full flex flex-col justify-center items-center pb-2">
+      <img [src]="logo" alt="">
+    </div> -->
+
+    <span class="subtitle text-md md:text-xl  lg:text-2xl 2xl:text-3xl">
+      <span class="txt-blue">< Name</span>
+      {{ data.title_head }}
+      <span class="txt-blue">/</span>
+      <span class="txt-blue">></span>
+    </span>
+
+    <p class="title text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl">
+      <span class="txt-blue">{{chartOpen}}</span>
+      {{ data.title[0] }}
+      <span class="txt-blue">{{chartClose}}</span>      
+    </p>      
+    
+    <div class="description text-md md:text-md lg:text-lg 2xl:text-xl">
+      <div class="parrafo-principal">
+        {{data.title_paragraph}}
+      </div>
+
+      <!-- <span class="txt-blue">< </span>
+      {{ data.title_description }}
+      <span class="txt-blue">/</span>
+      <span class="txt-blue">></span> -->
+    </div>    
+
+    <div class="flex flex-row justify-center content-btn py-4">
+      <button title="contact" class="rounded-sm">
+        <a href="#contact" title="contáctame">
+          {{ data.btn }}
+        </a>
+      </button>
+    </div>
+  </article>
+  
+  <div class="absolute inset-x-0 bottom-4 flex justify-center">
+    <a href="#about" class="flex flex-col  animate-bounce cursor-pointer ">
+      <span>{{data.btn_about}}</span>
+      <i class="fa-solid fa-angles-down text-xl 2xl:text-2xl"></i>
+    </a>
+  </div>
+</section>
