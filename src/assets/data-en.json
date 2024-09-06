@@ -375,7 +375,14 @@
         "btn_after": "Next",
         "certificates": [
             {
-                "title": "React js Esencial",
+                "title": "Advanced React js 1",
+                "institution": "Linkedin Learning",
+                "year": "2024",
+                "img": "/assets/img/certificados/CertificadoDeFinalizacion_React-Avanzado-1.webp",
+                "type": "certificado"
+            },
+            {
+                "title": "Essential React js",
                 "institution": "Linkedin Learning",
                 "year": "2024",
                 "img": "/assets/img/certificados/CertificadoDeFinalizacion_React-esencial.webp",
