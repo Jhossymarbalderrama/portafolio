@@ -52,10 +52,10 @@ $ ng server -o
 <p align='center'>Demo: <a href='https://jhossymarbalderrama-portafolio.web.app/' target='_blank'>🚀 Portafolio Web 👈<a/></p>
   
 <p align="center">
-  <img src='https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/4c4c36c4-40c3-4609-b587-202ee2ec185f'/>
+  <img src='https://github.com/user-attachments/assets/2f49e5cf-8a17-43de-8233-8f68e301f572'/>
 </p>
 
 | Macbooks y Tablets  | Smartphones |
 | ------------- | ------------- |
-| <img src='https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/54ad18c3-fdd0-45f8-9f78-e567b81d8fad' width="750px" height="auto" /> |  <img src='https://github.com/Jhossymarbalderrama/portafolio/assets/52534649/3094711a-00c3-4083-964a-011f14356bd2' width="100%" height="100%" />  |
+| <img src='https://github.com/user-attachments/assets/54d23541-9fdb-4255-a15a-6705890dd9c5' width="750px" height="auto" /> |  <img src='https://github.com/user-attachments/assets/7fada04f-9cfc-47d3-b20f-33f369e5d24e' width="100%" height="100%" />  |
 
