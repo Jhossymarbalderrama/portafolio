@@ -13,13 +13,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 
   background: linear-gradient(
-      var(--bg-gradient-1),
-      var(--bg-gradient-1),
-      var(--bg-gradient-2)
+    #010205ad,
+    #01020596,
+    #01020596,
+      #010205ad,
+      #010205ec
     ),
     var(--bg-img-notebook);
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100% 40%;
@@ -149,6 +153,13 @@
   .home {
     display: flex;
     justify-content: center;
+    background: linear-gradient(
+    #010205,
+    #01020588,
+      #010205a8,
+      #010205
+    ),
+    var(--bg-img-notebook);
   }
 
   .icon-wsp i {

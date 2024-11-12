@@ -18,14 +18,14 @@
       </div>
 
       <div class="content-btn">
-        <button title="CV Balderrama Rocha Jhossymar" class="rounded-md">
+        <button title="CV Balderrama Rocha Jhossymar" class="rounded-sm">
           <a [href]="data.doc_cv" target="_blank">{{data.title_btn_cv}}</a>
         </button>
       </div>
     </div>
 
     <div class="w-full lg:w-2/3 about-right mt-8 md:mt-4 lg:mt-0">
-      <div *ngFor="let description of data.about" class="description mb-4 text-lg 2xl:text-2xl" data-aos="fade-up"
+      <div *ngFor="let description of data.about" class="description mb-4 text-md 2xl:text-xl" data-aos="fade-up"
         data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
         <p [innerHTML]="description"></p>
       </div>

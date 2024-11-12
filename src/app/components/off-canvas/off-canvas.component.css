@@ -1,32 +1,30 @@
-
-#menu-off-canvas{      
+#off-canvas-body{
     width: 100%;
-    height: 100vh;
 }
 
-#off-canvas-icons {
-    margin-top: -6rem;
+#off-canvas-body:first-child{
+    width: 100%;
+}
+
+#menu-off-canvas{      
+    height: 100vh;    
+    width: 2.5vw;    
+}
+
+#off-canvas-icons {    
+    margin-top: -6rem;    
+    width: 100%;
 }
 
 #off-canvas-icons a {
     z-index: 20;        
     height: auto;
-    width: auto;    
+    width: auto;            
 }
-
-i:hover{
-    transition: 0.2s ease all;
-    transform: scale(1.4);
-}
-
 
 
 #menu-off-canvas i{
     cursor: pointer;
-}
-
-#menu-off-canvas i:hover{    
-    filter: drop-shadow(0px 0px 8px rgb(111, 157, 255));    
 }
 
 
@@ -66,6 +64,7 @@ i:hover{
 .tooltip-container {
     position: relative;
     display: inline-block;
+    text-align: center;
 }
 
 .tooltip-text {
@@ -92,13 +91,33 @@ i:hover{
     transform: translateY(-50%) translateX(10px);
 }
 
-.active {
-    transform: scale(1.5);
-    /* margin: 0.3rem 0rem; */
-    /* filter: drop-shadow(0px 0px 6px #4a83ff);     */
-    /* filter: drop-shadow(0px 0px 2px #4a83ffcc);     */
-    color: #2270ffe5;
-    /* filter: drop-shadow(0px 0px 10px #4a83ff3b);     */
-    /* color: #3686fffa; */
+.tooltip-container:hover{ 
+    width: 100%;
+    margin-left: -7.5px;    
+    border-left: 4px solid #2270ffe5;
+}
 
+.tooltip-container:hover a{
+    padding-left: 9px;
+}
+
+
+
+.active {
+    transform: scale(1.2);
+    color: #347bff;
+    
+}
+
+.active-btn{
+    width: 100%;
+    margin-left: -7.5px;    
+    padding-left: 9px;
+    border-left: 4px solid #2270ffe5;    
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.active-btn:hover{
+    padding-left: 0px;
 }

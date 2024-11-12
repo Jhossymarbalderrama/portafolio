@@ -55,7 +55,7 @@ export class ContentWebComponent {
       document.getElementById('icon-home')?.classList.add("active") 
     }      
 
-    if(scrollY > position_about!.offsetTop && scrollY < position_project!.offsetTop){
+    if(scrollY > position_about!.offsetTop-200 && scrollY < position_project!.offsetTop-200){
       document.getElementById('icon-about')?.classList.add("active")
     }
 

@@ -27,15 +27,49 @@
     src: url("../src/assets/font/Outfit/Outfit-SemiBold.ttf")
 }
 
+
+/* Poppins */
+@font-face {
+    font-family: "Poppins Thin";
+    src: url("../src/assets/font/Poppins/Poppins-Thin.ttf")
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url("../src/assets/font/Poppins/Poppins-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url("../src/assets/font//Poppins/Poppins-Medium.ttf")
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url("../src/assets/font/Poppins/Poppins-Bold.ttf")
+}
+
+@font-face {
+    font-family: "Poppins SemiBold";
+    src: url("../src/assets/font/Poppins/Poppins-SemiBold.ttf")
+}
+
+
 :root , .dark-theme{
 
     /* ? Fonts Family */
-    --font-txt-df: "Outfit Regular", sans-serif;
+    /* --font-txt-df: "Outfit Regular", sans-serif;
     --font-txt-df-thin: "Outfit Thin", sans-serif; 
     
     --font-txt-df-medium: "Outfit Medium", sans-serif;
     --font-txt-df-bold: "Outfit Bold", sans-serif;
-    --font-txt-df-semi-bold: "Outfit SemiBold", sans-serif;
+    --font-txt-df-semi-bold: "Outfit SemiBold", sans-serif; */
+    --font-txt-df: "Poppins Regular", sans-serif;
+    --font-txt-df-thin: "Poppins Thin", sans-serif; 
+    
+    --font-txt-df-medium: "Poppins Medium", sans-serif;
+    --font-txt-df-bold: "Poppins Bold", sans-serif;
+    --font-txt-df-semi-bold: "Poppins SemiBold", sans-serif;
 
 
     /* ? Text*/

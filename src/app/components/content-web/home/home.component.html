@@ -6,20 +6,20 @@
       <img [src]="logo" alt="">
     </div> -->
 
-    <span class="subtitle text-md md:text-xl  lg:text-2xl 2xl:text-3xl">
-      <span class="txt-blue">< Name</span>
+    <span class="subtitle text-md md:text-lg  lg:text-2xl 2xl:text-3xl">
+      <span class="txt-blue font-bold">< Name</span>
       {{ data.title_head }}
-      <span class="txt-blue">/</span>
-      <span class="txt-blue">></span>
+      <span class="txt-blue font-bold">/</span>
+      <span class="txt-blue font-bold">></span>
     </span>
 
     <p class="title text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl">
-      <span class="txt-blue">{{chartOpen}}</span>
+      <span class="txt-blue text-3xl md:text-4xl lg:text-6xl 2xl:text-7xl">{{chartOpen}}</span>
       {{ data.title[0] }}
-      <span class="txt-blue">{{chartClose}}</span>      
+      <span class="txt-blue text-3xl md:text-4xl lg:text-6xl 2xl:text-7xl">{{chartClose}}</span>      
     </p>      
     
-    <div class="description text-md md:text-md lg:text-lg 2xl:text-xl">
+    <div class="description text-sm md:text-md lg:text-md 2xl:text-lg">
       <div class="parrafo-principal">
         {{data.title_paragraph}}
       </div>
@@ -42,7 +42,7 @@
   <div class="absolute inset-x-0 bottom-4 flex justify-center">
     <a href="#about" class="flex flex-col  animate-bounce cursor-pointer ">
       <span>{{data.btn_about}}</span>
-      <i class="fa-solid fa-angles-down text-xl 2xl:text-2xl"></i>
+      <i class="fa-solid fa-angles-down text-sm md:text-md lg:text-md 2xl:text-lg"></i>
     </a>
   </div>
 </section>

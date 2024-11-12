@@ -17,13 +17,13 @@
             <hr class="w-2/4">
           </div>
 
-          <h3 class="text-md 2xl:text-lg font-bold text-start mb-2 tracking-widest">
+          <h3 class="text-sm 2xl:text-md font-bold text-start mb-2 tracking-widest">
             <span class="txt-blue"><</span>
             {{data.first_name}} {{data.last_name}}
             <span class="txt-blue">/></span>
           </h3>
           
-          <p class="text-gray-200 mb-6 text-lg 2xl:text-xl" [innerHTML]="data.description">
+          <p class="text-gray-200 mb-6 text-md 2xl:text-lg" [innerHTML]="data.description">
             {{ data.description }}
           </p>
 
@@ -44,7 +44,7 @@
 
       <div class="contact-form bg-opacity-80 p-4 md:p-8 rounded-md shadow-lg">
         <form [formGroup]="formContact" id="form-contact" class="space-y-6 needs-validation" (ngSubmit)="sendContact()">
-          <h3 class="text-3xl 2xl:text-4xl font-bold text-start mb-6 tracking-widest">
+          <h3 class="text-2xl 2xl:text-3xl font-bold text-start mb-6 tracking-widest">
             {{ data.form.title }}
           </h3>
 
