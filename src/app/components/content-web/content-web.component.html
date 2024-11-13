@@ -4,13 +4,11 @@
         <i id="theme-light" class="fa-regular fa-sun text-xl 2xl:text-2xl" (click)="changeTheMode('sun')"></i>
     </div> -->
 
-    <nav class="z-40 fixed top-0 w-full bg-black bg-opacity-100 lg:hidden" >
+    <nav id="nav-menu-smart" class="z-40 fixed top-0 w-full bg-black bg-opacity-0 lg:hidden" >
         <div class="flex items-center justify-between w-full" style="padding: 1rem 1.2rem;">
           <!-- Logo -->
           <a class="flex items-center" href="#home">
-            <span class="self-center text-3xl whitespace-nowrap dark:text-white font-bold shadow-lg" [innerHTML]="title_menu">
-            {{title_menu}}
-            </span>
+            <span class="self-center text-3xl whitespace-nowrap dark:text-white font-bold shadow-lg tracking-widest" [innerHTML]="title_menu"></span>
           </a>
       
           <!-- Menu Button -->
@@ -22,8 +20,7 @@
       
         <!-- Menu Content -->
         <div class="hidden w-full" id="navbar-language">
-          <app-content-canvas></app-content-canvas>
-          <app-languages></app-languages>
+          <app-content-canvas></app-content-canvas>          
         </div>
       </nav>
       

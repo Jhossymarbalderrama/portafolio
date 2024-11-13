@@ -6,7 +6,7 @@
     "img_profile": "/assets/img/profile.webp",
     "cv_url": "/assets/documents/Balderrama Rocha Jhossymar CV-ES.pdf",
     "logo": "/assets/img/logo.webp",
-    "title_menu": "<b class='txt-blue'>{ </b><span>Jhossy</span><b class='txt-blue'>Dev }</b>",
+    "title_menu": "<b class='txt-blue'>Dev/</b><span>Jhossy</span>",
     "languages_flags": [
         {
             "title": "es",
@@ -160,6 +160,19 @@
                     "https://img.icons8.com/fluency/96/css3.png",
                     "https://img.icons8.com/fluency/96/bootstrap.png",
                     "https://img.icons8.com/fluency/96/api.png"
+                ]
+            },
+            {
+                "title": "METRO WEAR",
+                "subtitle": "Frontend Web",
+                "description": "METRO WEAR is an online clothing store under construction, developed using HTML, CSS, and JavaScript as part of the final project for the Talento Tech course.",
+                "urlWeb": "https://jhossymarbalderrama.github.io/proyecto-final-talento-tech/",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/proyecto-final-talento-tech",
+                "img": "/assets/img/projects/metrowear.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/javascript.png",
+                    "https://img.icons8.com/fluency/96/html-5.png",
+                    "https://img.icons8.com/fluency/96/css3.png"
                 ]
             },
             {

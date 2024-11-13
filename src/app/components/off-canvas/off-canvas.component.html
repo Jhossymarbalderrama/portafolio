@@ -9,7 +9,7 @@
       </div>
 
       <div class="flex flex-col px-0 m-0 gap-2 2xl:gap-4 hidden text-xl 2xl:text-2xl" id="off-canvas-icons">
-        <div class="tooltip-container" [class.active-btn]="sectionActive === 'home' || sectionActive === undefined">
+        <div class="tooltip-container" [class.active-btn]="sectionActive === 'home' || sectionActive === undefined ">
           <span class="tooltip-text">{{ menu.home.title }}</span>
           <a href="#home">
             <i id="icon-home" class="cursor-pointer item-menu-canvas" [class]="menu.home.icon" [class.active]="
@@ -18,42 +18,42 @@
           </a>
         </div>
 
-        <div class="tooltip-container" [class.active-btn]="sectionActive === 'about' || sectionActive === undefined">
+        <div class="tooltip-container" [class.active-btn]="sectionActive === 'about' || sectionActive === ''">
           <span class="tooltip-text">{{ menu.about.title }}</span>
           <a href="#about">
             <i id="icon-about" class="cursor-pointer item-menu-canvas" [class]="menu.about.icon"></i>
           </a>
         </div>
 
-        <div class="tooltip-container" [class.active-btn]="sectionActive === 'project' || sectionActive === undefined">
+        <div class="tooltip-container" [class.active-btn]="sectionActive === 'project' || sectionActive === ''">
           <span class="tooltip-text">{{ menu.project.title }}</span>
           <a href="#project">
             <i id="icon-project" class="cursor-pointer item-menu-canvas" [class]="menu.project.icon"></i>
           </a>
         </div>
 
-        <div class="tooltip-container" [class.active-btn]="sectionActive === 'experience' || sectionActive === undefined">
+        <div class="tooltip-container" [class.active-btn]="sectionActive === 'experience' || sectionActive === ''">
           <span class="tooltip-text">{{ menu.experience.title }}</span>
           <a href="#experience">
             <i id="icon-experience" class="cursor-pointer item-menu-canvas" [class]="menu.experience.icon"></i>
           </a>
         </div>
 
-        <div class="tooltip-container" [class.active-btn]="sectionActive === 'skill' || sectionActive === undefined">
+        <div class="tooltip-container" [class.active-btn]="sectionActive === 'skill' || sectionActive === ''">
           <span class="tooltip-text">{{ menu.skill.title }}</span>
           <a href="#skill">
             <i id="icon-skill" class="cursor-pointer item-menu-canvas" [class]="menu.skill.icon"></i>
           </a>
         </div>
 
-        <div class="tooltip-container" [class.active-btn]="sectionActive === 'certificate' || sectionActive === undefined">
+        <div class="tooltip-container" [class.active-btn]="sectionActive === 'certificate' || sectionActive === ''">
           <span class="tooltip-text">{{ menu.certificate.title }}</span>
           <a href="#certificate">
             <i id="icon-certificate" class="cursor-pointer item-menu-canvas" [class]="menu.certificate.icon"></i>
           </a>
         </div>
 
-        <div class="tooltip-container" [class.active-btn]="sectionActive === 'contact' || sectionActive === undefined">
+        <div class="tooltip-container" [class.active-btn]="sectionActive === 'contact' || sectionActive === ''">
           <span class="tooltip-text">{{ menu.contact.title }}</span>
           <a href="#contact">
             <i id="icon-contact" class="cursor-pointer item-menu-canvas" [class]="menu.contact.icon"></i>

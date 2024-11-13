@@ -147,7 +147,7 @@
 /* ? Tablets & Smartphones*/
 @media screen and (max-width: 1023px) {
   .contenido-web {
-    width: 100vw !important;
+    width: 100vw !important;    
   }
 
   .home {

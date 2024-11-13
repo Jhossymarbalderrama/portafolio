@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import  data  from '../../../../assets/data-es.json';
 import { AuthService } from '../../../services/auth.service';
+import { LanguagesComponent } from '../languages/languages.component';
 
 @Component({
   selector: 'app-content-canvas',
   standalone: true,
-  imports: [],
+  imports: [LanguagesComponent],
   templateUrl: './content-canvas.component.html',
   styleUrl: './content-canvas.component.css'
 })
