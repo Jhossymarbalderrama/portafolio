@@ -342,7 +342,7 @@
             {
                 "name": "GeneXus",
                 "img": "/assets/img/icons skills/genexus.webp"
-            },
+            },            
             {
                 "name": "Joomla",
                 "img": "https://img.icons8.com/color/96/joomla.png"
@@ -378,6 +378,10 @@
             {
                 "name": "npm",
                 "img": "https://img.icons8.com/color/96/npm.png"
+            },
+            {
+                "name": "Salesforce",
+                "img": "https://img.icons8.com/color/96/salesforce.png"
             }
         ]
     },
@@ -386,6 +390,13 @@
         "btn_before": "Anterior",
         "btn_after": "Siguiente",
         "certificates": [
+            {
+                "title": "Desarrollador Salesforce",
+                "institution": "Gobierno de la Ciudad",
+                "year": "2024",
+                "img": "/assets/img/certificados/CertificadoDesarrolladorSalesforce.webp",
+                "type": "certificado"
+            },
             {
                 "title": "React js Avanzado 1",
                 "institution": "Linkedin Learning",

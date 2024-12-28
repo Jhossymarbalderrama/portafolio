@@ -379,6 +379,10 @@
             {
                 "name": "npm",
                 "img": "https://img.icons8.com/color/96/npm.png"
+            },
+            {
+                "name": "Salesforce",
+                "img": "https://img.icons8.com/color/96/salesforce.png"
             }
         ]
     },
@@ -387,6 +391,13 @@
         "btn_before": "Previous",
         "btn_after": "Next",
         "certificates": [
+            {
+                "title": "Salesforce Developer",
+                "institution": "Gobierno de la Ciudad",
+                "year": "2024",
+                "img": "/assets/img/certificados/CertificadoDesarrolladorSalesforce.webp",
+                "type": "certificado"
+            },
             {
                 "title": "Advanced React js 1",
                 "institution": "Linkedin Learning",
