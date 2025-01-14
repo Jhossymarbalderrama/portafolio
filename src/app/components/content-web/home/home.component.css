@@ -1,6 +1,6 @@
 *{
     /* text-shadow: var(--txt-shadow-titles); */
-    text-shadow: -5px 5px 8px #015fcac7; 
+    /* text-shadow: -5px 5px 8px #015fcac7;  */
     font-family: var(--font-txt-df);
 }
 
@@ -42,35 +42,38 @@ hr {
     color: #f3f3f3;
     font-weight: bolder;
     white-space: nowrap;
-    border-right: 8px solid;    
+    border-right: 14px solid var(--txt-color-blue);    
     margin: auto auto;
-    width: 24ch;
-    overflow: hidden;
-
+    width: 24ch;    
+    overflow: hidden;    
     animation: typing 2s steps(24), blink 0.5s infinite step-end alternate;
-    /* font-size: 12vh; */
-    /* font-size: 60px; */
-    letter-spacing: 2px;    
-    text-shadow: -5px 5px 8px #01346dc7; 
+    letter-spacing: 3px;    
+    text-shadow: -1px 1px 8px #6f9bce52;    
 }
 
-.parrafo-principal{
+.parrafo-principal{    
     display: flex;
     flex-wrap: 1;
-    margin: 1% 10% 1% 10%;
-    /* font-size: 1.1vw;   */
-    /* font-size: 1.4vw; */
-    letter-spacing: 0.2px;
-    text-shadow: -1px 1px 8px #00070ec7;    
+    margin: 1% 10% 1% 10%;    
+    letter-spacing: 1px;
+    text-shadow: -1px 1px 8px #6f9bce52;
+    color: #3281f8;
 }
 
 .subtitle{
-    text-shadow: -1px 1px 8px #8bc1ffc7;
+    font-weight: bolder;
+    text-shadow: -1px 1px 8px #6f9bce52;
     color: #e7e7e7;
-    /* font-size: 2vw;     */
-    letter-spacing: 6px;
-    font-style: italic;
+    letter-spacing: 6px;    
+    margin-bottom: 15px;
 }
+
+.description{
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;    
+}
+
 
 /* .description{
     font-size: 2vw;    
@@ -84,9 +87,18 @@ hr {
 
 
 img{
-    width: 5vw;
-    /* filter: drop-shadow(1px 1px 15px #d6d6d6a8); */
-    filter: drop-shadow(1px 1px 25px #015fcac7);
+    /* width: 8vw;     */
+    width: 7vw;
+    filter: drop-shadow(1px 1px 25px #66a5ecc7);
+}
+
+.badge:hover{
+    transform: scale(1.1) !important;
+    transition: 0.3s ease all;
+}
+
+.badge:not(:hover){
+    transition: 0.5s ease all;
 }
 
 
@@ -117,18 +129,31 @@ img{
         white-space: normal;
         width: auto; 
         letter-spacing: 5px;
-        word-wrap: break-word;                    
+        word-wrap: break-word;                       
     }
+    
 
     .subtitle{
         letter-spacing: 1px;        
     }
+    
+    .parrafo-principal{    
+        display: block;        
+    }       
+    
+    img{
+        width: 14vw;
+    }
+    
+}
 
-    .parrafo-principal{   
-        padding: 0;
-        margin: 0;
-        width: auto;  
-        letter-spacing: 0px;                
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .parrafo-principal{    
+        display: block;        
+    }
+
+    img{
+        width: 8vw;
     }
     
 }

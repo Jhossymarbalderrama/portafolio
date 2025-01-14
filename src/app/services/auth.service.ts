@@ -29,7 +29,10 @@ export class AuthService {
   }
 
   public get getDataHome(): any {
-    return this.dataSubject.value?.data_home;
+    const data = this.dataSubject.value;
+    let data_badges = data?.data_badges;
+
+    return {...data?.data_home, data_badges};
   }
 
   public get getTitleMenu():any{

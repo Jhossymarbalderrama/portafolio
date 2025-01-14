@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: "Poppins Medium";
-    src: url("../src/assets/font//Poppins/Poppins-Medium.ttf")
+    src: url("../src/assets/font/Poppins/Poppins-Medium.ttf")
 }
 
 @font-face {
@@ -54,23 +54,92 @@
     src: url("../src/assets/font/Poppins/Poppins-SemiBold.ttf")
 }
 
+/* Satoshi */
+/* @font-face {
+    font-family: "Satoshi Thin";
+    src: url("../src/assets/font/Satoshi/Satoshi-Bold.otf")
+}
+
+@font-face {
+    font-family: "Satoshi Regular";
+    src: url("../src/assets/font/Satoshi/Satoshi-Regular.otf")
+}
+
+@font-face {
+    font-family: "Satoshi Medium";
+    src: url("../src/assets/font/Satoshi/Satoshi-Medium.otf")
+}
+
+@font-face {
+    font-family: "Satoshi Bold";
+    src: url("../src/assets/font/Satoshi/Satoshi-Bold.otf")
+}
+
+@font-face {
+    font-family: "Satoshi SemiBold";
+    src: url("../src/assets/font/Satoshi/Satoshi-Black.otf")
+} */
+
+/* InterTight */
+@font-face {
+    font-family: "InterTight Thin";
+    src: url("../src/assets/font/InterTight/InterTight-Thin.ttf")
+}
+
+@font-face {
+    font-family: "InterTight Regular";
+    src: url("../src/assets/font/InterTight/InterTight-Regular.ttf")
+}
+
+@font-face {
+    font-family: "InterTight Medium";
+    src: url("../src/assets/font/InterTight/InterTight-Medium.ttf")
+}
+
+@font-face {
+    font-family: "InterTight Bold";
+    src: url("../src/assets/font/InterTight/InterTight-Bold.ttf")
+}
+
+@font-face {
+    font-family: "InterTight SemiBold";
+    src: url("../src/assets/font/InterTight/InterTight-SemiBold.ttf")
+}
 
 :root , .dark-theme{
 
     /* ? Fonts Family */
+    /* Outfit */
     /* --font-txt-df: "Outfit Regular", sans-serif;
     --font-txt-df-thin: "Outfit Thin", sans-serif; 
     
     --font-txt-df-medium: "Outfit Medium", sans-serif;
     --font-txt-df-bold: "Outfit Bold", sans-serif;
     --font-txt-df-semi-bold: "Outfit SemiBold", sans-serif; */
-    --font-txt-df: "Poppins Regular", sans-serif;
+
+    /* Poppins */
+    /* --font-txt-df: "Poppins Regular", sans-serif;
     --font-txt-df-thin: "Poppins Thin", sans-serif; 
     
     --font-txt-df-medium: "Poppins Medium", sans-serif;
     --font-txt-df-bold: "Poppins Bold", sans-serif;
-    --font-txt-df-semi-bold: "Poppins SemiBold", sans-serif;
+    --font-txt-df-semi-bold: "Poppins SemiBold", sans-serif; */
 
+    /* Satoshi */
+    /* --font-txt-df: "Satoshi Regular", sans-serif;
+    --font-txt-df-thin: "Satoshi Thin", sans-serif; 
+    
+    --font-txt-df-medium: "Satoshi Medium", sans-serif;
+    --font-txt-df-bold: "Satoshi Bold", sans-serif;
+    --font-txt-df-semi-bold: "Satoshi SemiBold", sans-serif; */
+
+    /* InterTight */
+    --font-txt-df: "InterTight Regular", sans-serif;
+    --font-txt-df-thin: "InterTight Thin", sans-serif; 
+    
+    --font-txt-df-medium: "InterTight Medium", sans-serif;
+    --font-txt-df-bold: "InterTight Bold", sans-serif;
+    --font-txt-df-semi-bold: "InterTight SemiBold", sans-serif;
 
     /* ? Text*/
     --txt-color-dark: #000000;
@@ -156,7 +225,7 @@ html {
 }
 
 
-button {
+.def-button {
     position: relative;
     display: flex;
     justify-content: center;
@@ -169,7 +238,7 @@ button {
     border-radius: 0.1rem;
 }
 
-button:after {
+.def-button:after {
     content: " ";
     width: 0%;
     height: 100%;
@@ -181,23 +250,23 @@ button:after {
     border-radius: 0.1rem;    
 }
 
-button:hover{
+.def-button:hover{
     transition: 0.3s ease-in-out all;
     transform: scale(1.05);
 }
 
-button:not(:hover){
+.def-button:not(:hover){
     transition: 0.3s ease-in-out all;
     transform: scale(1);
 }
 
-button:hover::after {
+.def-button:hover::after {
     right: auto;
     left: 0;
     width: 100%;
 }
 
-button a {
+.def-button a {
     text-align: center;
     text-decoration: none;
     width: 100%;
@@ -206,8 +275,37 @@ button a {
     letter-spacing: 0.2em;
     z-index: 20;
     transition: all 0.3s ease-in-out;
-    font-size: small !important;
+    font-size: small;
+    
     font-weight: bold;
+}
+
+.home-dev{
+    /* color: #3281f8;     */
+    color: white;
+}
+
+.home-angular{
+    color: white;
+    /* color: #f51b2a;    */
+    /* color: #B31523;     */
+}
+.home-spring{
+    color: white;
+    /* color: #8dee1e;     */
+}
+
+.home-text{
+    margin: 0px 4px;
+    font-weight: bold;
+}
+
+.about-joomla{
+    color: #8dee1e;    
+}
+
+.about-genexus{
+    color: #f51b2a;
 }
 
 /* ? End Diseño Boton */
@@ -226,7 +324,8 @@ hr {
 }
 
 .txt-blue{
-    color: var(--color-txt-hover);
+    /* color: var(--color-txt-hover); */
+    color: #3281f8;
     filter: drop-shadow(0px 0px 8px #00050ac7);
 }
 

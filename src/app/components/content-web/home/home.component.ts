@@ -12,9 +12,12 @@ import { AuthService } from '../../../services/auth.service';
 export class HomeComponent implements OnInit {
   logo: string = '';
   data: any;
-  chartOpen: string = "{";
-  chartClose: string = "}";
-  
+  chartOpen: string = "</";
+  chartClose: string = "";
+  // chartOpen: string = "";
+  // chartClose: string = "";
+  badge: any;
+
   constructor(
     private auth: AuthService
   ) {
@@ -23,7 +26,8 @@ export class HomeComponent implements OnInit {
     this.auth.data$.subscribe(data => {
       if (data) {
         this.data = auth.getDataHome;
-        this.logo = auth.getLogo;
+        this.logo = auth.getLogo;    
+        this.badge = data.data_badges.badges[0];    
       }
     })
   }

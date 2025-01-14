@@ -1,26 +1,33 @@
 <div id="particles-home"></div>
-<section class="container grid grid-cols-2 gap-4 place-content-center ">
-  <article class="px-2 md:px-0 flex flex-col gap-4 md:gap-2">
 
+<!-- ? Badges -->
+<span class="badge z-20 absolute right-2 top-20 sm:right-4 sm:top-16 lg:right-6 lg:top-4">
+  <a [href]="badge.url_doc" target="_blank" [title]="badge.title">
+    <img [src]=badge.img height="100%" width="auto">
+  </a>
+</span>
+
+<section class="container grid grid-cols-2 gap-4 place-content-center ">
+  <article class="px-2 md:px-0 flex flex-col gap-4 md:gap-2">    
     <!-- <div class="w-full flex flex-col justify-center items-center pb-2">
       <img [src]="logo" alt="">
     </div> -->
 
-    <span class="subtitle text-md md:text-lg  lg:text-2xl 2xl:text-3xl">
-      <span class="txt-blue font-bold">< Name</span>
+    <span class="subtitle text-4xl md:text-lg lg:text-5xl 2xl:text-6xl">
+      <!-- <span class="txt-blue font-bold">< Name</span> -->
       {{ data.title_head }}
-      <span class="txt-blue font-bold">/</span>
-      <span class="txt-blue font-bold">></span>
+      <!-- <span class="txt-blue font-bold">/</span> -->
+      <!-- <span class="txt-blue font-bold">></span> -->
     </span>
 
-    <p class="title text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl">
-      <span class="txt-blue text-3xl md:text-4xl lg:text-6xl 2xl:text-7xl">{{chartOpen}}</span>
+    <p class="title text-5xl md:text-5xl lg:text-7xl 2xl:text-8xl">
+      <span class="txt-blue text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl">{{chartOpen}}</span>      
       {{ data.title[0] }}
-      <span class="txt-blue text-3xl md:text-4xl lg:text-6xl 2xl:text-7xl">{{chartClose}}</span>      
+      <span class="txt-blue text-4xl md:text-5xl lg:text-7xl 2xl:text-8xl">{{chartClose}}</span>      
     </p>      
     
-    <div class="description text-sm md:text-md lg:text-md 2xl:text-lg">
-      <div class="parrafo-principal">
+    <div class="description text-md md:text-md lg:text-lg 2xl:text-2xl">
+      <div class="parrafo-principal" [innerHTML]="data.title_paragraph">
         {{data.title_paragraph}}
       </div>
 
@@ -30,8 +37,8 @@
       <span class="txt-blue">></span> -->
     </div>    
 
-    <div class="flex flex-row justify-center content-btn py-4">
-      <button title="contact" class="rounded-sm">
+    <div class="flex flex-row justify-center py-4">
+      <button title="contact" class="def-button rounded-sm">
         <a href="#contact" title="contáctame">
           {{ data.btn }}
         </a>

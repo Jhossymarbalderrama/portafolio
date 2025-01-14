@@ -17,10 +17,7 @@
 
   background: linear-gradient(
     #010205ad,
-    #01020596,
-    #01020596,
-      #010205ad,
-      #010205ec
+    #01020596
     ),
     var(--bg-img-notebook);
   

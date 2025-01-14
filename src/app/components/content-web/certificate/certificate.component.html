@@ -27,7 +27,7 @@
 
         <div class="pagination-controls flex justify-center items-center mt-8">
             <button (click)="prevPage()" [disabled]="currentPage === 1"
-                class="cursor-pointer text-white rounded-md w-28">
+                class="def-button text-xs 2xl:text-md cursor-pointer text-white rounded-md w-28">
                 <a>{{ data.btn_before }}</a>
             </button>
 
@@ -39,7 +39,7 @@
             </div>
 
             <button (click)="nextPage()" [disabled]="currentPage === totalPages"
-                class="cursor-pointer text-white rounded-md w-28">
+                class="def-button text-xs 2xl:text-md cursor-pointer text-white rounded-md w-28">
                 <a>{{ data.btn_after }}</a>
             </button>
         </div>

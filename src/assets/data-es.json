@@ -64,14 +64,15 @@
         "discord": "#blackjhossy"
     },
     "data_home": {
-        "title": [
+        "title": [            
+            "Balderrama R. Jhossymar",
             "Desarrollador Full Stack",
             "Desarrollador Frontend",
             "Desarrollador Backend"
         ],
-        "title_head": "Jhossymar Balderrama Rocha",
+        "title_head": "¡Hola!, Soy",
         "title_description": "Angular - Spring Boot",
-        "title_paragraph": "Soy un desarrollador autodidacta con una profunda pasión por el aprendizaje continuo y la resolución de problemas. Actualmente, soy freelance y estoy en búsqueda de nuevas oportunidades profesionales para aplicar mis habilidades y conocimientos en proyectos desafiantes.",
+        "title_paragraph": "Un apasionado <span class='home-text home-dev'>Desarrollador Full-Stack</span> creando soluciones innovadoras con <span class='home-text home-angular'>Angular</span> y <span class='home-text home-spring'>Spring Boot</span>.",
         "btn": "Contáctame",
         "btn_about": "Acerca de mí"
     },
@@ -90,11 +91,11 @@
         "title": "Mis  <span class='txt-blue-web'>proyectos<span>",
         "subtitle": "Blog",
         "description": "Los siguientes proyectos están disponibles en mi repositorio de  <a href='https://github.com/Jhossymarbalderrama' target='_blank' title='Repositorio Jhossymar Balderrama' class='text-blue-600 font-bold hover:underline'>GitHub</a> <i class='fa-brands fa-github'></i>.",
-        "projects": [
+        "projects": [        
             {
-                "title": "Portafolio Personal",
+                "title": "🧑‍💻 Portafolio Personal",
                 "subtitle": "Frontend Web",
-                "description": "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase. Este proyecto está diseñado para ser completamente responsivo y dinámico, destacando mis habilidades en el desarrollo web.",
+                "description": "Portafolio personal desarrollado utilizando Angular y Bootstrap 5, alojado en Firebase. Este proyecto está diseñado para ser completamente responsivo y dinámico, mostrando mis habilidades en desarrollo web.",
                 "urlWeb": "https://jhossymarbalderrama-portafolio.web.app/",
                 "urlRepo": "https://github.com/Jhossymarbalderrama/portafolio",
                 "img": "/assets/img/projects/portfolio.webp",
@@ -105,9 +106,24 @@
                 ]
             },
             {
-                "title": "E-Commerce",
+                "title": "✈️ Hotels (En Desarrollo)",
                 "subtitle": "Desarrollo Full Stack",
-                "description": "Apex Store es una tienda online completa construida con Angular, Tailwind CSS y Spring Boot en el backend. Utiliza Firebase para el hosting y una base de datos MySQL para gestionar los productos y pedidos.",
+                "description": "Hoteles: nuestro sitio web de reservas de hoteles está actualmente en construcción. La plataforma está siendo desarrollada utilizando Angular, Bootstrap, microservicios con Spring Boot y MySQL para ofrecer una experiencia de reserva moderna y sin complicaciones.",
+                "urlWeb": "",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/hotelera-front",
+                "img": "/assets/img/projects/mini-hotels.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/color/96/spring-logo.png",
+                    "https://img.icons8.com/color/96/mysql-logo.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png"                
+                ]
+            },
+            {
+                "title": "🏪 E-Commerce",
+                "subtitle": "Desarrollo Full Stack",
+                "description": "Apex Store es una tienda en línea completa desarrollada con Angular, Tailwind CSS y Spring Boot en el backend. Utiliza Firebase para el alojamiento y una base de datos MySQL para gestionar productos y pedidos.",
                 "urlWeb": "https://e-commerce-ac291.web.app/",
                 "urlRepo": "https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front",
                 "img": "/assets/img/projects/apexstore.webp",
@@ -120,9 +136,9 @@
                 ]
             },
             {
-                "title": "Distribuidora de Alimentos",
+                "title": "🐶 Distribuidora de Alimentos",
                 "subtitle": "Desarrollo Full Stack",
-                "description": "Pet Food Premium es una aplicación web completa desarrollada con Angular para el frontend y Node.js con Express para el backend.",
+                "description": "Pet Food Premium es una aplicación web dedicada a una distribuidora de alimentos, desarrollada con Angular para el frontend y Node.js con Express para el backend.",
                 "urlWeb": "https://pet-food-premium-jbr.web.app/",
                 "urlRepo": "https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front",
                 "img": "/assets/img/projects/petfoot.webp",
@@ -134,9 +150,9 @@
                 ]
             },
             {
-                "title": "Clínica Online",
+                "title": "🚑 Clínica Online",
                 "subtitle": "Frontend Web",
-                "description": "Clinica Online es una pagina web de turnos para una clinica. El sistema de turnos es flexible y facil y rapido ya sea para el paciente que va sacar un turno o el especialista.",
+                "description": "Online Clinic es un sitio web de programación de citas para una clínica. El sistema de citas es flexible, fácil y rápido, tanto para un paciente que realiza una cita como para un especialista.",
                 "urlWeb": "https://tp-clinicaonline-ef480.web.app/",
                 "urlRepo": "https://github.com/Jhossymarbalderrama/TP-ClinicaOnline",
                 "img": "/assets/img/projects/clinica.webp",
@@ -147,9 +163,9 @@
                 ]
             },
             {
-                "title": "Trailers - Peliculas",
+                "title": "🎬 Trailers - Peliculas",
                 "subtitle": "Frontend Web",
-                "description": "Movies Online es una plataforma para ver detalles y trailers de películas en línea utilizando únicamente HTML, CSS, JavaScript y consumo de una Api Rest, como parte del curso Codo a Codo",
+                "description": "Movies Online es una plataforma para ver detalles y trailers de películas en línea utilizando solo HTML, CSS, JavaScript y consumiendo una API REST, como parte del curso Codo a Codo.",
                 "urlWeb": "https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page_frontend/",
                 "urlRepo": "https://github.com/Jhossymarbalderrama/TP0_CAC_24100_Movies_page_frontend",
                 "img": "/assets/img/projects/movie.webp",
@@ -158,11 +174,12 @@
                     "https://img.icons8.com/fluency/96/html-5.png",
                     "https://img.icons8.com/fluency/96/css3.png",
                     "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png",
                     "https://img.icons8.com/fluency/96/api.png"
                 ]
             },
             {
-                "title": "METRO WEAR",
+                "title": "🏪 METRO WEAR",
                 "subtitle": "Frontend Web",
                 "description": "METRO WEAR es una tienda Online de ropa en construcción utilizando HTML, CSS y JavaScript como parte del proyecto final del curso Talento Tech.",
                 "urlWeb": "https://jhossymarbalderrama.github.io/proyecto-final-talento-tech/",
@@ -382,6 +399,9 @@
             {
                 "name": "Salesforce",
                 "img": "https://img.icons8.com/color/96/salesforce.png"
+            },{
+                "name": "Jira",
+                "img": "https://img.icons8.com/color/96/jira.png"
             }
         ]
     },
@@ -390,6 +410,13 @@
         "btn_before": "Anterior",
         "btn_after": "Siguiente",
         "certificates": [
+            {
+                "title": "Desarrollador Front-End JS",
+                "institution": "Gobierno de la Ciudad",
+                "year": "2024",
+                "img": "/assets/img/certificados/Certificado-Front-End-Js-Talento-Tech.webp",
+                "type": "certificado"
+            },
             {
                 "title": "Desarrollador Salesforce",
                 "institution": "Gobierno de la Ciudad",
@@ -460,6 +487,13 @@
                 "img": "/assets/img/certificados/certificateSePrograma.webp",
                 "type": "certificado"
             }
+        ]
+    },
+    "data_badges": {
+        "title": "Insig<span class='txt-blue-web'>neas</span>",
+        "description": "",
+        "badges":[
+            {"title": "Desarrollador en la Plataforma Salesforce", "img": "/assets/img/badges/Badge-Dev-Salesforce.webp"}
         ]
     },
     "data_contact": {

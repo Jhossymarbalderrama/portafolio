@@ -66,13 +66,14 @@
     },
     "data_home": {
         "title": [
-            "Full Stack Developer",
+            "Balderrama R. Jhossymar",
+            "Full-Stack Developer",
             "Frontend Developer",
             "Backend Developer"
         ],
-        "title_head": "Jhossymar Balderrama Rocha",
+        "title_head": "Hey!, I'm",
         "title_description": "</ Angular - Spring Boot >",
-        "title_paragraph": "I am a self-taught developer with a deep passion for continuous learning and problem-solving. Currently, I am a freelancer seeking new professional opportunities to apply my skills and knowledge to challenging projects.",
+        "title_paragraph": "A passionate <span class='home-text home-dev'>Full-Stack Developer</span> crafting innovative solutions with  <span class='home-text home-angular'>Angular</span> &  <span class='home-text home-spring'>Spring Boot</span>.",
         "btn": "Contact Me",
         "btn_about": "About me"
     },
@@ -91,9 +92,9 @@
         "title": "Some <span class='txt-blue-web'>Projects</span>",
         "subtitle": "Blog",
         "description": "The following projects are available in my <a href='https://github.com/Jhossymarbalderrama' target='_blank' title='Jhossymar Balderrama Repository' class='text-blue-600 font-bold hover:underline'>GitHub</a> repository <i class='fa-brands fa-github'></i>.",
-        "projects": [
+        "projects": [           
             {
-                "title": "Personal Portfolio",
+                "title": "🧑‍💻 Personal Portfolio",
                 "subtitle": "Frontend Web",
                 "description": "Personal portfolio developed using Angular and Bootstrap 5, hosted on Firebase. This project is designed to be fully responsive and dynamic, showcasing my skills in web development.",
                 "urlWeb": "https://jhossymarbalderrama-portafolio.web.app/",
@@ -106,7 +107,22 @@
                 ]
             },
             {
-                "title": "E-Commerce",
+                "title": "✈️ Hotels (Coming Soon)",
+                "subtitle": "Full Stack Developer",
+                "description": "Hotels our hotel booking website is currently under construction. The platform is being developed using Angular, Bootstrap, Spring Boot microservices, and MySQL to deliver a seamless and modern booking experience.",
+                "urlWeb": "",
+                "urlRepo": "https://github.com/Jhossymarbalderrama/hotelera-front",
+                "img": "/assets/img/projects/mini-hotels.webp",
+                "technologies": [
+                    "https://img.icons8.com/fluency/96/angularjs.png",
+                    "https://img.icons8.com/color/96/spring-logo.png",
+                    "https://img.icons8.com/color/96/mysql-logo.png",
+                    "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/google-firebase-console.png"                
+                ]
+            },
+            {
+                "title": "🏪 E-Commerce",
                 "subtitle": "Full Stack Development",
                 "description": "Apex Store is a complete online store built with Angular, Tailwind CSS, and Spring Boot on the backend. It uses Firebase for hosting and a MySQL database to manage products and orders.",
                 "urlWeb": "https://e-commerce-ac291.web.app/",
@@ -121,9 +137,9 @@
                 ]
             },
             {
-                "title": "Pet Food Distributor",
+                "title": "🐶 Food Distributor",
                 "subtitle": "Full Stack Development",
-                "description": "Pet Food Premium is a complete web application developed with Angular for the frontend and Node.js with Express for the backend.",
+                "description": "Pet Food Premium is a web application dedicated to a food distributor, developed with Angular for the frontend and Node.js with Express for the backend.",
                 "urlWeb": "https://pet-food-premium-jbr.web.app/",
                 "urlRepo": "https://github.com/Jhossymarbalderrama/PetFood-Distributor-Front",
                 "img": "/assets/img/projects/petfoot.webp",
@@ -135,7 +151,7 @@
                 ]
             },
             {
-                "title": "Online Clinic",
+                "title": "🚑 Online Clinic",
                 "subtitle": "Frontend Web",
                 "description": "Online Clinic is a scheduling website for a clinic. The appointment system is flexible, easy, and quick, whether for a patient booking an appointment or for a specialist.",
                 "urlWeb": "https://tp-clinicaonline-ef480.web.app/",
@@ -148,7 +164,7 @@
                 ]
             },
             {
-                "title": "Trailers - Movies",
+                "title": "🎬 Trailers - Movies",
                 "subtitle": "Frontend Web",
                 "description": "Movies Online is a platform to view details and trailers of movies online using only HTML, CSS, JavaScript, and consuming a REST API, as part of the Codo a Codo course.",
                 "urlWeb": "https://jhossymarbalderrama.github.io/TP0_CAC_24100_Movies_page_frontend/",
@@ -159,11 +175,12 @@
                     "https://img.icons8.com/fluency/96/html-5.png",
                     "https://img.icons8.com/fluency/96/css3.png",
                     "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png",
                     "https://img.icons8.com/fluency/96/api.png"
                 ]
             },
             {
-                "title": "METRO WEAR",
+                "title": "🏪 METRO WEAR",
                 "subtitle": "Frontend Web",
                 "description": "METRO WEAR is an online clothing store under construction, developed using HTML, CSS, and JavaScript as part of the final project for the Talento Tech course.",
                 "urlWeb": "https://jhossymarbalderrama.github.io/proyecto-final-talento-tech/",
@@ -176,7 +193,7 @@
                 ]
             },
             {
-                "title": "Weather Avellaneda",
+                "title": "🌥️Weather Avellaneda",
                 "subtitle": "Frontend Web",
                 "description": "A web application developed in Angular that consumes a weather API to provide updated meteorological information. It uses Firebase for hosting and Bootstrap 5 for responsive design.",
                 "urlWeb": "https://weather-jbr.web.app/",
@@ -383,6 +400,10 @@
             {
                 "name": "Salesforce",
                 "img": "https://img.icons8.com/color/96/salesforce.png"
+            },
+            {
+                "name": "Jira",
+                "img": "https://img.icons8.com/color/96/jira.png"
             }
         ]
     },
@@ -391,6 +412,13 @@
         "btn_before": "Previous",
         "btn_after": "Next",
         "certificates": [
+            {
+                "title": "Front-End JS Developer",
+                "institution": "Gobierno de la Ciudad",
+                "year": "2024",
+                "img": "/assets/img/certificados/Certificado-Front-End-Js-Talento-Tech.webp",
+                "type": "certificado"
+            },
             {
                 "title": "Salesforce Developer",
                 "institution": "Gobierno de la Ciudad",
@@ -461,6 +489,13 @@
                 "img": "/assets/img/certificados/certificateSePrograma.webp",
                 "type": "certificado"
             }
+        ]
+    },
+    "data_badges": {
+        "title": "Bad<span class='txt-blue-web'>ges</span>",
+        "description": "",
+        "badges":[
+            {"title": "Salesforce Platform Developer", "img": "/assets/img/badges/Badge-Dev-Salesforce.webp", "url_doc": "/assets/img/badges/2025-01-14_desarrollador-de-plataforma-salesforce-es.pdf"}
         ]
     },
     "data_contact": {

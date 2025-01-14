@@ -20,7 +20,7 @@
                 <div *ngFor="let project of data.projects"
                     class="grid-item overflow-hidden shadow-lg group transition-transform transform hover:scale-105 duration-300 rounded"
                     data-aos="fade-up" data-aos-duration="1000">
-                    <a [href]="project.urlWeb" target="_blank" class="block">
+                    <a class="block">
                         <div class="relative cursor-default">
                             <img [src]="project.img" alt="{{ project.title }}" class="w-full h-full object-cover" />
                             <div
@@ -43,7 +43,11 @@
                                     </div>
 
                                     <div class="mt-2 mb-1 md:mt-6 md:mb-2 cursor-pointer">
-                                        <span class="txt-blue-web font-bold hover:text-blue-400">Click Demo Online</span>
+                                        <span class="txt-blue-web font-bold hover:text-blue-400"  *ngIf="project.urlWeb">
+                                            <a [href]="project.urlWeb" target="_blank">
+                                                Click Demo Online
+                                            </a>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
