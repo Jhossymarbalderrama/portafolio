@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 declare var particlesJS: any;
 import { AuthService } from '../../../services/auth.service';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -14,9 +15,7 @@ export class HomeComponent implements OnInit {
   data: any;
   chartOpen: string = "</";
   chartClose: string = "";
-  // chartOpen: string = "";
-  // chartClose: string = "";
-  badge: any;
+  badges: any;
 
   constructor(
     private auth: AuthService
@@ -27,7 +26,7 @@ export class HomeComponent implements OnInit {
       if (data) {
         this.data = auth.getDataHome;
         this.logo = auth.getLogo;    
-        this.badge = data.data_badges.badges[0];    
+        this.badges = data.data_badges.badges;    
       }
     })
   }

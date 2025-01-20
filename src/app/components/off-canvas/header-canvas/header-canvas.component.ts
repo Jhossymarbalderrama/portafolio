@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import data from '../../../../assets/data.json';
+import data from '../../../../assets/data-en.json';
 
 @Component({
   selector: 'app-header-canvas',

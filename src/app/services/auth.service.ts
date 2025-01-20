@@ -9,7 +9,7 @@ import { BehaviorSubject } from 'rxjs';
 export class AuthService {
   private theme_web: boolean = false; // ? False: Dark  | True : Light
 
-  private languages: string[] = ["ES-es", "EN-en"];
+  private languages: string[] = ["ES-es","EN-en"];
   private langSelect: string = '';
   private dataSubject = new BehaviorSubject<any>(null);
 
@@ -103,10 +103,10 @@ export class AuthService {
   }
 
   public changeLanguage() {
-    if (this.langSelect == 'ES-es') {
-      this.setLangSelect = 'EN-en';
-    } else {
+    if (this.langSelect == 'EN-en') {
       this.setLangSelect = 'ES-es';
+    } else {
+      this.setLangSelect = 'EN-en';
     }
 
     this.changeData();

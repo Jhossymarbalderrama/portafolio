@@ -9,7 +9,7 @@ import AOS from 'aos';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, OffCanvasComponent, ContentWebComponent],
+  imports: [OffCanvasComponent, ContentWebComponent],
   templateUrl: './app.component.html', 
   styleUrl: './app.component.css'
 })
@@ -18,7 +18,6 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
     initFlowbite();
     AOS.init();
-
   }
 
   

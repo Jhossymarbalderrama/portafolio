@@ -495,7 +495,8 @@
         "title": "Bad<span class='txt-blue-web'>ges</span>",
         "description": "",
         "badges":[
-            {"title": "Salesforce Platform Developer", "img": "/assets/img/badges/Badge-Dev-Salesforce.webp", "url_doc": "/assets/img/badges/2025-01-14_desarrollador-de-plataforma-salesforce-es.pdf"}
+            {"title": "Salesforce Platform Developer", "img": "/assets/img/badges/Badge-Dev-Salesforce.webp", "url_doc": "/assets/img/badges/2025-01-14_desarrollador-de-plataforma-salesforce-es.pdf"},
+            {"title": "Front-End JS Developer", "img": "../assets/img/badges/Badge-Dev-FrontEndJS.webp", "url_doc": "/assets/img/badges/2025-01-17_front-end-js-es.pdf"}
         ]
     },
     "data_contact": {

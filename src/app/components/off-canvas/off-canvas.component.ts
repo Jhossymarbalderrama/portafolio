@@ -1,8 +1,5 @@
-import { Component, OnInit, ElementRef, AfterViewInit, ViewChild, viewChild, HostListener } from '@angular/core';
-// import { HeaderCanvasComponent } from "./header-canvas/header-canvas.component";
-// import { ContentCanvasComponent } from "./content-canvas/content-canvas.component";
-// import { FooterCanvasComponent } from "./footer-canvas/footer-canvas.component";
-import { Router, NavigationEnd, Route } from "@angular/router";
+import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Router, NavigationEnd } from "@angular/router";
 import { LanguagesComponent } from "./languages/languages.component";
 import { AuthService } from '../../services/auth.service';
 

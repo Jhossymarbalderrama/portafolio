@@ -493,7 +493,8 @@
         "title": "Insig<span class='txt-blue-web'>neas</span>",
         "description": "",
         "badges":[
-            {"title": "Desarrollador en la Plataforma Salesforce", "img": "/assets/img/badges/Badge-Dev-Salesforce.webp"}
+            {"title": "Desarrollador en la Plataforma Salesforce", "img": "../assets/img/badges/Badge-Dev-Salesforce.webp", "url_doc": "/assets/img/badges/2025-01-14_desarrollador-de-plataforma-salesforce-es.pdf"},            
+            {"title": "Desarrollador Front-End JS", "img": "../assets/img/badges/Badge-Dev-FrontEndJS.webp", "url_doc": "/assets/img/badges/2025-01-17_front-end-js-es.pdf"}
         ]
     },
     "data_contact": {
