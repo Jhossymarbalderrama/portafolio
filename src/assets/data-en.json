@@ -107,17 +107,18 @@
                 ]
             },
             {
-                "title": "✈️ Hotels (Coming Soon)",
+                "title": "✈️ Hotels",
                 "subtitle": "Full Stack Developer",
-                "description": "Hotels our hotel booking website is currently under construction. The platform is being developed using Angular, Bootstrap, Spring Boot microservices, and MySQL to deliver a seamless and modern booking experience.",
+                "description": "Hotel Books is a website dedicated to searching for hotels within specific dates. Developed with Angular, Bootstrap, microservices in Spring Boot, Maven, Docker, and database management with MySQL.",
                 "urlWeb": "",
                 "urlRepo": "https://github.com/Jhossymarbalderrama/hotelera-front",
                 "img": "/assets/img/projects/mini-hotels.webp",
                 "technologies": [
                     "https://img.icons8.com/fluency/96/angularjs.png",
-                    "https://img.icons8.com/color/96/spring-logo.png",
-                    "https://img.icons8.com/color/96/mysql-logo.png",
                     "https://img.icons8.com/fluency/96/bootstrap.png",
+                    "https://img.icons8.com/color/96/spring-logo.png",
+                    "https://img.icons8.com/fluency/96/docker.png",
+                    "https://img.icons8.com/color/96/mysql-logo.png",
                     "https://img.icons8.com/color/96/google-firebase-console.png"                
                 ]
             },
@@ -412,6 +413,13 @@
         "btn_before": "Previous",
         "btn_after": "Next",
         "certificates": [
+            {
+                "title": "Angular & Spring Boot",
+                "institution": "Udemy",
+                "year": "2025",
+                "img": "/assets/img/certificados/Certificado-Angular-SpringBoot.webp",
+                "type": "certificado"
+            },
             {
                 "title": "Front-End JS Developer",
                 "institution": "Gobierno de la Ciudad",

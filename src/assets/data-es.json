@@ -106,9 +106,9 @@
                 ]
             },
             {
-                "title": "✈️ Hotels (En Desarrollo)",
+                "title": "✈️ Hotel",
                 "subtitle": "Desarrollo Full Stack",
-                "description": "Hoteles: nuestro sitio web de reservas de hoteles está actualmente en construcción. La plataforma está siendo desarrollada utilizando Angular, Bootstrap, microservicios con Spring Boot y MySQL para ofrecer una experiencia de reserva moderna y sin complicaciones.",
+                "description": "Hotel books es un sitio web dedicado a la busqueda de hoteles entre fechas. Sitio web desarrollado en Angular, Bootstrap, con microservicios en Spring Boot, Maven, Docker y gestion de Base de Datos y MySQL.",
                 "urlWeb": "",
                 "urlRepo": "https://github.com/Jhossymarbalderrama/hotelera-front",
                 "img": "/assets/img/projects/mini-hotels.webp",
@@ -410,6 +410,13 @@
         "btn_before": "Anterior",
         "btn_after": "Siguiente",
         "certificates": [
+            {
+                "title": "Angular & Spring Boot",
+                "institution": "Udemy",
+                "year": "2025",
+                "img": "/assets/img/certificados/Certificado-Angular-SpringBoot.webp",
+                "type": "certificado"
+            },
             {
                 "title": "Desarrollador Front-End JS",
                 "institution": "Gobierno de la Ciudad",
