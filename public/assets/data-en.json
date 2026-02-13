@@ -81,19 +81,18 @@
         "title": "About <span class='txt-blue-web'>me</span>",
         "title_btn_cv": "Download CV",
         "about": [
-            "Hello 👋! I'm <b>Jhossymar</b>, I'm 28 years old, and I'm from <b>Avellaneda, Buenos Aires, Argentina</b> 🌍.",
-            "💻 I'm a <b>Full Stack Developer</b> currently working at <a href='#experience' class='txt-blue-web'><b>Tránsito Seguro</b></a>, participating in the development of enterprise systems in <b>Java + Spring Boot</b>, interfaces with <b>ZK Framework</b> and services in <b>Python</b> for data processing, reports and notifications. I work with <b>JWT</b> authentication, business flows with <b>jBPM</b> and <b>PostgreSQL</b> and <b>MySQL</b> databases.",
-            "🚀 I have <a href='#experience' class='txt-blue-web'><b>over 3 years of experience</b></a> in software development and maintenance. I have worked on cross-platform projects with <b>GeneXus</b>, web development, IT support and enterprise systems under agile methodologies like <b>Scrum</b>, using collaborative tools like <b>Jira</b>, <b>Confluence</b> and <b>Bitbucket</b>.",
-            "🎓 I am currently pursuing a <b>Software Engineering degree at UAI</b>, completing <b>2nd year</b> courses, strengthening my foundations in software architecture, data structures and development methodologies.",
-            "🛠️ I stand out for my analytical skills, effective communication and adaptation to dynamic work environments. I am committed to continuous learning and constant professional improvement."
+            "Hello 👋! I’m <b>Jhossymar</b>, I'm 26 years old, and I’m from <b>Avellaneda, Buenos Aires, Argentina</b> 🌍.",
+            "💻 I’m a <b>Full Stack Developer</b> with experience in creating web applications, using Frontend technologies like <b>Angular</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>Tailwind CSS</b>, and <b>Bootstrap 5</b>. On the Backend, I have solid skills in <b>Java</b> with <b>Spring Boot</b> and <b>Node.js</b> for developing <b>RESTful APIs</b>, as well as managing databases in <b>MySQL</b>.",
+            "🚀 With <a href='#experience' class='txt-blue-web'><b>3 years of experience</b></a> in software development and maintenance, I have participated in a wide variety of projects, from creating cross-platform applications with <b>GeneXus</b> to developing websites with <b>Joomla</b>. Additionally, I have provided <b>IT support</b>, managing databases and solving technical issues in agile environments using methodologies like <b>Scrum</b>.",
+            "🛠️ I’m known for my ability to communicate effectively, solve problems with an analytical approach, and manage multiple tasks efficiently. Committed to continuous learning, I strive to stay updated with the latest technological trends and constantly improve my professional skills."
         ],
-        "phrase": "“I seek to continue growing as a Full Stack developer, combining practical experience in real systems with academic training in engineering, to build scalable, secure and high-impact solutions.”"
+        "phrase": "“My goal is to secure a position as a Full Stack Developer where I can leverage my knowledge in Angular, Spring Boot, and MySQL to develop innovative technological solutions that enhance user experience and address business challenges. I also seek to integrate into a collaborative environment where I can contribute to team growth and the overall success of the company.”"
     },
     "data_project": {
         "title": "Some <span class='txt-blue-web'>Projects</span>",
         "subtitle": "Blog",
         "description": "The following projects are available in my <a href='https://github.com/Jhossymarbalderrama' target='_blank' title='Jhossymar Balderrama Repository' class='text-blue-600 font-bold hover:underline'>GitHub</a> repository <i class='fa-brands fa-github'></i>.",
-        "projects": [
+        "projects": [           
             {
                 "title": "🧑‍💻 Personal Portfolio",
                 "subtitle": "Frontend Web",
@@ -120,7 +119,7 @@
                     "https://img.icons8.com/color/96/spring-logo.png",
                     "https://img.icons8.com/fluency/96/docker.png",
                     "https://img.icons8.com/color/96/mysql-logo.png",
-                    "https://img.icons8.com/color/96/google-firebase-console.png"
+                    "https://img.icons8.com/color/96/google-firebase-console.png"                
                 ]
             },
             {
@@ -210,181 +209,68 @@
             }
         ]
     },
-    "data_experience": [
-        {
-            "title": "Experience",
-            "company_name": "🏢 TRÁNSITO SEGURO",
-            "company_address": "Buenos Aires City, Argentina",
-            "logo": "/assets/img/others/logoTS.png",
-            "company_years": "2025 - Present",
-            "title_technologies": "Technologies",
-            "web_url": "https://transito-seguro.com/",
-            "icons_technologies": [
-                {
-                    "name": "Java",
-                    "img": "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png"
-                },
-                {
-                    "name": "Spring Boot",
-                    "img": "https://img.icons8.com/color/96/spring-logo.png"
-                },
-                {
-                    "name": "ZK Framework",
-                    "img": "https://img.icons8.com/fluency/96/source-code.png"
-                },
-                {
-                    "name": "Python",
-                    "img": "https://img.icons8.com/color/96/python.png"
-                },
-                {
-                    "name": "JWT",
-                    "img": "https://img.icons8.com/color/96/java-web-token.png"
-                },
-                {
-                    "name": "PostgreSQL",
-                    "img": "https://img.icons8.com/color/96/postgreesql.png"
-                },
-                {
-                    "name": "MySQL",
-                    "img": "https://img.icons8.com/color/96/mysql-logo.png"
-                },
-                {
-                    "name": "Docker",
-                    "img": "https://img.icons8.com/fluency/96/docker.png"
-                },
-                {
-                    "name": "Swagger",
-                    "img": "/assets/img/icons skills/swagger.webp"
-                },
-                {
-                    "name": "Jira",
-                    "img": "https://img.icons8.com/color/96/jira.png"
-                },
-                {
-                    "name": "Confluence",
-                    "img": "https://img.icons8.com/color/96/confluence.png"
-                },
-                {
-                    "name": "Bitbucket",
-                    "img": "https://img.icons8.com/color/96/bitbucket.png"
-                }
-            ],
-            "technologies": [
-                "Java 8+",
-                "Spring Boot",
-                "ZK Framework",
-                "jBPM",
-                "Python",
-                "JWT Authentication",
-                "PostgreSQL",
-                "MySQL",
-                "Docker",
-                "Swagger",
-                "Scrum",
-                "Jira",
-                "Confluence",
-                "Bitbucket"
-            ],
-            "company_title": "Full Stack Developer",
-            "description": [
-                {
-                    "title": "SAIjz System Development",
-                    "functions": [
-                        "Development and maintenance of the general <b>SAIjz</b> system using <b>Java 8+</b> and <b>Spring Boot</b>.",
-                        "Implementation of web interfaces with <b>ZK Framework</b>.",
-                        "Integration of secure authentication using <b>JWT</b>.",
-                        "Implementation of business flows using <b>jBPM</b>.",
-                        "REST API documentation with <b>Swagger</b>."
-                    ]
-                },
-                {
-                    "title": "Radar System and Python Services",
-                    "functions": [
-                        "Development of software in <b>Python</b> for tracking and image processing.",
-                        "Creation of reporting and notification services.",
-                        "Optimization of data processing flows from radars."
-                    ]
-                },
-                {
-                    "title": "Database Management",
-                    "functions": [
-                        "Advanced queries, data analysis and report generation in <b>PostgreSQL</b> and <b>MySQL</b>.",
-                        "Maintenance and tracking of operational data."
-                    ]
-                },
-                {
-                    "title": "Methodologies and Collaborative Work",
-                    "functions": [
-                        "Work under agile methodologies using <b>Scrum</b>.",
-                        "Task management and technical documentation with <b>Jira</b> and <b>Confluence</b>.",
-                        "Version control and collaboration through <b>Bitbucket</b>."
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Experience",
-            "company_name": "🏢 CA VLB s.a.",
-            "company_address": "Sarandi, Buenos Aires, Argentina",
-            "logo": "/assets/img/others/images.webp",
-            "company_years": "2016 - 2019",
-            "title_technologies": "Technologies",
-            "web_url": "http://www.vlb.com.ar/",
-            "icons_technologies": [
-                {
-                    "name": "GeneXus",
-                    "img": "/assets/img/icons skills/genexus.webp"
-                },
-                {
-                    "name": "Joomla",
-                    "img": "https://img.icons8.com/color/96/joomla.png"
-                },
-                {
-                    "name": "MySQL",
-                    "img": "https://img.icons8.com/color/96/mysql-logo.png"
-                }
-            ],
-            "technologies": [
-                "Developer GeneXus Evo 2",
-                "Developer GeneXus Evo 3",
-                "Developer GeneXus 9",
-                "Web Developer Joomla",
-                "Soporte IT"
-            ],
-            "company_title": "IT Consulting and Software Supply Services",
-            "description": [
-                {
-                    "title": "Software Developer at GeneXus",
-                    "functions": [
-                        "Creation and optimization of cross-platform applications.",
-                        "Development and maintenance of web systems in <b>GeneXus Evolution 2</b> and <b>3</b>.",
-                        "Development of Win systems in <b>GeneXus 9</b>."
-                    ]
-                },
-                {
-                    "title": "Web Developer with Joomla",
-                    "functions": [
-                        "Development and maintenance of websites using <b>Joomla</b>."
-                    ]
-                },
-                {
-                    "title": "Database Management",
-                    "functions": [
-                        "Basic handling of <b>MySQL</b> and <b>SQL Server</b>."
-                    ]
-                },
-                {
-                    "title": "IT Support",
-                    "functions": [
-                        "Implementation and updating of systems.",
-                        "Repairs and maintenance of programs.",
-                        "Data transfer and backup creation.",
-                        "Resolution of technical problems in software and hardware."
-                    ]
-                }
-            ]
-        }
-    ],
+    "data_experience": {
+        "title": "Experience",
+        "company_name": "🏢 CA VLB s.a.",
+        "company_address": "Sarandi, Buenos Aires, Argentina",
+        "logo": "/assets/img/others/images.webp",
+        "company_years": "2016 - 2019",
+        "title_technologies": "Technologies",
+        "web_url": "http://www.vlb.com.ar/",
+        "icons_technologies": [
+            {
+                "name": "GeneXus",
+                "img": "/assets/img/icons skills/genexus.webp"
+            },
+            {
+                "name": "Joomla",
+                "img": "https://img.icons8.com/color/96/joomla.png"
+            },
+            {
+                "name": "MySQL",
+                "img": "https://img.icons8.com/color/96/mysql-logo.png"
+            }
+        ],
+        "technologies": [
+            "Developer GeneXus Evo 2",
+            "Developer GeneXus Evo 3",
+            "Developer GeneXus 9",
+            "Web Developer Joomla",
+            "Soporte IT"
+        ],
+        "company_title": "IT Consulting and Software Supply Services",
+        "description": [
+            {
+                "title": "Software Developer at GeneXus",
+                "functions": [
+                    "Creation and optimization of cross-platform applications.",
+                    "Development and maintenance of web systems in <b>GeneXus Evolution 2</b> and <b>3</b>.",
+                    "Development of Win systems in <b>GeneXus 9</b>."
+                ]
+            },
+            {
+                "title": "Web Developer with Joomla",
+                "functions": [
+                    "Development and maintenance of websites using <b>Joomla</b>."
+                ]
+            },
+            {
+                "title": "Database Management",
+                "functions": [
+                    "Basic handling of <b>MySQL</b> and <b>SQL Server</b>."
+                ]
+            },
+            {
+                "title": "IT Support",
+                "functions": [
+                    "Implementation and updating of systems.",
+                    "Repairs and maintenance of programs.",
+                    "Data transfer and backup creation.",
+                    "Resolution of technical problems in software and hardware."
+                ]
+            }
+        ]
+    },
     "data_skill": {
         "title": "Skills & <span class='txt-blue-web'>Abilities</span>",
         "title_stack": "Technology Stack",
@@ -407,7 +293,11 @@
                 "img": "https://img.icons8.com/fluency/96/bootstrap.png"
             },
             {
-                "name": "Spring Boot",
+                "name": "VSCode",
+                "img": "https://img.icons8.com/fluency/96/visual-studio-code-2019.png"
+            },
+            {
+                "name": "SpringBoot",
                 "img": "https://img.icons8.com/color/96/spring-logo.png"
             },
             {
@@ -415,36 +305,24 @@
                 "img": "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png"
             },
             {
-                "name": "Python",
-                "img": "https://img.icons8.com/color/96/python.png"
-            },
-            {
-                "name": "ZK Framework",
-                "img": "https://img.icons8.com/fluency/96/source-code.png"
-            },
-            {
-                "name": "JWT",
+                "name": "JsonWebToken",
                 "img": "https://img.icons8.com/color/96/java-web-token.png"
-            },
-            {
-                "name": "jBPM",
-                "img": "https://img.icons8.com/fluency/96/workflow.png"
-            },
-            {
-                "name": "PostgreSQL",
-                "img": "https://img.icons8.com/color/96/postgreesql.png"
-            },
-            {
-                "name": "MySQL",
-                "img": "https://img.icons8.com/color/96/mysql-logo.png"
             },
             {
                 "name": "Docker",
                 "img": "https://img.icons8.com/fluency/96/docker.png"
             },
             {
+                "name": "NetBeans",
+                "img": "https://img.icons8.com/color/96/apache-netbeans.png"
+            },
+            {
                 "name": "Swagger",
                 "img": "/assets/img/icons skills/swagger.webp"
+            },
+            {
+                "name": "MySQL",
+                "img": "https://img.icons8.com/color/96/mysql-logo.png"
             }
         ],
         "others": [
@@ -578,11 +456,11 @@
                 "type": "certificado"
             },
             {
-                "title": "Full Stack Java",
-                "institution": "Program Codo a Codo 4.0",
-                "year": "2024",
-                "img": "/assets/img/certificados/CodoACodo.webp",
-                "type": "certificado"
+              "title": "Full Stack Java",
+              "institution": "Program Codo a Codo 4.0",
+              "year": "2024",
+              "img": "/assets/img/certificados/CodoACodo.webp"  ,
+              "type": "certificado"
             },
             {
                 "title": "Técnico Universitario en Programación",
@@ -597,14 +475,14 @@
                 "year": "2023",
                 "img": "/assets/img/certificados/certificatePython.webp",
                 "type": "certificado"
-            },
+            },            
             {
                 "title": "Master en JavaScript",
                 "institution": "Udemy",
                 "year": "2023",
                 "img": "/assets/img/certificados/certificateUdemy.webp",
                 "type": "certificado"
-            },
+            },                       
             {
                 "title": "#YoProgramo",
                 "institution": "Argentina Programa",
@@ -624,17 +502,9 @@
     "data_badges": {
         "title": "Bad<span class='txt-blue-web'>ges</span>",
         "description": "",
-        "badges": [
-            {
-                "title": "Salesforce Platform Developer",
-                "img": "/assets/img/badges/Badge-Dev-Salesforce.webp",
-                "url_doc": "/assets/img/badges/2025-01-14_desarrollador-de-plataforma-salesforce-es.pdf"
-            },
-            {
-                "title": "Front-End JS Developer",
-                "img": "../assets/img/badges/Badge-Dev-FrontEndJS.webp",
-                "url_doc": "/assets/img/badges/2025-01-17_front-end-js-es.pdf"
-            }
+        "badges":[
+            {"title": "Salesforce Platform Developer", "img": "/assets/img/badges/Badge-Dev-Salesforce.webp", "url_doc": "/assets/img/badges/2025-01-14_desarrollador-de-plataforma-salesforce-es.pdf"},
+            {"title": "Front-End JS Developer", "img": "../assets/img/badges/Badge-Dev-FrontEndJS.webp", "url_doc": "/assets/img/badges/2025-01-17_front-end-js-es.pdf"}
         ]
     },
     "data_contact": {

@@ -10,13 +10,15 @@ import { AuthService } from '../../../services/auth.service';
   styleUrl: './experience.component.css'
 })
 export class ExperienceComponent {
-  data: any;  
-  constructor(
-    private auth: AuthService
-  ){
+  datas: any[] = [];
+  title: string = '';
+
+  constructor(private auth: AuthService) {
     this.auth.data$.subscribe(data => {
       if (data) {
-        this.data = auth.getDataExperience;        
+        const experiences = this.auth.getDataExperience || [];
+        this.datas = experiences.reverse();
+        this.title = experiences.length > 0 ? experiences[0].title : 'Experiencia';
       }
     })
   }
