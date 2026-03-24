@@ -212,68 +212,6 @@
     "data_experience": [
         {
             "title": "Experiencia",
-            "company_name": "🏢 CA VLB s.a.",
-            "company_address": "Sarandi, Buenos Aires, Argentina",
-            "logo": "/assets/img/others/images.webp",
-            "company_years": "2016 - 2019",
-            "title_technologies": "Tecnologías",
-            "web_url": "http://www.vlb.com.ar/",
-            "icons_technologies": [
-                {
-                    "name": "GeneXus",
-                    "img": "/assets/img/icons skills/genexus.webp"
-                },
-                {
-                    "name": "Joomla",
-                    "img": "https://img.icons8.com/color/96/joomla.png"
-                },
-                {
-                    "name": "MySQL",
-                    "img": "https://img.icons8.com/color/96/mysql-logo.png"
-                }
-            ],
-            "technologies": [
-                "Developer GeneXus Evo 2",
-                "Developer GeneXus Evo 3",
-                "Developer GeneXus 9",
-                "Web Developer Joomla",
-                "Soporte IT"
-            ],
-            "company_title": "Servicios de Consultoría en Informática y Suministro de Software",
-            "description": [
-                {
-                    "title": "Desarrollador de Software en GeneXus",
-                    "functions": [
-                        "Creación y optimización de aplicaciones multiplataforma.",
-                        "Desarrollo y mantenimiento de sistemas Web en <b>GeneXus Evolution 2</b> y <b>3</b>.",
-                        "Desarrollo de sistemas Win en <b>GeneXus 9</b>."
-                    ]
-                },
-                {
-                    "title": "Desarrollador Web con Joomla",
-                    "functions": [
-                        "Desarrollo y mantenimiento de páginas web utilizando <b>Joomla</b>."
-                    ]
-                },
-                {
-                    "title": "Gestión de Bases de Datos",
-                    "functions": [
-                        "Manejo básico de <b>MySQL</b> y <b>SQL Server</b>."
-                    ]
-                },
-                {
-                    "title": "Soporte IT",
-                    "functions": [
-                        "Implementación y actualización de sistemas.",
-                        "Reparaciones y mantenimiento de programas.",
-                        "Transferencia de datos y realización de copias de seguridad.",
-                        "Resolución de problemas técnicos en software y hardware."
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Experiencia",
             "company_name": "🏢 TRANSITO SEGURO",
             "company_address": "Cdad Autónoma de Buenos Aires, Argentina",
             "logo": "/assets/img/others/logoTS.png",
@@ -379,6 +317,68 @@
                         "Trabajo bajo metodologías ágiles utilizando <b>Scrum</b>.",
                         "Gestión de tareas y documentación técnica con <b>Jira</b> y <b>Confluence</b>.",
                         "Control de versiones y colaboración mediante <b>Bitbucket</b>."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Experiencia",
+            "company_name": "🏢 CA VLB s.a.",
+            "company_address": "Sarandi, Buenos Aires, Argentina",
+            "logo": "/assets/img/others/images.webp",
+            "company_years": "2016 - 2019",
+            "title_technologies": "Tecnologías",
+            "web_url": "http://www.vlb.com.ar/",
+            "icons_technologies": [
+                {
+                    "name": "GeneXus",
+                    "img": "/assets/img/icons skills/genexus.webp"
+                },
+                {
+                    "name": "Joomla",
+                    "img": "https://img.icons8.com/color/96/joomla.png"
+                },
+                {
+                    "name": "MySQL",
+                    "img": "https://img.icons8.com/color/96/mysql-logo.png"
+                }
+            ],
+            "technologies": [
+                "Developer GeneXus Evo 2",
+                "Developer GeneXus Evo 3",
+                "Developer GeneXus 9",
+                "Web Developer Joomla",
+                "Soporte IT"
+            ],
+            "company_title": "Servicios de Consultoría en Informática y Suministro de Software",
+            "description": [
+                {
+                    "title": "Desarrollador de Software en GeneXus",
+                    "functions": [
+                        "Creación y optimización de aplicaciones multiplataforma.",
+                        "Desarrollo y mantenimiento de sistemas Web en <b>GeneXus Evolution 2</b> y <b>3</b>.",
+                        "Desarrollo de sistemas Win en <b>GeneXus 9</b>."
+                    ]
+                },
+                {
+                    "title": "Desarrollador Web con Joomla",
+                    "functions": [
+                        "Desarrollo y mantenimiento de páginas web utilizando <b>Joomla</b>."
+                    ]
+                },
+                {
+                    "title": "Gestión de Bases de Datos",
+                    "functions": [
+                        "Manejo básico de <b>MySQL</b> y <b>SQL Server</b>."
+                    ]
+                },
+                {
+                    "title": "Soporte IT",
+                    "functions": [
+                        "Implementación y actualización de sistemas.",
+                        "Reparaciones y mantenimiento de programas.",
+                        "Transferencia de datos y realización de copias de seguridad.",
+                        "Resolución de problemas técnicos en software y hardware."
                     ]
                 }
             ]

@@ -82,12 +82,11 @@
         "title_btn_cv": "Descargar CV",
         "about": [
             "¡Hola 👋! Soy <b>Jhossymar</b>, tengo 28 años, y soy de <b>Avellaneda, Buenos Aires, Argentina</b> 🌍.",
-            "💻 Soy un <b>Desarrollador Full Stack</b> actualmente trabajando en <a href='#experience' class='txt-blue-web'><b>Tránsito Seguro</b></a>, participando en el desarrollo de sistemas empresariales en <b>Java + Spring Boot</b>, interfaces con <b>ZK Framework</b> y servicios en <b>Python</b> para procesamiento de datos, reportes y notificaciones. Trabajo con autenticación <b>JWT</b>, flujos de negocio con <b>jBPM</b> y bases de datos <b>PostgreSQL</b> y <b>MySQL</b>.",
-            "🚀 Cuento con <a href='#experience' class='txt-blue-web'><b>más de 3 años de experiencia</b></a> en desarrollo y mantenimiento de software. He trabajado en proyectos multiplataforma con <b>GeneXus</b>, desarrollo web, soporte IT y sistemas empresariales bajo metodologías ágiles como <b>Scrum</b>, utilizando herramientas colaborativas como <b>Jira</b>, <b>Confluence</b> y <b>Bitbucket</b>.",
-            "🎓 Actualmente estoy cursando la <b>Ingeniería en Software en la UAI</b>, finalizando materias de <b>2º año</b>, fortaleciendo mis bases en arquitectura de software, estructuras de datos y metodologías de desarrollo.",
-            "🛠️ Me destaco por mi capacidad analítica, comunicación efectiva y adaptación a entornos de trabajo dinámicos. Estoy comprometido con el aprendizaje continuo y la mejora profesional constante."
+            "💻 Soy un <b>Desarrollador Full Stack</b> con experiencia en la creación de aplicaciones web, utilizando tecnologías Frontend como  <b>Angular</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>Tailwind CSS</b> y <b>Bootstrap 5</b>. En el Backend, tengo sólidas competencias en <b>Java</b> con <b>Spring Boot</b> y <b>Node.js</b> en el desarrollo de <b>APIs RESTful</b>, además de la gestión de bases de datos en <b>MySQL</b>.",
+            "🚀 Con <a href='#experience' class='txt-blue-web'><b>3 años de experiencia</b></a> en desarrollo y mantenimiento de software, he participado en una amplia variedad de proyectos, desde la creación de aplicaciones multiplataforma con <b>GeneXus</b> hasta el desarrollo de sitios web con <b>Joomla</b>. Además, he brindado <b>soporte IT</b>, gestionando bases de datos y resolviendo problemas técnicos en entornos ágiles utilizando metodologías como <b>Scrum</b>.",
+            "🛠️ Me caracterizo por mi capacidad para comunicarme de manera efectiva, resolver problemas con enfoque analítico y gestionar múltiples tareas de manera eficiente. Comprometido con el aprendizaje continuo, me esfuerzo por mantenerme actualizado con las últimas tendencias tecnológicas y mejorar constantemente mis habilidades profesionales."
         ],
-        "phrase": "“Busco seguir creciendo como desarrollador Full Stack, combinando experiencia práctica en sistemas reales con formación académica en ingeniería, para construir soluciones escalables, seguras y de alto impacto.”"
+        "phrase": "“Mi objetivo es obtener un rol como desarrollador Full Stack en el que pueda aplicar mi experiencia con Angular, Spring Boot y MySQL para crear soluciones tecnológicas innovadoras que mejoren la experiencia del usuario y aborden desafíos empresariales. Busco formar parte de un equipo colaborativo donde pueda aportar al desarrollo del equipo y al éxito general de la empresa.”"
     },
     "data_project": {
         "title": "Mis  <span class='txt-blue-web'>proyectos<span>",
@@ -212,10 +211,72 @@
     "data_experience": [
         {
             "title": "Experiencia",
+            "company_name": "🏢 CA VLB s.a.",
+            "company_address": "Sarandi, Buenos Aires, Argentina",
+            "logo": "/assets/img/others/images.webp",
+            "company_years": "2016 - 2019",
+            "title_technologies": "Tecnologías",
+            "web_url": "http://www.vlb.com.ar/",
+            "icons_technologies": [
+                {
+                    "name": "GeneXus",
+                    "img": "/assets/img/icons skills/genexus.webp"
+                },
+                {
+                    "name": "Joomla",
+                    "img": "https://img.icons8.com/color/96/joomla.png"
+                },
+                {
+                    "name": "MySQL",
+                    "img": "https://img.icons8.com/color/96/mysql-logo.png"
+                }
+            ],
+            "technologies": [
+                "Developer GeneXus Evo 2",
+                "Developer GeneXus Evo 3",
+                "Developer GeneXus 9",
+                "Web Developer Joomla",
+                "Soporte IT"
+            ],
+            "company_title": "Servicios de Consultoría en Informática y Suministro de Software",
+            "description": [
+                {
+                    "title": "Desarrollador de Software en GeneXus",
+                    "functions": [
+                        "Creación y optimización de aplicaciones multiplataforma.",
+                        "Desarrollo y mantenimiento de sistemas Web en <b>GeneXus Evolution 2</b> y <b>3</b>.",
+                        "Desarrollo de sistemas Win en <b>GeneXus 9</b>."
+                    ]
+                },
+                {
+                    "title": "Desarrollador Web con Joomla",
+                    "functions": [
+                        "Desarrollo y mantenimiento de páginas web utilizando <b>Joomla</b>."
+                    ]
+                },
+                {
+                    "title": "Gestión de Bases de Datos",
+                    "functions": [
+                        "Manejo básico de <b>MySQL</b> y <b>SQL Server</b>."
+                    ]
+                },
+                {
+                    "title": "Soporte IT",
+                    "functions": [
+                        "Implementación y actualización de sistemas.",
+                        "Reparaciones y mantenimiento de programas.",
+                        "Transferencia de datos y realización de copias de seguridad.",
+                        "Resolución de problemas técnicos en software y hardware."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Experiencia",
             "company_name": "🏢 TRANSITO SEGURO",
             "company_address": "Cdad Autónoma de Buenos Aires, Argentina",
             "logo": "/assets/img/others/logoTS.png",
-            "company_years": "2025 - Actualidad",
+            "company_years": "2025 - 2026",
             "title_technologies": "Tecnologías",
             "web_url": "https://transito-seguro.com/",
             "icons_technologies": [
@@ -320,68 +381,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "title": "Experiencia",
-            "company_name": "🏢 CA VLB s.a.",
-            "company_address": "Sarandi, Buenos Aires, Argentina",
-            "logo": "/assets/img/others/images.webp",
-            "company_years": "2016 - 2019",
-            "title_technologies": "Tecnologías",
-            "web_url": "http://www.vlb.com.ar/",
-            "icons_technologies": [
-                {
-                    "name": "GeneXus",
-                    "img": "/assets/img/icons skills/genexus.webp"
-                },
-                {
-                    "name": "Joomla",
-                    "img": "https://img.icons8.com/color/96/joomla.png"
-                },
-                {
-                    "name": "MySQL",
-                    "img": "https://img.icons8.com/color/96/mysql-logo.png"
-                }
-            ],
-            "technologies": [
-                "Developer GeneXus Evo 2",
-                "Developer GeneXus Evo 3",
-                "Developer GeneXus 9",
-                "Web Developer Joomla",
-                "Soporte IT"
-            ],
-            "company_title": "Servicios de Consultoría en Informática y Suministro de Software",
-            "description": [
-                {
-                    "title": "Desarrollador de Software en GeneXus",
-                    "functions": [
-                        "Creación y optimización de aplicaciones multiplataforma.",
-                        "Desarrollo y mantenimiento de sistemas Web en <b>GeneXus Evolution 2</b> y <b>3</b>.",
-                        "Desarrollo de sistemas Win en <b>GeneXus 9</b>."
-                    ]
-                },
-                {
-                    "title": "Desarrollador Web con Joomla",
-                    "functions": [
-                        "Desarrollo y mantenimiento de páginas web utilizando <b>Joomla</b>."
-                    ]
-                },
-                {
-                    "title": "Gestión de Bases de Datos",
-                    "functions": [
-                        "Manejo básico de <b>MySQL</b> y <b>SQL Server</b>."
-                    ]
-                },
-                {
-                    "title": "Soporte IT",
-                    "functions": [
-                        "Implementación y actualización de sistemas.",
-                        "Reparaciones y mantenimiento de programas.",
-                        "Transferencia de datos y realización de copias de seguridad.",
-                        "Resolución de problemas técnicos en software y hardware."
-                    ]
-                }
-            ]
         }
     ],
     "data_skill": {
@@ -406,7 +405,11 @@
                 "img": "https://img.icons8.com/fluency/96/bootstrap.png"
             },
             {
-                "name": "Spring Boot",
+                "name": "VSCode",
+                "img": "https://img.icons8.com/fluency/96/visual-studio-code-2019.png"
+            },
+            {
+                "name": "SpringBoot",
                 "img": "https://img.icons8.com/color/96/spring-logo.png"
             },
             {
@@ -414,36 +417,24 @@
                 "img": "https://img.icons8.com/fluency/96/java-coffee-cup-logo.png"
             },
             {
-                "name": "Python",
-                "img": "https://img.icons8.com/color/96/python.png"
-            },
-            {
-                "name": "ZK Framework",
-                "img": "https://img.icons8.com/fluency/96/source-code.png"
-            },
-            {
-                "name": "JWT",
+                "name": "JsonWebToken",
                 "img": "https://img.icons8.com/color/96/java-web-token.png"
-            },
-            {
-                "name": "jBPM",
-                "img": "https://img.icons8.com/fluency/96/workflow.png"
-            },
-            {
-                "name": "PostgreSQL",
-                "img": "https://img.icons8.com/color/96/postgreesql.png"
-            },
-            {
-                "name": "MySQL",
-                "img": "https://img.icons8.com/color/96/mysql-logo.png"
             },
             {
                 "name": "Docker",
                 "img": "https://img.icons8.com/fluency/96/docker.png"
             },
             {
+                "name": "NetBeans",
+                "img": "https://img.icons8.com/color/96/apache-netbeans.png"
+            },
+            {
                 "name": "Swagger",
                 "img": "/assets/img/icons skills/swagger.webp"
+            },
+            {
+                "name": "MySQL",
+                "img": "https://img.icons8.com/color/96/mysql-logo.png"
             }
         ],
         "others": [
@@ -454,6 +445,10 @@
             {
                 "name": "ExpressJS",
                 "img": "https://img.icons8.com/office/96/express-js.png"
+            },
+            {
+                "name": "C-Sharp",
+                "img": "https://img.icons8.com/fluency/96/c-sharp-logo.png"
             },
             {
                 "name": "JavaScript",
@@ -484,6 +479,10 @@
                 "img": "https://img.icons8.com/color/96/joomla.png"
             },
             {
+                "name": "Arduino",
+                "img": "https://img.icons8.com/fluency/96/arduino.png"
+            },
+            {
                 "name": "Firebase",
                 "img": "https://img.icons8.com/color/96/google-firebase-console.png"
             },
@@ -500,24 +499,8 @@
                 "img": "https://img.icons8.com/color/96/github--v1.png"
             },
             {
-                "name": "Bitbucket",
-                "img": "https://img.icons8.com/color/96/bitbucket.png"
-            },
-            {
                 "name": "Postman",
                 "img": "https://img.icons8.com/dusk/96/postman-api.png"
-            },
-            {
-                "name": "Jira",
-                "img": "https://img.icons8.com/color/96/jira.png"
-            },
-            {
-                "name": "Confluence",
-                "img": "https://img.icons8.com/color/96/confluence.png"
-            },
-            {
-                "name": "Scrum",
-                "img": "https://img.icons8.com/fluency/96/task.png"
             },
             {
                 "name": "Photoshop",
@@ -530,6 +513,10 @@
             {
                 "name": "Salesforce",
                 "img": "https://img.icons8.com/color/96/salesforce.png"
+            },
+            {
+                "name": "Jira",
+                "img": "https://img.icons8.com/color/96/jira.png"
             }
         ]
     },
